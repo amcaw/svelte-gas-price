@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
     import * as d3 from 'd3';
     import { initPym, sendHeight } from '../lib/pym.js';
-    import { loadPrices } from '../lib/data.js';
+    import { loadPrices, loadHistorical, getClosestPrice } from '../lib/data.js';
     import { getColors } from '../lib/colors.js';
 
     initPym();
@@ -27,11 +27,14 @@
     ];
 
     // ── State ─────────────────────────────────────────────────────────────────
-    let activeFuel = $state('essence95');
-    let liters     = $state(45);
-    let prices     = $state(null);
-    let loading    = $state(true);
-    let error      = $state(null);
+    let activeFuel   = $state('essence95');
+    let liters       = $state(45);
+    let prices       = $state(null);
+    let loading      = $state(true);
+    let error        = $state(null);
+    let chartRange   = $state('1y');   // '1y' | '3y' | '5y'
+    let historical   = $state(null);   // loaded on demand
+    let histLoading  = $state(false);
 
     // ── Chart DOM refs ────────────────────────────────────────────────────────
     let svgEl    = $state();
@@ -94,22 +97,85 @@
         return cmp ? cmp.priceB : todayPrice();
     });
 
-    // Chart data
+    // Year-over-year: price for each comparison date, 1 year back
+    const yearAgo = $derived(() => {
+        if (!prices) return null;
+        const cmp = comparison();
+        if (!cmp) return null;
+        const fk = fuelKey(activeFuel, liters);
+        function shiftYear(dateStr) {
+            const d = new Date(dateStr);
+            d.setFullYear(d.getFullYear() - 1);
+            return d.toLocaleDateString('sv');
+        }
+        return {
+            priceYearAgoA: getClosestPrice(prices, fk, shiftYear(cmp.dateA)),
+            priceYearAgoB: getClosestPrice(prices, fk, shiftYear(cmp.dateB)),
+        };
+    });
+
+    // Chart data — merges historical + daily depending on chartRange
     const chartData = $derived(() => {
         if (!prices) return [];
         const chartKey = activeFuel === 'mazout' ? 'mazout' : activeFuel;
         const parse = d3.timeParse('%Y-%m-%d');
-        return prices.daily
+
+        const dailyEntries = prices.daily
             .filter(d => d[chartKey] != null)
             .map(d => ({ date: parse(d.date), price: d[chartKey] }));
+
+        if (chartRange === '1y' || !historical) return dailyEntries;
+
+        const cutoffDate = new Date();
+        cutoffDate.setFullYear(cutoffDate.getFullYear() - (chartRange === '3y' ? 3 : 5));
+        const cutoffISO = cutoffDate.toLocaleDateString('sv');
+
+        const historicalEntries = historical.entries
+            .filter(d => d[chartKey] != null && d.date >= cutoffISO)
+            .map(d => ({ date: parse(d.date), price: d[chartKey] }));
+
+        // Merge: historical first, then daily (daily takes precedence on overlap)
+        const seen = new Set(dailyEntries.map(d => d.date.toISOString()));
+        const merged = [
+            ...historicalEntries.filter(d => !seen.has(d.date.toISOString())),
+            ...dailyEntries,
+        ];
+        merged.sort((a, b) => a.date - b.date);
+        return merged;
+    });
+
+    // Denomination change markers within current chart range
+    const denominationMarkers = $derived(() => {
+        if (!historical?.denominationChanges?.length) return [];
+        const parse = d3.timeParse('%Y-%m-%d');
+        const chartKey = activeFuel === 'mazout' ? 'mazout' : activeFuel;
+        return historical.denominationChanges
+            .filter(c => !c.fuels || c.fuels.includes(chartKey))
+            .map(c => ({ date: parse(c.date), label: c.label }))
+            .filter(c => c.date != null);
     });
 
     // ── Draw chart ────────────────────────────────────────────────────────────
+    // animate: true = D3 data transition | 'fade' = fade out/in (for range change) | false = instant
     function drawChart(animate = false) {
         if (!svgEl || !chartWrap) return;
         const data = chartData();
         if (data.length < 2) return;
 
+        if (animate === 'fade') {
+            d3.select(svgEl)
+                .transition().duration(150).style('opacity', 0)
+                .on('end', () => {
+                    _drawChartInner(false);
+                    d3.select(svgEl).transition().duration(280).style('opacity', 1);
+                });
+            return;
+        }
+        _drawChartInner(animate);
+    }
+
+    function _drawChartInner(animate) {
+        const data = chartData();
         const colors = getColors();
         const fuelColor = colors[activeFuel === 'mazout' ? 'mazout' : activeFuel] ?? colors.essence95;
         const duration = animate ? 450 : 0;
@@ -163,10 +229,14 @@
             .attr('stroke-dasharray', '4 2').attr('stroke-width', 1).attr('y1', 0).attr('y2', h).attr('opacity', 0);
         vline.attr('stroke', colors.axis);
 
-        // X-axis (recreate — x domain doesn't change across fuel switches)
+        // X-axis — tick density adapts to range
+        const xTickInterval = chartRange === '5y' ? d3.timeYear.every(1)
+                            : chartRange === '3y' ? d3.timeMonth.every(6)
+                            : d3.timeMonth.every(2);
+        const xTickFormat = chartRange === '5y' ? frTimeFormat('%Y') : frTimeFormat('%b %y');
         g.selectAll('.x-axis').remove();
         g.append('g').attr('class', 'x-axis').attr('transform', `translate(0,${h})`)
-            .call(d3.axisBottom(x).ticks(d3.timeMonth.every(2)).tickFormat(frTimeFormat('%b %y')))
+            .call(d3.axisBottom(x).ticks(xTickInterval).tickFormat(xTickFormat))
             .call(ax => ax.select('.domain').attr('stroke', colors.axis))
             .call(ax => ax.selectAll('.tick line').attr('stroke', colors.axis))
             .call(ax => ax.selectAll('text').attr('fill', colors.text).style('font-family', 'Montserrat, sans-serif').style('font-size', '10px'));
@@ -180,6 +250,23 @@
         yAxisG.select('.domain').attr('stroke', colors.axis);
         yAxisG.selectAll('.tick line').attr('stroke', colors.axis);
         yAxisG.selectAll('text').attr('fill', colors.text).style('font-family', 'Montserrat, sans-serif').style('font-size', '10px');
+
+        // Denomination change markers
+        g.selectAll('.denom-marker').remove();
+        const markers = denominationMarkers();
+        for (const m of markers) {
+            const xm = x(m.date);
+            if (xm < 0 || xm > w) continue;
+            g.append('line').attr('class', 'denom-marker')
+                .attr('x1', xm).attr('x2', xm).attr('y1', 0).attr('y2', h)
+                .attr('stroke', colors.axis).attr('stroke-dasharray', '3 3')
+                .attr('stroke-width', 1).attr('opacity', 0.5);
+            g.append('text').attr('class', 'denom-marker')
+                .attr('x', xm + 3).attr('y', 10)
+                .attr('fill', colors.text).attr('font-size', '9px')
+                .attr('font-family', 'Montserrat, sans-serif').attr('opacity', 0.55)
+                .text(m.label);
+        }
 
         // Hover overlay (always on top)
         g.selectAll('.overlay').remove();
@@ -200,7 +287,7 @@
                     visible: true,
                     x: margin.left + xPos,
                     date: frTimeFormat('%-d %b %Y')(d.date),
-                    price: fmtPrice(d.price),
+                    price: fmtPrice(d.price, 2),
                 };
             })
             .on('mouseleave', () => {
@@ -211,7 +298,7 @@
 
     $effect(() => {
         activeFuel;
-        if (prices) drawChart(true); // animate on fuel change
+        if (prices) drawChart('fade');
     });
 
     onMount(() => {
@@ -221,6 +308,18 @@
     });
 
     // ── Helpers ───────────────────────────────────────────────────────────────
+    async function setChartRange(range) {
+        if (range !== '1y' && !historical && !histLoading) {
+            histLoading = true;
+            try { historical = await loadHistorical(); }
+            catch (e) { chartRange = '1y'; histLoading = false; return; }
+            histLoading = false;
+        }
+        chartRange = range;
+        drawChart('fade');
+        sendHeight();
+    }
+
     function setFuel(key) {
         activeFuel = key;
         const fuel = FUELS.find(f => f.key === key);
@@ -235,6 +334,10 @@
 
     function euros(n) {
         return n.toLocaleString('fr-BE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    function eurosCompact(n) {
+        return n.toLocaleString('fr-BE', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
     }
 
     function fmtPrice(n, decimals = 3) {
@@ -283,7 +386,7 @@
                 {#if comparison() != null}
                     {@const cmp = comparison()}
                     <div class="price-row">
-                        <p class="price-val">{fmtPrice(heroPrice())}<span class="price-unit"> €/L</span></p>
+                        <p class="price-val">{fmtPrice(heroPrice(), 2)}<span class="price-unit"> €/L</span></p>
                         <div
                             class="trend"
                             class:up={cmp.delta > 0}
@@ -292,7 +395,7 @@
                         >
                             {#if cmp.delta > 0}↑{:else if cmp.delta < 0}↓{/if}
                             {#if cmp.delta !== 0}
-                                {cmp.delta > 0 ? '+' : '-'}{fmtPrice(Math.abs(cmp.delta))} €/L
+                                {cmp.delta > 0 ? '+' : '-'}{fmtPrice(Math.abs(cmp.delta), 2)} €/L
                             {:else}
                                 Stable
                             {/if}
@@ -334,20 +437,41 @@
                 {@const labelB = cmp.isTomorrow ? 'Demain' : "Aujourd'hui"}
                 {@const mazoutTag = activeFuel === 'mazout' ? (liters >= 2000 ? '≥ 2000 L' : '< 2000 L') : null}
 
+                {@const ya = yearAgo()}
+                {@const diffA = ya?.priceYearAgoA != null ? parseFloat((costA - ya.priceYearAgoA * liters).toFixed(2)) : null}
+                {@const pctA  = diffA != null ? Math.round((diffA / (ya.priceYearAgoA * liters)) * 100) : null}
+                {@const diffB = ya?.priceYearAgoB != null ? parseFloat((costB - ya.priceYearAgoB * liters).toFixed(2)) : null}
+                {@const pctB  = diffB != null ? Math.round((diffB / (ya.priceYearAgoB * liters)) * 100) : null}
                 <div class="cost-card">
                     <div class="cost-row">
                         <span class="cost-label">
                             {labelA}
                             <span class="cost-date">{formatDate(cmp.dateA)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
-                        <span class="cost-amount">{euros(costA)} €</span>
+                        <span class="cost-amount-col">
+                            <span class="cost-amount">{euros(costA)} €</span>
+                            {#if diffA != null}
+                                <span class="ya-sub" class:ya-up={diffA > 0} class:ya-down={diffA < 0}>
+                                    {diffA > 0 ? '+' : ''}{eurosCompact(diffA)} € ({pctA > 0 ? '+' : ''}{pctA}%)
+                                </span>
+                                <span class="ya-label">par rapport à l'an dernier</span>
+                            {/if}
+                        </span>
                     </div>
                     <div class="cost-row" class:featured-up={cmp.delta > 0} class:featured-down={cmp.delta < 0}>
                         <span class="cost-label">
                             {labelB}
                             <span class="cost-date">{formatDate(cmp.dateB)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
-                        <span class="cost-amount">{euros(costB)} €</span>
+                        <span class="cost-amount-col">
+                            <span class="cost-amount">{euros(costB)} €</span>
+                            {#if diffB != null}
+                                <span class="ya-sub" class:ya-up={diffB > 0} class:ya-down={diffB < 0}>
+                                    {diffB > 0 ? '+' : ''}{eurosCompact(diffB)} € ({pctB > 0 ? '+' : ''}{pctB}%)
+                                </span>
+                                <span class="ya-label">par rapport à l'an dernier</span>
+                            {/if}
+                        </span>
                     </div>
                 </div>
             {/if}
@@ -355,9 +479,25 @@
 
         <!-- ── Chart ── -->
         <section class="chart-section">
-            <h2 class="chart-title">Évolution sur 1 an</h2>
+            <div class="chart-header">
+                <h2 class="chart-title">
+                    Évolution sur {chartRange === '1y' ? '1 an' : chartRange === '3y' ? '3 ans' : '5 ans'}
+                </h2>
+                <div class="range-tabs">
+                    {#each [['1y','1 an'],['3y','3 ans'],['5y','5 ans']] as [r, label]}
+                        <button
+                            class="range-tab"
+                            class:active={chartRange === r}
+                            onclick={() => setChartRange(r)}
+                        >{label}</button>
+                    {/each}
+                </div>
+            </div>
             <div class="chart-wrap" bind:this={chartWrap}>
                 <svg bind:this={svgEl} style="width:100%;height:100%;display:block;"></svg>
+                {#if histLoading}
+                    <div class="hist-loading">Chargement…</div>
+                {/if}
                 {#if chartTooltip.visible}
                     <div class="chart-tooltip" style="left:{chartTooltip.x}px">
                         <span class="ct-date">{chartTooltip.date}</span>
@@ -510,6 +650,35 @@
         margin: 0;
     }
 
+    /* ── Year-ago sub-line (solution A) ── */
+    .cost-amount-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2px;
+    }
+
+    .ya-sub {
+        font-size: 0.68rem;
+        font-weight: 600;
+        opacity: 0.55;
+    }
+
+    .ya-sub.ya-up   { color: #FF6B6B; opacity: 1; }
+    .ya-sub.ya-down { color: #4ECB71; opacity: 1; }
+
+    @media (prefers-color-scheme: light) {
+        .ya-sub.ya-up   { color: #C0392B; }
+        .ya-sub.ya-down { color: #1A7A3C; }
+    }
+
+    .ya-label {
+        font-size: 0.6rem;
+        font-weight: 400;
+        opacity: 0.38;
+        text-align: right;
+    }
+
     .price-na {
         font-size: 3rem;
         opacity: 0.35;
@@ -617,7 +786,7 @@
     }
 
     .unit-label {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
         font-weight: 700;
         opacity: 0.45;
     }
@@ -695,14 +864,68 @@
         min-height: 0;
     }
 
+    .chart-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        flex-shrink: 0;
+    }
+
     .chart-title {
         font-size: 0.72rem;
         font-weight: 700;
         opacity: 0.45;
-        margin: 0 0 6px;
+        margin: 0;
         text-transform: uppercase;
         letter-spacing: 0.07em;
-        flex-shrink: 0;
+    }
+
+    .range-tabs {
+        display: flex;
+        gap: 2px;
+        background: rgba(255,255,255,0.06);
+        border-radius: 8px;
+        padding: 2px;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .range-tabs { background: rgba(0,0,0,0.05); }
+    }
+
+    .range-tab {
+        border: none;
+        border-radius: 6px;
+        padding: 3px 8px;
+        font-family: inherit;
+        font-size: 0.65rem;
+        font-weight: 700;
+        cursor: pointer;
+        background: transparent;
+        color: inherit;
+        opacity: 0.5;
+        transition: background 0.12s, opacity 0.12s;
+    }
+
+    .range-tab.active {
+        background: #1a3a5c;
+        opacity: 1;
+        color: #4A90E2;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .range-tab.active { background: #fff; color: #003D60; }
+    }
+
+    .hist-loading {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.72rem;
+        opacity: 0.45;
+        pointer-events: none;
     }
 
     .chart-wrap {

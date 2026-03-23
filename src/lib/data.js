@@ -10,6 +10,7 @@
  */
 
 let _cache = null;
+let _historicalCache = null;
 
 export async function loadPrices(base = import.meta.env.BASE_URL) {
     if (_cache) return _cache;
@@ -18,6 +19,15 @@ export async function loadPrices(base = import.meta.env.BASE_URL) {
     if (!res.ok) throw new Error(`Failed to load prices.json: ${res.status}`);
     _cache = await res.json();
     return _cache;
+}
+
+export async function loadHistorical(base = import.meta.env.BASE_URL) {
+    if (_historicalCache) return _historicalCache;
+    const url = `${base}data/historical.json`.replace('//', '/');
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Failed to load historical.json: ${res.status}`);
+    _historicalCache = await res.json();
+    return _historicalCache;
 }
 
 /**

@@ -72,7 +72,7 @@ async function fetchToday() {
     for (const fact of data.facts) {
         const key = matchProduct(fact['Product'] || '');
         if (key && fact['Price incl. VAT'] != null) {
-            today[key] = parseFloat(fact['Price incl. VAT'].toFixed(4));
+            today[key] = parseFloat(fact['Price incl. VAT'].toFixed(2));
         }
     }
     const date = parseDay(data.facts[0]['Day']);
@@ -88,7 +88,7 @@ async function fetchDaily() {
         if (!key || fact['Price incl. VAT'] == null) continue;
         const date = parseDay(fact['Day']);
         if (!byDate[date]) byDate[date] = {};
-        byDate[date][key] = parseFloat(fact['Price incl. VAT'].toFixed(4));
+        byDate[date][key] = parseFloat(fact['Price incl. VAT'].toFixed(2));
     }
     return Object.entries(byDate)
         .filter(([, v]) => v.essence95 && v.diesel)
@@ -105,7 +105,7 @@ async function fetchMonthly() {
         if (!key || fact['Average price incl. VAT'] == null) continue;
         const ym = `${fact['Year']}-${String(parseInt(fact['Month'])).padStart(2,'0')}`;
         if (!byYM[ym]) byYM[ym] = {};
-        byYM[ym][key] = parseFloat(fact['Average price incl. VAT'].toFixed(4));
+        byYM[ym][key] = parseFloat(fact['Average price incl. VAT'].toFixed(2));
     }
     return Object.entries(byYM)
         .filter(([, v]) => v.essence95 && v.diesel)
@@ -128,7 +128,7 @@ async function fetchAnnual() {
         if (price == null) continue;
         const year = parseInt(fact['Année'] || fact['Year']);
         if (!byYear[year]) byYear[year] = {};
-        byYear[year][key] = parseFloat(price.toFixed(4));
+        byYear[year][key] = parseFloat(price.toFixed(2));
     }
     return Object.entries(byYear)
         .filter(([, v]) => v.essence95 && v.diesel)
