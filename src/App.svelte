@@ -20,4 +20,4 @@
     }
 </script>
 
-<Widget on:rendered={sendHeight} />
+<Widget onrendered={sendHeight} />
