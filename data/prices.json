@@ -1,0 +1,3216 @@
+{
+  "lastUpdated": "2026-03-23",
+  "today": {
+    "essence95": 1.863,
+    "essence98": 1.929,
+    "diesel": 2.289,
+    "mazout_plus": 1.4381,
+    "mazout": 1.4784
+  },
+  "daily": [
+    {
+      "date": "2025-03-25",
+      "essence95": 1.637,
+      "essence98": 1.69,
+      "diesel": 1.723,
+      "mazout_plus": 0.8107,
+      "mazout": 0.8504
+    },
+    {
+      "date": "2025-03-26",
+      "essence95": 1.637,
+      "essence98": 1.69,
+      "diesel": 1.723,
+      "mazout_plus": 0.8145,
+      "mazout": 0.8542
+    },
+    {
+      "date": "2025-03-27",
+      "essence95": 1.637,
+      "essence98": 1.69,
+      "diesel": 1.723,
+      "mazout_plus": 0.8154,
+      "mazout": 0.8551
+    },
+    {
+      "date": "2025-03-28",
+      "essence95": 1.637,
+      "essence98": 1.69,
+      "diesel": 1.753,
+      "mazout_plus": 0.825,
+      "mazout": 0.8647
+    },
+    {
+      "date": "2025-03-29",
+      "essence95": 1.68,
+      "essence98": 1.748,
+      "diesel": 1.753,
+      "mazout_plus": 0.8187,
+      "mazout": 0.8584
+    },
+    {
+      "date": "2025-03-30",
+      "essence95": 1.68,
+      "essence98": 1.748,
+      "diesel": 1.753,
+      "mazout_plus": 0.8187,
+      "mazout": 0.8584
+    },
+    {
+      "date": "2025-03-31",
+      "essence95": 1.68,
+      "essence98": 1.748,
+      "diesel": 1.753,
+      "mazout_plus": 0.8187,
+      "mazout": 0.8584
+    },
+    {
+      "date": "2025-04-01",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.756,
+      "mazout_plus": 0.8121,
+      "mazout": 0.8519
+    },
+    {
+      "date": "2025-04-02",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.756,
+      "mazout_plus": 0.8267,
+      "mazout": 0.8665
+    },
+    {
+      "date": "2025-04-03",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.756,
+      "mazout_plus": 0.8281,
+      "mazout": 0.8679
+    },
+    {
+      "date": "2025-04-04",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.756,
+      "mazout_plus": 0.8274,
+      "mazout": 0.8672
+    },
+    {
+      "date": "2025-04-05",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.704,
+      "mazout_plus": 0.7751,
+      "mazout": 0.8149
+    },
+    {
+      "date": "2025-04-06",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.704,
+      "mazout_plus": 0.7751,
+      "mazout": 0.8149
+    },
+    {
+      "date": "2025-04-07",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.704,
+      "mazout_plus": 0.7751,
+      "mazout": 0.8149
+    },
+    {
+      "date": "2025-04-08",
+      "essence95": 1.682,
+      "essence98": 1.751,
+      "diesel": 1.704,
+      "mazout_plus": 0.748,
+      "mazout": 0.7878
+    },
+    {
+      "date": "2025-04-09",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.704,
+      "mazout_plus": 0.7412,
+      "mazout": 0.781
+    },
+    {
+      "date": "2025-04-10",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.704,
+      "mazout_plus": 0.7458,
+      "mazout": 0.7856
+    },
+    {
+      "date": "2025-04-11",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.704,
+      "mazout_plus": 0.7146,
+      "mazout": 0.7544
+    },
+    {
+      "date": "2025-04-12",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.663,
+      "mazout_plus": 0.7295,
+      "mazout": 0.7693
+    },
+    {
+      "date": "2025-04-13",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.663,
+      "mazout_plus": 0.7295,
+      "mazout": 0.7693
+    },
+    {
+      "date": "2025-04-14",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.663,
+      "mazout_plus": 0.7295,
+      "mazout": 0.7693
+    },
+    {
+      "date": "2025-04-15",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.663,
+      "mazout_plus": 0.7134,
+      "mazout": 0.7532
+    },
+    {
+      "date": "2025-04-16",
+      "essence95": 1.616,
+      "essence98": 1.683,
+      "diesel": 1.663,
+      "mazout_plus": 0.725,
+      "mazout": 0.7648
+    },
+    {
+      "date": "2025-04-17",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.726,
+      "mazout": 0.7658
+    },
+    {
+      "date": "2025-04-18",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7352,
+      "mazout": 0.775
+    },
+    {
+      "date": "2025-04-19",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7421,
+      "mazout": 0.782
+    },
+    {
+      "date": "2025-04-20",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7421,
+      "mazout": 0.782
+    },
+    {
+      "date": "2025-04-21",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7421,
+      "mazout": 0.782
+    },
+    {
+      "date": "2025-04-22",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7421,
+      "mazout": 0.782
+    },
+    {
+      "date": "2025-04-23",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7421,
+      "mazout": 0.782
+    },
+    {
+      "date": "2025-04-24",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7402,
+      "mazout": 0.78
+    },
+    {
+      "date": "2025-04-25",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.663,
+      "mazout_plus": 0.7317,
+      "mazout": 0.7716
+    },
+    {
+      "date": "2025-04-26",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.669,
+      "mazout_plus": 0.7373,
+      "mazout": 0.7771
+    },
+    {
+      "date": "2025-04-27",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.669,
+      "mazout_plus": 0.7373,
+      "mazout": 0.7771
+    },
+    {
+      "date": "2025-04-28",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.669,
+      "mazout_plus": 0.7373,
+      "mazout": 0.7771
+    },
+    {
+      "date": "2025-04-29",
+      "essence95": 1.604,
+      "essence98": 1.675,
+      "diesel": 1.669,
+      "mazout_plus": 0.7439,
+      "mazout": 0.7837
+    },
+    {
+      "date": "2025-04-30",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7386,
+      "mazout": 0.7784
+    },
+    {
+      "date": "2025-05-01",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7309,
+      "mazout": 0.7707
+    },
+    {
+      "date": "2025-05-02",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7309,
+      "mazout": 0.7707
+    },
+    {
+      "date": "2025-05-03",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7096,
+      "mazout": 0.7494
+    },
+    {
+      "date": "2025-05-04",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7096,
+      "mazout": 0.7494
+    },
+    {
+      "date": "2025-05-05",
+      "essence95": 1.622,
+      "essence98": 1.695,
+      "diesel": 1.669,
+      "mazout_plus": 0.7096,
+      "mazout": 0.7494
+    },
+    {
+      "date": "2025-05-06",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.7045,
+      "mazout": 0.7443
+    },
+    {
+      "date": "2025-05-07",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.7045,
+      "mazout": 0.7443
+    },
+    {
+      "date": "2025-05-08",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.716,
+      "mazout": 0.7558
+    },
+    {
+      "date": "2025-05-09",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.7016,
+      "mazout": 0.7414
+    },
+    {
+      "date": "2025-05-10",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.715,
+      "mazout": 0.7549
+    },
+    {
+      "date": "2025-05-11",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.715,
+      "mazout": 0.7549
+    },
+    {
+      "date": "2025-05-12",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.715,
+      "mazout": 0.7549
+    },
+    {
+      "date": "2025-05-13",
+      "essence95": 1.594,
+      "essence98": 1.667,
+      "diesel": 1.641,
+      "mazout_plus": 0.7229,
+      "mazout": 0.7627
+    },
+    {
+      "date": "2025-05-14",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7417,
+      "mazout": 0.7815
+    },
+    {
+      "date": "2025-05-15",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7514,
+      "mazout": 0.7912
+    },
+    {
+      "date": "2025-05-16",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7502,
+      "mazout": 0.7901
+    },
+    {
+      "date": "2025-05-17",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7481,
+      "mazout": 0.7879
+    },
+    {
+      "date": "2025-05-18",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7481,
+      "mazout": 0.7879
+    },
+    {
+      "date": "2025-05-19",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7481,
+      "mazout": 0.7879
+    },
+    {
+      "date": "2025-05-20",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7446,
+      "mazout": 0.7844
+    },
+    {
+      "date": "2025-05-21",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.74,
+      "mazout": 0.7798
+    },
+    {
+      "date": "2025-05-22",
+      "essence95": 1.637,
+      "essence98": 1.722,
+      "diesel": 1.679,
+      "mazout_plus": 0.7344,
+      "mazout": 0.7743
+    },
+    {
+      "date": "2025-05-23",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.679,
+      "mazout_plus": 0.7305,
+      "mazout": 0.7703
+    },
+    {
+      "date": "2025-05-24",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.679,
+      "mazout_plus": 0.7279,
+      "mazout": 0.7677
+    },
+    {
+      "date": "2025-05-25",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.679,
+      "mazout_plus": 0.7279,
+      "mazout": 0.7677
+    },
+    {
+      "date": "2025-05-26",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.679,
+      "mazout_plus": 0.7279,
+      "mazout": 0.7677
+    },
+    {
+      "date": "2025-05-27",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7312,
+      "mazout": 0.771
+    },
+    {
+      "date": "2025-05-28",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7273,
+      "mazout": 0.7671
+    },
+    {
+      "date": "2025-05-29",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7242,
+      "mazout": 0.764
+    },
+    {
+      "date": "2025-05-30",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7242,
+      "mazout": 0.764
+    },
+    {
+      "date": "2025-05-31",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7331,
+      "mazout": 0.7729
+    },
+    {
+      "date": "2025-06-01",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7331,
+      "mazout": 0.7729
+    },
+    {
+      "date": "2025-06-02",
+      "essence95": 1.626,
+      "essence98": 1.706,
+      "diesel": 1.667,
+      "mazout_plus": 0.7331,
+      "mazout": 0.7729
+    },
+    {
+      "date": "2025-06-03",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7221,
+      "mazout": 0.7619
+    },
+    {
+      "date": "2025-06-04",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7316,
+      "mazout": 0.7714
+    },
+    {
+      "date": "2025-06-05",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7445,
+      "mazout": 0.7843
+    },
+    {
+      "date": "2025-06-06",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7358,
+      "mazout": 0.7756
+    },
+    {
+      "date": "2025-06-07",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7401,
+      "mazout": 0.7799
+    },
+    {
+      "date": "2025-06-08",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7401,
+      "mazout": 0.7799
+    },
+    {
+      "date": "2025-06-09",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7401,
+      "mazout": 0.7799
+    },
+    {
+      "date": "2025-06-10",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.667,
+      "mazout_plus": 0.7401,
+      "mazout": 0.7799
+    },
+    {
+      "date": "2025-06-11",
+      "essence95": 1.606,
+      "essence98": 1.683,
+      "diesel": 1.695,
+      "mazout_plus": 0.757,
+      "mazout": 0.7968
+    },
+    {
+      "date": "2025-06-12",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7626,
+      "mazout": 0.8024
+    },
+    {
+      "date": "2025-06-13",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7513,
+      "mazout": 0.7911
+    },
+    {
+      "date": "2025-06-14",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7557,
+      "mazout": 0.7955
+    },
+    {
+      "date": "2025-06-15",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7557,
+      "mazout": 0.7955
+    },
+    {
+      "date": "2025-06-16",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7557,
+      "mazout": 0.7955
+    },
+    {
+      "date": "2025-06-17",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7949,
+      "mazout": 0.8348
+    },
+    {
+      "date": "2025-06-18",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.695,
+      "mazout_plus": 0.7925,
+      "mazout": 0.8323
+    },
+    {
+      "date": "2025-06-19",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.766,
+      "mazout_plus": 0.8304,
+      "mazout": 0.8702
+    },
+    {
+      "date": "2025-06-20",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.8448,
+      "mazout": 0.8846
+    },
+    {
+      "date": "2025-06-21",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.9075,
+      "mazout": 0.9473
+    },
+    {
+      "date": "2025-06-22",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.9075,
+      "mazout": 0.9473
+    },
+    {
+      "date": "2025-06-23",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.9075,
+      "mazout": 0.9473
+    },
+    {
+      "date": "2025-06-24",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.8616,
+      "mazout": 0.9014
+    },
+    {
+      "date": "2025-06-25",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.8525,
+      "mazout": 0.8923
+    },
+    {
+      "date": "2025-06-26",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.7781,
+      "mazout": 0.8179
+    },
+    {
+      "date": "2025-06-27",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.7872,
+      "mazout": 0.827
+    },
+    {
+      "date": "2025-06-28",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.7905,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2025-06-29",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.7905,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2025-06-30",
+      "essence95": 1.659,
+      "essence98": 1.744,
+      "diesel": 1.766,
+      "mazout_plus": 0.7905,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2025-07-01",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.709,
+      "mazout_plus": 0.7717,
+      "mazout": 0.8115
+    },
+    {
+      "date": "2025-07-02",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.709,
+      "mazout_plus": 0.7727,
+      "mazout": 0.8125
+    },
+    {
+      "date": "2025-07-03",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.709,
+      "mazout_plus": 0.7849,
+      "mazout": 0.8247
+    },
+    {
+      "date": "2025-07-04",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.8107,
+      "mazout": 0.8505
+    },
+    {
+      "date": "2025-07-05",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.8263,
+      "mazout": 0.8661
+    },
+    {
+      "date": "2025-07-06",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.8263,
+      "mazout": 0.8661
+    },
+    {
+      "date": "2025-07-07",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.8263,
+      "mazout": 0.8661
+    },
+    {
+      "date": "2025-07-08",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.845,
+      "mazout": 0.8848
+    },
+    {
+      "date": "2025-07-09",
+      "essence95": 1.605,
+      "essence98": 1.679,
+      "diesel": 1.744,
+      "mazout_plus": 0.8483,
+      "mazout": 0.8882
+    },
+    {
+      "date": "2025-07-10",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.744,
+      "mazout_plus": 0.872,
+      "mazout": 0.9118
+    },
+    {
+      "date": "2025-07-11",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8538,
+      "mazout": 0.8936
+    },
+    {
+      "date": "2025-07-12",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8411,
+      "mazout": 0.8809
+    },
+    {
+      "date": "2025-07-13",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8411,
+      "mazout": 0.8809
+    },
+    {
+      "date": "2025-07-14",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8411,
+      "mazout": 0.8809
+    },
+    {
+      "date": "2025-07-15",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8527,
+      "mazout": 0.8925
+    },
+    {
+      "date": "2025-07-16",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.781,
+      "mazout_plus": 0.8028,
+      "mazout": 0.8426
+    },
+    {
+      "date": "2025-07-17",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8112,
+      "mazout": 0.851
+    },
+    {
+      "date": "2025-07-18",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8034,
+      "mazout": 0.8432
+    },
+    {
+      "date": "2025-07-19",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8237,
+      "mazout": 0.8635
+    },
+    {
+      "date": "2025-07-20",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8237,
+      "mazout": 0.8635
+    },
+    {
+      "date": "2025-07-21",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8237,
+      "mazout": 0.8635
+    },
+    {
+      "date": "2025-07-22",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8237,
+      "mazout": 0.8635
+    },
+    {
+      "date": "2025-07-23",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8327,
+      "mazout": 0.8725
+    },
+    {
+      "date": "2025-07-24",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8206,
+      "mazout": 0.8604
+    },
+    {
+      "date": "2025-07-25",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8127,
+      "mazout": 0.8525
+    },
+    {
+      "date": "2025-07-26",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8071,
+      "mazout": 0.847
+    },
+    {
+      "date": "2025-07-27",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8071,
+      "mazout": 0.847
+    },
+    {
+      "date": "2025-07-28",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8071,
+      "mazout": 0.847
+    },
+    {
+      "date": "2025-07-29",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8122,
+      "mazout": 0.852
+    },
+    {
+      "date": "2025-07-30",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8109,
+      "mazout": 0.8507
+    },
+    {
+      "date": "2025-07-31",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8174,
+      "mazout": 0.8572
+    },
+    {
+      "date": "2025-08-01",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8068,
+      "mazout": 0.8466
+    },
+    {
+      "date": "2025-08-02",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8109,
+      "mazout": 0.8507
+    },
+    {
+      "date": "2025-08-03",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8109,
+      "mazout": 0.8507
+    },
+    {
+      "date": "2025-08-04",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.8109,
+      "mazout": 0.8507
+    },
+    {
+      "date": "2025-08-05",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.7914,
+      "mazout": 0.8312
+    },
+    {
+      "date": "2025-08-06",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.7872,
+      "mazout": 0.827
+    },
+    {
+      "date": "2025-08-07",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.742,
+      "mazout_plus": 0.7704,
+      "mazout": 0.8102
+    },
+    {
+      "date": "2025-08-08",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7782,
+      "mazout": 0.818
+    },
+    {
+      "date": "2025-08-09",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7654,
+      "mazout": 0.8052
+    },
+    {
+      "date": "2025-08-10",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7654,
+      "mazout": 0.8052
+    },
+    {
+      "date": "2025-08-11",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7654,
+      "mazout": 0.8052
+    },
+    {
+      "date": "2025-08-12",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7698,
+      "mazout": 0.8096
+    },
+    {
+      "date": "2025-08-13",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7649,
+      "mazout": 0.8047
+    },
+    {
+      "date": "2025-08-14",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.717,
+      "mazout_plus": 0.7609,
+      "mazout": 0.8007
+    },
+    {
+      "date": "2025-08-15",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7457,
+      "mazout": 0.7855
+    },
+    {
+      "date": "2025-08-16",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7457,
+      "mazout": 0.7855
+    },
+    {
+      "date": "2025-08-17",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7457,
+      "mazout": 0.7855
+    },
+    {
+      "date": "2025-08-18",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7457,
+      "mazout": 0.7855
+    },
+    {
+      "date": "2025-08-19",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7523,
+      "mazout": 0.7921
+    },
+    {
+      "date": "2025-08-20",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7434,
+      "mazout": 0.7832
+    },
+    {
+      "date": "2025-08-21",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7555,
+      "mazout": 0.7953
+    },
+    {
+      "date": "2025-08-22",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.686,
+      "mazout_plus": 0.7654,
+      "mazout": 0.8052
+    },
+    {
+      "date": "2025-08-23",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7753,
+      "mazout": 0.8151
+    },
+    {
+      "date": "2025-08-24",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7753,
+      "mazout": 0.8151
+    },
+    {
+      "date": "2025-08-25",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7753,
+      "mazout": 0.8151
+    },
+    {
+      "date": "2025-08-26",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.778,
+      "mazout": 0.8178
+    },
+    {
+      "date": "2025-08-27",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7734,
+      "mazout": 0.8132
+    },
+    {
+      "date": "2025-08-28",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.77,
+      "mazout": 0.8098
+    },
+    {
+      "date": "2025-08-29",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7733,
+      "mazout": 0.8131
+    },
+    {
+      "date": "2025-08-30",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7679,
+      "mazout": 0.8077
+    },
+    {
+      "date": "2025-08-31",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7679,
+      "mazout": 0.8077
+    },
+    {
+      "date": "2025-09-01",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7679,
+      "mazout": 0.8077
+    },
+    {
+      "date": "2025-09-02",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7701,
+      "mazout": 0.8099
+    },
+    {
+      "date": "2025-09-03",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7753,
+      "mazout": 0.8152
+    },
+    {
+      "date": "2025-09-04",
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.716,
+      "mazout_plus": 0.7953,
+      "mazout": 0.8351
+    },
+    {
+      "date": "2025-09-05",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.716,
+      "mazout_plus": 0.7982,
+      "mazout": 0.838
+    },
+    {
+      "date": "2025-09-06",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7917,
+      "mazout": 0.8315
+    },
+    {
+      "date": "2025-09-07",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7917,
+      "mazout": 0.8315
+    },
+    {
+      "date": "2025-09-08",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7917,
+      "mazout": 0.8315
+    },
+    {
+      "date": "2025-09-09",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7739,
+      "mazout": 0.8137
+    },
+    {
+      "date": "2025-09-10",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7824,
+      "mazout": 0.8222
+    },
+    {
+      "date": "2025-09-11",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7848,
+      "mazout": 0.8246
+    },
+    {
+      "date": "2025-09-12",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7867,
+      "mazout": 0.8265
+    },
+    {
+      "date": "2025-09-13",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7738,
+      "mazout": 0.8136
+    },
+    {
+      "date": "2025-09-14",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7738,
+      "mazout": 0.8136
+    },
+    {
+      "date": "2025-09-15",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.736,
+      "mazout_plus": 0.7738,
+      "mazout": 0.8136
+    },
+    {
+      "date": "2025-09-16",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7829,
+      "mazout": 0.8227
+    },
+    {
+      "date": "2025-09-17",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7876,
+      "mazout": 0.8274
+    },
+    {
+      "date": "2025-09-18",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7974,
+      "mazout": 0.8372
+    },
+    {
+      "date": "2025-09-19",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.79,
+      "mazout": 0.8298
+    },
+    {
+      "date": "2025-09-20",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7886,
+      "mazout": 0.8284
+    },
+    {
+      "date": "2025-09-21",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7886,
+      "mazout": 0.8284
+    },
+    {
+      "date": "2025-09-22",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7886,
+      "mazout": 0.8284
+    },
+    {
+      "date": "2025-09-23",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.785,
+      "mazout": 0.8248
+    },
+    {
+      "date": "2025-09-24",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.727,
+      "mazout_plus": 0.7787,
+      "mazout": 0.8185
+    },
+    {
+      "date": "2025-09-25",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.7927,
+      "mazout": 0.8325
+    },
+    {
+      "date": "2025-09-26",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.7999,
+      "mazout": 0.8397
+    },
+    {
+      "date": "2025-09-27",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.8122,
+      "mazout": 0.852
+    },
+    {
+      "date": "2025-09-28",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.8122,
+      "mazout": 0.852
+    },
+    {
+      "date": "2025-09-29",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.8122,
+      "mazout": 0.852
+    },
+    {
+      "date": "2025-09-30",
+      "essence95": 1.651,
+      "essence98": 1.707,
+      "diesel": 1.737,
+      "mazout_plus": 0.8241,
+      "mazout": 0.8639
+    },
+    {
+      "date": "2025-10-01",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7918,
+      "mazout": 0.8321
+    },
+    {
+      "date": "2025-10-02",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7858,
+      "mazout": 0.8261
+    },
+    {
+      "date": "2025-10-03",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7863,
+      "mazout": 0.8265
+    },
+    {
+      "date": "2025-10-04",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7652,
+      "mazout": 0.8055
+    },
+    {
+      "date": "2025-10-05",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7652,
+      "mazout": 0.8055
+    },
+    {
+      "date": "2025-10-06",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.7652,
+      "mazout": 0.8055
+    },
+    {
+      "date": "2025-10-07",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.74,
+      "mazout_plus": 0.763,
+      "mazout": 0.8032
+    },
+    {
+      "date": "2025-10-08",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.7627,
+      "mazout": 0.803
+    },
+    {
+      "date": "2025-10-09",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.7627,
+      "mazout": 0.8029
+    },
+    {
+      "date": "2025-10-10",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.773,
+      "mazout": 0.8133
+    },
+    {
+      "date": "2025-10-11",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.7778,
+      "mazout": 0.8181
+    },
+    {
+      "date": "2025-10-12",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.7778,
+      "mazout": 0.8181
+    },
+    {
+      "date": "2025-10-13",
+      "essence95": 1.654,
+      "essence98": 1.71,
+      "diesel": 1.716,
+      "mazout_plus": 0.7778,
+      "mazout": 0.8181
+    },
+    {
+      "date": "2025-10-14",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7583,
+      "mazout": 0.7986
+    },
+    {
+      "date": "2025-10-15",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7643,
+      "mazout": 0.8045
+    },
+    {
+      "date": "2025-10-16",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7488,
+      "mazout": 0.7891
+    },
+    {
+      "date": "2025-10-17",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.741,
+      "mazout": 0.7812
+    },
+    {
+      "date": "2025-10-18",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7443,
+      "mazout": 0.7846
+    },
+    {
+      "date": "2025-10-19",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7443,
+      "mazout": 0.7846
+    },
+    {
+      "date": "2025-10-20",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.716,
+      "mazout_plus": 0.7443,
+      "mazout": 0.7846
+    },
+    {
+      "date": "2025-10-21",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.688,
+      "mazout_plus": 0.7339,
+      "mazout": 0.7742
+    },
+    {
+      "date": "2025-10-22",
+      "essence95": 1.634,
+      "essence98": 1.709,
+      "diesel": 1.688,
+      "mazout_plus": 0.7418,
+      "mazout": 0.7821
+    },
+    {
+      "date": "2025-10-23",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.688,
+      "mazout_plus": 0.7468,
+      "mazout": 0.7871
+    },
+    {
+      "date": "2025-10-24",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.7625,
+      "mazout": 0.8027
+    },
+    {
+      "date": "2025-10-25",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.8054,
+      "mazout": 0.8456
+    },
+    {
+      "date": "2025-10-26",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.8054,
+      "mazout": 0.8456
+    },
+    {
+      "date": "2025-10-27",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.8054,
+      "mazout": 0.8456
+    },
+    {
+      "date": "2025-10-28",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.8143,
+      "mazout": 0.8546
+    },
+    {
+      "date": "2025-10-29",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.72,
+      "mazout_plus": 0.8283,
+      "mazout": 0.8685
+    },
+    {
+      "date": "2025-10-30",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.752,
+      "mazout_plus": 0.8054,
+      "mazout": 0.8456
+    },
+    {
+      "date": "2025-10-31",
+      "essence95": 1.644,
+      "essence98": 1.667,
+      "diesel": 1.752,
+      "mazout_plus": 0.8128,
+      "mazout": 0.853
+    },
+    {
+      "date": "2025-11-01",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8247,
+      "mazout": 0.8649
+    },
+    {
+      "date": "2025-11-02",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8247,
+      "mazout": 0.8649
+    },
+    {
+      "date": "2025-11-03",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8247,
+      "mazout": 0.8649
+    },
+    {
+      "date": "2025-11-04",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8204,
+      "mazout": 0.8607
+    },
+    {
+      "date": "2025-11-05",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8278,
+      "mazout": 0.8681
+    },
+    {
+      "date": "2025-11-06",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8264,
+      "mazout": 0.8667
+    },
+    {
+      "date": "2025-11-07",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8526,
+      "mazout": 0.8928
+    },
+    {
+      "date": "2025-11-08",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8689,
+      "mazout": 0.9091
+    },
+    {
+      "date": "2025-11-09",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8689,
+      "mazout": 0.9091
+    },
+    {
+      "date": "2025-11-10",
+      "essence95": 1.64,
+      "essence98": 1.73,
+      "diesel": 1.772,
+      "mazout_plus": 0.8689,
+      "mazout": 0.9091
+    },
+    {
+      "date": "2025-11-11",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8547,
+      "mazout": 0.895
+    },
+    {
+      "date": "2025-11-12",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8547,
+      "mazout": 0.895
+    },
+    {
+      "date": "2025-11-13",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8721,
+      "mazout": 0.9124
+    },
+    {
+      "date": "2025-11-14",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8503,
+      "mazout": 0.8906
+    },
+    {
+      "date": "2025-11-15",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8288,
+      "mazout": 0.869
+    },
+    {
+      "date": "2025-11-16",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8288,
+      "mazout": 0.869
+    },
+    {
+      "date": "2025-11-17",
+      "essence95": 1.666,
+      "essence98": 1.742,
+      "diesel": 1.799,
+      "mazout_plus": 0.8288,
+      "mazout": 0.869
+    },
+    {
+      "date": "2025-11-18",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.799,
+      "mazout_plus": 0.8583,
+      "mazout": 0.8985
+    },
+    {
+      "date": "2025-11-19",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.799,
+      "mazout_plus": 0.8595,
+      "mazout": 0.8998
+    },
+    {
+      "date": "2025-11-20",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.799,
+      "mazout_plus": 0.8905,
+      "mazout": 0.9308
+    },
+    {
+      "date": "2025-11-21",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.85,
+      "mazout_plus": 0.9058,
+      "mazout": 0.9461
+    },
+    {
+      "date": "2025-11-22",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.85,
+      "mazout_plus": 0.8899,
+      "mazout": 0.9302
+    },
+    {
+      "date": "2025-11-23",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.85,
+      "mazout_plus": 0.8899,
+      "mazout": 0.9302
+    },
+    {
+      "date": "2025-11-24",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.85,
+      "mazout_plus": 0.8899,
+      "mazout": 0.9302
+    },
+    {
+      "date": "2025-11-25",
+      "essence95": 1.68,
+      "essence98": 1.778,
+      "diesel": 1.799,
+      "mazout_plus": 0.8505,
+      "mazout": 0.8907
+    },
+    {
+      "date": "2025-11-26",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.799,
+      "mazout_plus": 0.8377,
+      "mazout": 0.878
+    },
+    {
+      "date": "2025-11-27",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.799,
+      "mazout_plus": 0.8106,
+      "mazout": 0.8508
+    },
+    {
+      "date": "2025-11-28",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.799,
+      "mazout_plus": 0.7738,
+      "mazout": 0.8141
+    },
+    {
+      "date": "2025-11-29",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.732,
+      "mazout_plus": 0.7811,
+      "mazout": 0.8214
+    },
+    {
+      "date": "2025-11-30",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.732,
+      "mazout_plus": 0.7811,
+      "mazout": 0.8214
+    },
+    {
+      "date": "2025-12-01",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.732,
+      "mazout_plus": 0.7811,
+      "mazout": 0.8214
+    },
+    {
+      "date": "2025-12-02",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.732,
+      "mazout_plus": 0.7869,
+      "mazout": 0.8271
+    },
+    {
+      "date": "2025-12-03",
+      "essence95": 1.64,
+      "essence98": 1.726,
+      "diesel": 1.732,
+      "mazout_plus": 0.7868,
+      "mazout": 0.8271
+    },
+    {
+      "date": "2025-12-04",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.785,
+      "mazout": 0.8252
+    },
+    {
+      "date": "2025-12-05",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7641,
+      "mazout": 0.8043
+    },
+    {
+      "date": "2025-12-06",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7635,
+      "mazout": 0.8038
+    },
+    {
+      "date": "2025-12-07",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7635,
+      "mazout": 0.8038
+    },
+    {
+      "date": "2025-12-08",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7635,
+      "mazout": 0.8038
+    },
+    {
+      "date": "2025-12-09",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7792,
+      "mazout": 0.8194
+    },
+    {
+      "date": "2025-12-10",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.732,
+      "mazout_plus": 0.7643,
+      "mazout": 0.8046
+    },
+    {
+      "date": "2025-12-11",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.748,
+      "mazout": 0.7882
+    },
+    {
+      "date": "2025-12-12",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.7521,
+      "mazout": 0.7924
+    },
+    {
+      "date": "2025-12-13",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.7317,
+      "mazout": 0.772
+    },
+    {
+      "date": "2025-12-14",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.7317,
+      "mazout": 0.772
+    },
+    {
+      "date": "2025-12-15",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.7317,
+      "mazout": 0.772
+    },
+    {
+      "date": "2025-12-16",
+      "essence95": 1.616,
+      "essence98": 1.713,
+      "diesel": 1.703,
+      "mazout_plus": 0.7289,
+      "mazout": 0.7692
+    },
+    {
+      "date": "2025-12-17",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.703,
+      "mazout_plus": 0.7211,
+      "mazout": 0.7613
+    },
+    {
+      "date": "2025-12-18",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.703,
+      "mazout_plus": 0.7074,
+      "mazout": 0.7476
+    },
+    {
+      "date": "2025-12-19",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7155,
+      "mazout": 0.7558
+    },
+    {
+      "date": "2025-12-20",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7146,
+      "mazout": 0.7548
+    },
+    {
+      "date": "2025-12-21",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7146,
+      "mazout": 0.7548
+    },
+    {
+      "date": "2025-12-22",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7146,
+      "mazout": 0.7548
+    },
+    {
+      "date": "2025-12-23",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7098,
+      "mazout": 0.7501
+    },
+    {
+      "date": "2025-12-24",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7164,
+      "mazout": 0.7567
+    },
+    {
+      "date": "2025-12-25",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7242,
+      "mazout": 0.7644
+    },
+    {
+      "date": "2025-12-26",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7242,
+      "mazout": 0.7644
+    },
+    {
+      "date": "2025-12-27",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7242,
+      "mazout": 0.7644
+    },
+    {
+      "date": "2025-12-28",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7242,
+      "mazout": 0.7644
+    },
+    {
+      "date": "2025-12-29",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7242,
+      "mazout": 0.7644
+    },
+    {
+      "date": "2025-12-30",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7313,
+      "mazout": 0.7716
+    },
+    {
+      "date": "2025-12-31",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7203,
+      "mazout": 0.7605
+    },
+    {
+      "date": "2026-01-01",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7293,
+      "mazout": 0.7695
+    },
+    {
+      "date": "2026-01-02",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7293,
+      "mazout": 0.7695
+    },
+    {
+      "date": "2026-01-03",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.723,
+      "mazout": 0.7633
+    },
+    {
+      "date": "2026-01-04",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.723,
+      "mazout": 0.7633
+    },
+    {
+      "date": "2026-01-05",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.723,
+      "mazout": 0.7633
+    },
+    {
+      "date": "2026-01-06",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.678,
+      "mazout_plus": 0.7143,
+      "mazout": 0.7545
+    },
+    {
+      "date": "2026-01-07",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7275,
+      "mazout": 0.7678
+    },
+    {
+      "date": "2026-01-08",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7176,
+      "mazout": 0.7578
+    },
+    {
+      "date": "2026-01-09",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7065,
+      "mazout": 0.7468
+    },
+    {
+      "date": "2026-01-10",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7142,
+      "mazout": 0.7545
+    },
+    {
+      "date": "2026-01-11",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7142,
+      "mazout": 0.7545
+    },
+    {
+      "date": "2026-01-12",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7142,
+      "mazout": 0.7545
+    },
+    {
+      "date": "2026-01-13",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7352,
+      "mazout": 0.7754
+    },
+    {
+      "date": "2026-01-14",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7279,
+      "mazout": 0.7682
+    },
+    {
+      "date": "2026-01-15",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7542,
+      "mazout": 0.7945
+    },
+    {
+      "date": "2026-01-16",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.7586,
+      "mazout": 0.7988
+    },
+    {
+      "date": "2026-01-17",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.744,
+      "mazout": 0.7843
+    },
+    {
+      "date": "2026-01-18",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.744,
+      "mazout": 0.7843
+    },
+    {
+      "date": "2026-01-19",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.688,
+      "mazout_plus": 0.744,
+      "mazout": 0.7843
+    },
+    {
+      "date": "2026-01-20",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.707,
+      "mazout_plus": 0.7565,
+      "mazout": 0.7968
+    },
+    {
+      "date": "2026-01-21",
+      "essence95": 1.573,
+      "essence98": 1.665,
+      "diesel": 1.707,
+      "mazout_plus": 0.7529,
+      "mazout": 0.7932
+    },
+    {
+      "date": "2026-01-22",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7605,
+      "mazout": 0.8007
+    },
+    {
+      "date": "2026-01-23",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7768,
+      "mazout": 0.817
+    },
+    {
+      "date": "2026-01-24",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7662,
+      "mazout": 0.8064
+    },
+    {
+      "date": "2026-01-25",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7662,
+      "mazout": 0.8064
+    },
+    {
+      "date": "2026-01-26",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7662,
+      "mazout": 0.8064
+    },
+    {
+      "date": "2026-01-27",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7681,
+      "mazout": 0.8083
+    },
+    {
+      "date": "2026-01-28",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7677,
+      "mazout": 0.808
+    },
+    {
+      "date": "2026-01-29",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.707,
+      "mazout_plus": 0.7653,
+      "mazout": 0.8055
+    },
+    {
+      "date": "2026-01-30",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.777,
+      "mazout": 0.8173
+    },
+    {
+      "date": "2026-01-31",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.79,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2026-02-01",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.79,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2026-02-02",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.79,
+      "mazout": 0.8303
+    },
+    {
+      "date": "2026-02-03",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.8176,
+      "mazout": 0.8578
+    },
+    {
+      "date": "2026-02-04",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.771,
+      "mazout": 0.8113
+    },
+    {
+      "date": "2026-02-05",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.7762,
+      "mazout": 0.8165
+    },
+    {
+      "date": "2026-02-06",
+      "essence95": 1.584,
+      "essence98": 1.641,
+      "diesel": 1.719,
+      "mazout_plus": 0.777,
+      "mazout": 0.8173
+    },
+    {
+      "date": "2026-02-07",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.719,
+      "mazout_plus": 0.7779,
+      "mazout": 0.8182
+    },
+    {
+      "date": "2026-02-08",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.719,
+      "mazout_plus": 0.7779,
+      "mazout": 0.8182
+    },
+    {
+      "date": "2026-02-09",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.719,
+      "mazout_plus": 0.7779,
+      "mazout": 0.8182
+    },
+    {
+      "date": "2026-02-10",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.731,
+      "mazout_plus": 0.7866,
+      "mazout": 0.8269
+    },
+    {
+      "date": "2026-02-11",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.731,
+      "mazout_plus": 0.7765,
+      "mazout": 0.8167
+    },
+    {
+      "date": "2026-02-12",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.731,
+      "mazout_plus": 0.7672,
+      "mazout": 0.8075
+    },
+    {
+      "date": "2026-02-13",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.731,
+      "mazout_plus": 0.7801,
+      "mazout": 0.8204
+    },
+    {
+      "date": "2026-02-14",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7624,
+      "mazout": 0.8026
+    },
+    {
+      "date": "2026-02-15",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7624,
+      "mazout": 0.8026
+    },
+    {
+      "date": "2026-02-16",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7624,
+      "mazout": 0.8026
+    },
+    {
+      "date": "2026-02-17",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7608,
+      "mazout": 0.8011
+    },
+    {
+      "date": "2026-02-18",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7668,
+      "mazout": 0.807
+    },
+    {
+      "date": "2026-02-19",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7611,
+      "mazout": 0.8013
+    },
+    {
+      "date": "2026-02-20",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.708,
+      "mazout_plus": 0.7827,
+      "mazout": 0.8229
+    },
+    {
+      "date": "2026-02-21",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.758,
+      "mazout_plus": 0.8124,
+      "mazout": 0.8526
+    },
+    {
+      "date": "2026-02-22",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.758,
+      "mazout_plus": 0.8124,
+      "mazout": 0.8526
+    },
+    {
+      "date": "2026-02-23",
+      "essence95": 1.606,
+      "essence98": 1.657,
+      "diesel": 1.758,
+      "mazout_plus": 0.8124,
+      "mazout": 0.8526
+    },
+    {
+      "date": "2026-02-24",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8175,
+      "mazout": 0.8578
+    },
+    {
+      "date": "2026-02-25",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.829,
+      "mazout": 0.8693
+    },
+    {
+      "date": "2026-02-26",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8163,
+      "mazout": 0.8566
+    },
+    {
+      "date": "2026-02-27",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8142,
+      "mazout": 0.8545
+    },
+    {
+      "date": "2026-02-28",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8322,
+      "mazout": 0.8724
+    },
+    {
+      "date": "2026-03-01",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8322,
+      "mazout": 0.8724
+    },
+    {
+      "date": "2026-03-02",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.758,
+      "mazout_plus": 0.8322,
+      "mazout": 0.8724
+    },
+    {
+      "date": "2026-03-03",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.779,
+      "mazout_plus": 0.8338,
+      "mazout": 0.874
+    },
+    {
+      "date": "2026-03-04",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.779,
+      "mazout_plus": 0.9563,
+      "mazout": 0.9965
+    },
+    {
+      "date": "2026-03-05",
+      "essence95": 1.634,
+      "essence98": 1.723,
+      "diesel": 1.923,
+      "mazout_plus": 1.0055,
+      "mazout": 1.0458
+    },
+    {
+      "date": "2026-03-06",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.0149,
+      "mazout": 1.0551
+    },
+    {
+      "date": "2026-03-07",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.065,
+      "mazout": 1.1052
+    },
+    {
+      "date": "2026-03-08",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.065,
+      "mazout": 1.1052
+    },
+    {
+      "date": "2026-03-09",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.065,
+      "mazout": 1.1052
+    },
+    {
+      "date": "2026-03-10",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.0718,
+      "mazout": 1.112
+    },
+    {
+      "date": "2026-03-11",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 1.923,
+      "mazout_plus": 1.0736,
+      "mazout": 1.1139
+    },
+    {
+      "date": "2026-03-12",
+      "essence95": 1.677,
+      "essence98": 1.74,
+      "diesel": 2.019,
+      "mazout_plus": 1.097,
+      "mazout": 1.1372
+    },
+    {
+      "date": "2026-03-13",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.019,
+      "mazout_plus": 1.1295,
+      "mazout": 1.1697
+    },
+    {
+      "date": "2026-03-14",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.019,
+      "mazout_plus": 1.1794,
+      "mazout": 1.2197
+    },
+    {
+      "date": "2026-03-15",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.019,
+      "mazout_plus": 1.1794,
+      "mazout": 1.2197
+    },
+    {
+      "date": "2026-03-16",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.019,
+      "mazout_plus": 1.1794,
+      "mazout": 1.2197
+    },
+    {
+      "date": "2026-03-17",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.019,
+      "mazout_plus": 1.1968,
+      "mazout": 1.2371
+    },
+    {
+      "date": "2026-03-18",
+      "essence95": 1.75,
+      "essence98": 1.816,
+      "diesel": 2.107,
+      "mazout_plus": 1.2334,
+      "mazout": 1.2737
+    },
+    {
+      "date": "2026-03-19",
+      "essence95": 1.836,
+      "essence98": 1.902,
+      "diesel": 2.107,
+      "mazout_plus": 1.2473,
+      "mazout": 1.2875
+    },
+    {
+      "date": "2026-03-20",
+      "essence95": 1.836,
+      "essence98": 1.902,
+      "diesel": 2.107,
+      "mazout_plus": 1.3533,
+      "mazout": 1.3935
+    },
+    {
+      "date": "2026-03-21",
+      "essence95": 1.836,
+      "essence98": 1.902,
+      "diesel": 2.107,
+      "mazout_plus": 1.4127,
+      "mazout": 1.4529
+    },
+    {
+      "date": "2026-03-22",
+      "essence95": 1.863,
+      "essence98": 1.929,
+      "diesel": 2.289,
+      "mazout_plus": 1.4381,
+      "mazout": 1.4784
+    },
+    {
+      "date": "2026-03-23",
+      "essence95": 1.863,
+      "essence98": 1.929,
+      "diesel": 2.289,
+      "mazout_plus": 1.4381,
+      "mazout": 1.4784
+    },
+    {
+      "date": "2026-03-24",
+      "essence95": 1.863,
+      "essence98": 1.929,
+      "diesel": 2.289,
+      "mazout_plus": 1.4381,
+      "mazout": 1.4784
+    }
+  ],
+  "monthly": [
+    {
+      "year": 2024,
+      "month": 3,
+      "essence95": 1.7583,
+      "essence98": 1.9611,
+      "diesel": 1.8542,
+      "mazout_plus": 0.9665,
+      "mazout": 1.0046
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "essence95": 1.828,
+      "essence98": 1.9911,
+      "diesel": 1.8667,
+      "mazout_plus": 0.9618,
+      "mazout": 1.0009
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "essence95": 1.7862,
+      "essence98": 1.8686,
+      "diesel": 1.7954,
+      "mazout_plus": 0.8894,
+      "mazout": 0.9286
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "essence95": 1.7474,
+      "essence98": 1.8343,
+      "diesel": 1.7953,
+      "mazout_plus": 0.8965,
+      "mazout": 0.9357
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "essence95": 1.7613,
+      "essence98": 1.8552,
+      "diesel": 1.8103,
+      "mazout_plus": 0.9073,
+      "mazout": 0.9465
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "essence95": 1.6999,
+      "essence98": 1.7945,
+      "diesel": 1.7433,
+      "mazout_plus": 0.8441,
+      "mazout": 0.8833
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "essence95": 1.6369,
+      "essence98": 1.7112,
+      "diesel": 1.6917,
+      "mazout_plus": 0.788,
+      "mazout": 0.8272
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "essence95": 1.6598,
+      "essence98": 1.7444,
+      "diesel": 1.7226,
+      "mazout_plus": 0.8121,
+      "mazout": 0.8518
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "essence95": 1.6563,
+      "essence98": 1.7422,
+      "diesel": 1.7595,
+      "mazout_plus": 0.8282,
+      "mazout": 0.8679
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "essence95": 1.6675,
+      "essence98": 1.7416,
+      "diesel": 1.7632,
+      "mazout_plus": 0.8388,
+      "mazout": 0.8785
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "essence95": 1.6945,
+      "essence98": 1.7627,
+      "diesel": 1.8103,
+      "mazout_plus": 0.8905,
+      "mazout": 0.9302
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "essence95": 1.7029,
+      "essence98": 1.7626,
+      "diesel": 1.8001,
+      "mazout_plus": 0.8812,
+      "mazout": 0.9209
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "essence95": 1.6396,
+      "essence98": 1.699,
+      "diesel": 1.7445,
+      "mazout_plus": 0.8177,
+      "mazout": 0.8574
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "essence95": 1.6286,
+      "essence98": 1.6981,
+      "diesel": 1.686,
+      "mazout_plus": 0.7511,
+      "mazout": 0.791
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "essence95": 1.6203,
+      "essence98": 1.6988,
+      "diesel": 1.6656,
+      "mazout_plus": 0.7273,
+      "mazout": 0.7671
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "essence95": 1.6324,
+      "essence98": 1.7136,
+      "diesel": 1.7141,
+      "mazout_plus": 0.7845,
+      "mazout": 0.8243
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "essence95": 1.6206,
+      "essence98": 1.6996,
+      "diesel": 1.7468,
+      "mazout_plus": 0.8211,
+      "mazout": 0.8609
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "essence95": 1.627,
+      "essence98": 1.708,
+      "diesel": 1.7144,
+      "mazout_plus": 0.7714,
+      "mazout": 0.8112
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "essence95": 1.6478,
+      "essence98": 1.7071,
+      "diesel": 1.7302,
+      "mazout_plus": 0.7891,
+      "mazout": 0.8289
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "essence95": 1.6453,
+      "essence98": 1.6972,
+      "diesel": 1.7218,
+      "mazout_plus": 0.773,
+      "mazout": 0.8132
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "essence95": 1.6567,
+      "essence98": 1.7449,
+      "diesel": 1.7923,
+      "mazout_plus": 0.8448,
+      "mazout": 0.8851
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "essence95": 1.5975,
+      "essence98": 1.691,
+      "diesel": 1.7019,
+      "mazout_plus": 0.7403,
+      "mazout": 0.7805
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "essence95": 1.5765,
+      "essence98": 1.6573,
+      "diesel": 1.6942,
+      "mazout_plus": 0.7438,
+      "mazout": 0.784
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "essence95": 1.6063,
+      "essence98": 1.6654,
+      "diesel": 1.7291,
+      "mazout_plus": 0.7882,
+      "mazout": 0.8285
+    }
+  ],
+  "annual": [
+    {
+      "year": 2019,
+      "essence95": 1.4733,
+      "essence98": 1.531,
+      "diesel": 1.5215,
+      "mazout_plus": 0.6728,
+      "mazout": 0.7019
+    },
+    {
+      "year": 2020,
+      "essence95": 1.3492,
+      "essence98": 1.4172,
+      "diesel": 1.3679,
+      "mazout_plus": 0.4635,
+      "mazout": 0.4932
+    },
+    {
+      "year": 2021,
+      "essence95": 1.5624,
+      "essence98": 1.636,
+      "diesel": 1.5727,
+      "mazout_plus": 0.6526,
+      "mazout": 0.6823
+    },
+    {
+      "year": 2022,
+      "essence95": 1.8516,
+      "essence98": 2.0287,
+      "diesel": 1.9895,
+      "mazout_plus": 1.1995,
+      "mazout": 1.232
+    },
+    {
+      "year": 2023,
+      "essence95": 1.7876,
+      "essence98": 1.9912,
+      "diesel": 1.8341,
+      "mazout_plus": 0.9632,
+      "mazout": 1.0004
+    },
+    {
+      "year": 2024,
+      "essence95": 1.7158,
+      "essence98": 1.8366,
+      "diesel": 1.7913,
+      "mazout_plus": 0.8879,
+      "mazout": 0.927
+    },
+    {
+      "year": 2025,
+      "essence95": 1.6423,
+      "essence98": 1.7148,
+      "diesel": 1.7352,
+      "mazout_plus": 0.7987,
+      "mazout": 0.8386
+    },
+    {
+      "year": 2026,
+      "essence95": 1.6308,
+      "essence98": 1.7011,
+      "diesel": 1.7937,
+      "mazout_plus": 0.8731,
+      "mazout": 0.9133
+    }
+  ]
+}
