@@ -1,5 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
+    import { onMount, untrack } from 'svelte';
     import * as d3 from 'd3';
     import { initPym, sendHeight } from '../lib/pym.js';
     import { loadPrices, loadHistorical, getClosestPrice } from '../lib/data.js';
@@ -114,30 +114,58 @@
         };
     });
 
-    // Chart data — merges historical + daily depending on chartRange
+    // Chart key — follows mazout threshold (< vs ≥ 2000 L)
+    const activeChartKey = $derived(() => fuelKey(activeFuel, liters));
+
+    // Chart data — merges historical + monthly bridge + daily depending on chartRange
     const chartData = $derived(() => {
         if (!prices) return [];
-        const chartKey = activeFuel === 'mazout' ? 'mazout' : activeFuel;
+        const chartKey = activeChartKey();
         const parse = d3.timeParse('%Y-%m-%d');
 
         const dailyEntries = prices.daily
             .filter(d => d[chartKey] != null)
             .map(d => ({ date: parse(d.date), price: d[chartKey] }));
 
-        if (chartRange === '1y' || !historical) return dailyEntries;
+        if (chartRange === '1y') return dailyEntries;
 
         const cutoffDate = new Date();
         cutoffDate.setFullYear(cutoffDate.getFullYear() - (chartRange === '3y' ? 3 : 5));
         const cutoffISO = cutoffDate.toLocaleDateString('sv');
 
+        // Daily window start — monthly data bridges any gap before it
+        const dailyStartISO = dailyEntries.length > 0 ? dailyEntries[0].date.toLocaleDateString('sv') : null;
+
+        // Monthly averages as bridge (covers last 24 months, fills gap between historical and daily)
+        const monthlyEntries = prices.monthly
+            .filter(m => {
+                if (m[chartKey] == null) return false;
+                const iso = `${m.year}-${String(m.month).padStart(2,'0')}-01`;
+                return iso >= cutoffISO && (!dailyStartISO || iso < dailyStartISO);
+            })
+            .map(m => ({
+                date: parse(`${m.year}-${String(m.month).padStart(2,'0')}-01`),
+                price: m[chartKey],
+            }));
+
+        if (!historical) {
+            const merged = [...monthlyEntries, ...dailyEntries];
+            merged.sort((a, b) => a.date - b.date);
+            return merged;
+        }
+
         const historicalEntries = historical.entries
             .filter(d => d[chartKey] != null && d.date >= cutoffISO)
             .map(d => ({ date: parse(d.date), price: d[chartKey] }));
 
-        // Merge: historical first, then daily (daily takes precedence on overlap)
-        const seen = new Set(dailyEntries.map(d => d.date.toISOString()));
+        // Historical end — monthly bridge fills any gap between historical end and daily start
+        const histEndISO = historicalEntries.length > 0 ? historicalEntries.at(-1).date.toLocaleDateString('sv') : null;
+        const bridgeMonthly = monthlyEntries.filter(d => !histEndISO || d.date.toLocaleDateString('sv') > histEndISO);
+
+        const seenDaily = new Set(dailyEntries.map(d => d.date.toISOString()));
         const merged = [
-            ...historicalEntries.filter(d => !seen.has(d.date.toISOString())),
+            ...historicalEntries.filter(d => !seenDaily.has(d.date.toISOString())),
+            ...bridgeMonthly,
             ...dailyEntries,
         ];
         merged.sort((a, b) => a.date - b.date);
@@ -148,7 +176,7 @@
     const denominationMarkers = $derived(() => {
         if (!historical?.denominationChanges?.length) return [];
         const parse = d3.timeParse('%Y-%m-%d');
-        const chartKey = activeFuel === 'mazout' ? 'mazout' : activeFuel;
+        const chartKey = activeChartKey();
         return historical.denominationChanges
             .filter(c => !c.fuels || c.fuels.includes(chartKey))
             .map(c => ({ date: parse(c.date), label: c.label }))
@@ -163,12 +191,19 @@
         if (data.length < 2) return;
 
         if (animate === 'fade') {
-            d3.select(svgEl)
-                .transition().duration(150).style('opacity', 0)
-                .on('end', () => {
-                    _drawChartInner(false);
-                    d3.select(svgEl).transition().duration(280).style('opacity', 1);
-                });
+            const svg = d3.select(svgEl);
+            // Remove any leftover old group from a previous interrupted crossfade
+            svg.selectAll('g.chart-old').interrupt().remove();
+            // Rename current group so _drawChartInner creates a fresh one
+            const oldG = svg.select('g.chart-g');
+            if (!oldG.empty()) oldG.attr('class', 'chart-old');
+            // Draw new content (creates g.chart-g at default opacity 1)
+            _drawChartInner(false);
+            // Start new group invisible, then fade it in
+            const newG = svg.select('g.chart-g').style('opacity', 0);
+            // Crossfade: old out, new in simultaneously
+            oldG.transition('xfade').duration(260).style('opacity', 0).on('end', () => oldG.remove());
+            newG.transition('xfade').duration(260).style('opacity', 1);
             return;
         }
         _drawChartInner(animate);
@@ -210,6 +245,21 @@
         (animate ? gridG.transition().duration(duration) : gridG).call(gridFn);
         gridG.select('.domain').remove();
         gridG.selectAll('.tick line').attr('stroke', colors.grid);
+
+        // Ukraine war highlight band (24 Feb 2022 – 24 Aug 2022)
+        g.selectAll('.war-band').remove();
+        const warStart = new Date('2022-02-24');
+        const warEnd   = new Date('2022-08-24');
+        const [xMin, xMax] = x.domain();
+        if (warEnd >= xMin && warStart <= xMax) {
+            const bx1 = x(Math.max(warStart, xMin));
+            const bx2 = x(Math.min(warEnd,   xMax));
+            g.insert('rect', ':first-child').attr('class', 'war-band')
+                .attr('x', bx1).attr('y', 0)
+                .attr('width', bx2 - bx1).attr('height', h)
+                .attr('fill', 'rgba(180,180,180,0.22)')
+                .attr('pointer-events', 'none');
+        }
 
         // Area — enter/update with transition
         let area = g.select('path.chart-area');
@@ -268,6 +318,52 @@
                 .text(m.label);
         }
 
+        // Curved arrow annotation — 28 Feb 2026, US-Israel/Iran offensive
+        g.selectAll('.annot').remove();
+        {
+            const annotDate = new Date('2026-02-28');
+            const [xMin, xMax] = x.domain();
+            if (annotDate >= xMin && annotDate <= xMax) {
+                const bisectA = d3.bisector(d => d.date).left;
+                const ai = bisectA(data, annotDate, 1);
+                const da = (data[ai - 1] && Math.abs(data[ai - 1].date - annotDate) <= Math.abs((data[ai] || data[ai-1]).date - annotDate))
+                    ? data[ai - 1] : (data[ai] || data[ai - 1]);
+                const ax = x(annotDate);
+                const ay = y(da.price);
+                // Place label above, shifted left/right to stay in bounds
+                const labelOffX = ax > w * 0.6 ? -52 : 52;
+                const labelOffY = -38;
+                const lx = ax + labelOffX;
+                const ly = ay + labelOffY;
+                // Arrowhead marker (defs, once per svg)
+                let defs = svg.select('defs.annot-defs');
+                if (defs.empty()) {
+                    defs = svg.insert('defs', ':first-child').attr('class', 'annot-defs');
+                    defs.append('marker').attr('id', 'annot-arrow')
+                        .attr('viewBox', '0 -4 8 8').attr('refX', 7).attr('refY', 0)
+                        .attr('markerWidth', 7).attr('markerHeight', 7).attr('orient', 'auto')
+                        .append('path').attr('d', 'M0,-4L8,0L0,4').attr('class', 'annot-marker-path');
+                }
+                svg.select('.annot-marker-path').attr('fill', colors.text).attr('opacity', 0.8);
+                // Curved path
+                const cpx = ax + labelOffX * 0.3;
+                const cpy = ay + labelOffY * 0.6;
+                g.append('path').attr('class', 'annot')
+                    .attr('d', `M${lx},${ly} Q${cpx},${cpy} ${ax},${ay - 3}`)
+                    .attr('fill', 'none').attr('stroke', colors.text)
+                    .attr('stroke-width', 1).attr('opacity', 0.45)
+                    .attr('marker-end', 'url(#annot-arrow)');
+                // Label (two lines via tspan)
+                const txt = g.append('text').attr('class', 'annot')
+                    .attr('x', lx).attr('y', ly - 10)
+                    .attr('text-anchor', labelOffX > 0 ? 'start' : 'end')
+                    .attr('fill', colors.text).attr('opacity', 0.55)
+                    .attr('font-size', '8px').attr('font-family', 'Montserrat, sans-serif');
+                txt.append('tspan').attr('x', lx).attr('dy', 0).text('Début offensive');
+                txt.append('tspan').attr('x', lx).attr('dy', '1.2em').text('USA-Israël vs. Iran');
+            }
+        }
+
         // Hover overlay (always on top)
         g.selectAll('.overlay').remove();
         const bisect = d3.bisector(d => d.date).left;
@@ -297,8 +393,8 @@
     }
 
     $effect(() => {
-        activeFuel;
-        if (prices) drawChart('fade');
+        activeChartKey();
+        untrack(() => { if (prices) drawChart(true); });
     });
 
     onMount(() => {
@@ -480,9 +576,16 @@
         <!-- ── Chart ── -->
         <section class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">
-                    Évolution sur {chartRange === '1y' ? '1 an' : chartRange === '3y' ? '3 ans' : '5 ans'}
-                </h2>
+                <div class="chart-title-row">
+                    <h2 class="chart-title">
+                        Évolution sur {chartRange === '1y' ? '1 an' : chartRange === '3y' ? '3 ans' : '5 ans'}
+                    </h2>
+                    {#if activeFuel === 'mazout'}
+                        <span class="info-icon" aria-label="Note sur le mazout">ⓘ
+                            <span class="info-tooltip">Prix affiché : gasoil de chauffage ordinaire H0/H7 (norme NBN T52-716, ≤10 ppm soufre), prix officiel maximum TVAC fixé par le SPF Économie. Avant avril 2024, le graphe utilise l'ancienne dénomination Statbel « Gasoil Diesel Chauffage ».</span>
+                        </span>
+                    {/if}
+                </div>
                 <div class="range-tabs">
                     {#each [['1y','1 an'],['3y','3 ans'],['5y','5 ans']] as [r, label]}
                         <button
@@ -493,6 +596,12 @@
                     {/each}
                 </div>
             </div>
+            {#if chartRange === '5y'}
+                <div class="chart-legend">
+                    <span class="war-swatch"></span>
+                    <span class="war-label">6 premiers mois de la guerre en Ukraine</span>
+                </div>
+            {/if}
             <div class="chart-wrap" bind:this={chartWrap}>
                 <svg bind:this={svgEl} style="width:100%;height:100%;display:block;"></svg>
                 {#if histLoading}
@@ -991,6 +1100,85 @@
 
     @media (prefers-color-scheme: light) {
         .error-msg { color: #C0392B; }
+    }
+
+    /* ── Chart legend (war band) ── */
+    .chart-legend {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 4px;
+    }
+
+    .war-swatch {
+        display: inline-block;
+        width: 14px;
+        height: 10px;
+        border-radius: 3px;
+        background: rgba(180, 180, 180, 0.38);
+        border: 1px solid rgba(180, 180, 180, 0.65);
+        flex-shrink: 0;
+    }
+
+    .war-label {
+        font-size: 0.62rem;
+        opacity: 0.5;
+        line-height: 1;
+    }
+
+    /* ── Chart info icon + tooltip ── */
+    .chart-title-row {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .info-icon {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        font-size: 1rem;
+        color: rgba(74, 144, 226, 0.65);
+        cursor: default;
+        flex-shrink: 0;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .info-icon { color: rgba(0, 61, 96, 0.55); }
+    }
+
+    .info-tooltip {
+        display: none;
+        position: absolute;
+        bottom: calc(100% + 6px);
+        left: 0;
+        width: 220px;
+        background: #0d2d45;
+        color: #F0F0F1;
+        font-size: 0.62rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 8px 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+        text-transform: none;
+        letter-spacing: 0;
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    .info-icon:hover .info-tooltip,
+    .info-icon:focus .info-tooltip {
+        display: block;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .info-tooltip {
+            background: #fff;
+            color: #2E3238;
+            border: 1px solid rgba(0,0,0,0.09);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     }
 
     /* ── Source ── */

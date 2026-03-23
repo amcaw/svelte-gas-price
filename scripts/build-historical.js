@@ -23,13 +23,11 @@ const PRICES_JSON = join(__dirname, '..', 'public', 'data', 'prices.json');
 // ── Known product denomination/rename events ──────────────────────────────────
 // These are written into the JSON and rendered as annotations on the chart.
 // Format: { date: 'YYYY-MM-DD', label: string, fuels: string[] }
-// Add entries here when Statbel renames a product.
-const DENOMINATION_CHANGES = [
-    // Example (fill in real dates if known):
-    // { date: '2022-10-01', label: 'Essence 95 E5 → E10 (standard)', fuels: ['essence95'] },
-];
+const DENOMINATION_CHANGES = [];
 
-// ── Product matcher (mirrors fetch-prices.js) ─────────────────────────────────
+// ── Product matcher ───────────────────────────────────────────────────────────
+// H0/H7 (from Apr 2024) → mazout / mazout_plus (canonical keys)
+// Gasoil Diesel Chauffage (pre-Apr 2024) → mazout_legacy / mazout_plus_legacy (fallback)
 function matchProduct(name) {
     if (name.includes('98') && !name.includes('E10')) return 'essence98';
     if (name.includes('95') && name.includes('E10'))  return 'essence95';
@@ -37,12 +35,10 @@ function matchProduct(name) {
         && !name.includes('Heating') && !name.includes('Chauffage')
         && !name.includes('Agriculture') && !name.includes('I&C')
         && !name.includes('pump') && !name.includes('pompe')) return 'diesel';
-    if ((name.includes('Heating') || name.includes('Chauffage'))
-        && (name.includes('>=2000') || name.includes('partir'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')) return 'mazout_plus';
-    if ((name.includes('Heating') || name.includes('Chauffage'))
-        && (name.includes('<2000') || name.includes('moins de 2000'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')) return 'mazout';
+    if (name.includes('H0') && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus';
+    if (name.includes('H0') && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout';
+    if (name.includes('Chauffage') && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus_legacy';
+    if (name.includes('Chauffage') && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout_legacy';
     return null;
 }
 
@@ -95,13 +91,24 @@ for (const { day, product, price } of rows) {
     const key = matchProduct(product);
     if (!key) continue;
     if (!byDate[date]) byDate[date] = {};
-    byDate[date][key] = parseFloat(price.toFixed(2));
+    byDate[date][key] = price;
 }
 
 const entries = Object.entries(byDate)
     .filter(([, v]) => v.essence95 != null || v.diesel != null)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([date, prices]) => ({ date, ...prices }));
+    .map(([date, p]) => {
+        // Resolve mazout: H0/H7 wins if available, otherwise fall back to legacy denomination
+        const mazout      = p.mazout      ?? p.mazout_legacy;
+        const mazout_plus = p.mazout_plus ?? p.mazout_plus_legacy;
+        const entry = { date };
+        if (p.essence95  != null) entry.essence95  = p.essence95;
+        if (p.essence98  != null) entry.essence98  = p.essence98;
+        if (p.diesel     != null) entry.diesel     = p.diesel;
+        if (mazout       != null) entry.mazout     = mazout;
+        if (mazout_plus  != null) entry.mazout_plus = mazout_plus;
+        return entry;
+    });
 
 // ── Write output ──────────────────────────────────────────────────────────────
 mkdirSync(dirname(OUT), { recursive: true });

@@ -36,14 +36,10 @@ function matchProduct(name) {
         && !name.includes('Heating') && !name.includes('Chauffage')
         && !name.includes('Agriculture') && !name.includes('I&C')
         && !name.includes('pump') && !name.includes('pompe')) return 'diesel';
-    // Mazout >=2000L (bulk/industrial delivery)
-    if ((name.includes('Heating') || name.includes('Chauffage'))
-        && (name.includes('>=2000') || name.includes('partir'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')) return 'mazout_plus';
-    // Mazout <2000L (standard household delivery)
-    if ((name.includes('Heating') || name.includes('Chauffage'))
-        && (name.includes('<2000') || name.includes('moins de 2000'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')) return 'mazout';
+    // Mazout H0/H7 >=2000L (bulk delivery, standard norm)
+    if (name.includes('H0') && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus';
+    // Mazout H0/H7 <2000L (household delivery, standard norm)
+    if (name.includes('H0') && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout';
     return null;
 }
 
