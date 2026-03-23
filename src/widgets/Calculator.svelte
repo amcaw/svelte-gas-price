@@ -387,7 +387,7 @@
     .widget {
         padding: 0;
         max-width: 480px;
-        margin: 0;
+        margin: 0 auto;
         font-family: 'Montserrat', sans-serif;
         color: #F0F0F1;
         background: #001324;
