@@ -3,14 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculateur prix carburant — Belgique</title>
+    <title>Widgets carburant — Belgique</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/svelte-gas-price/assets/index-BviXERw8.js"></script>
-    <link rel="stylesheet" crossorigin href="/svelte-gas-price/assets/index-Czls0aFe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+      body {
+        margin: 0; padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        background: #001324;
+        color: #F0F0F1;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @media (prefers-color-scheme: light) {
+        body { background: #F7F8FB; color: #2E3238; }
+      }
+      .container { text-align: center; padding: 32px 20px; }
+      h1 { font-size: 1rem; font-weight: 700; margin: 0 0 24px; }
+      .grid { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+      .btn {
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none; color: inherit;
+        font-size: 0.82rem; font-weight: 600;
+        background: rgba(255,255,255,0.08);
+        transition: background 0.15s;
+      }
+      .btn:hover { background: rgba(255,255,255,0.14); }
+      @media (prefers-color-scheme: light) {
+        .btn { background: rgba(0,0,0,0.06); }
+        .btn:hover { background: rgba(0,0,0,0.11); }
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <h1>Widgets carburant Belgique</h1>
+      <div class="grid">
+        <a class="btn" href="/widget/">Prix max & calculateur</a>
+        <a class="btn" href="/BestPrices/">Meilleurs prix par province</a>
+      </div>
+    </div>
   </body>
 </html>
