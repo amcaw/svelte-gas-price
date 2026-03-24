@@ -479,7 +479,7 @@
 
     function adjust(delta) {
         if (activeFuel === 'mazout') {
-            litersMazout = Math.min(3000, Math.max(1, (parseInt(litersMazout) || 0) + delta * 100));
+            litersMazout = Math.min(6000, Math.max(1, (parseInt(litersMazout) || 0) + delta * 100));
         } else {
             liters = Math.min(100, Math.max(1, (parseInt(liters) || 0) + delta * 5));
         }
@@ -579,11 +579,11 @@
                     <input
                         type="number"
                         min="1"
-                        max={activeFuel === 'mazout' ? 3000 : 100}
+                        max={activeFuel === 'mazout' ? 6000 : 100}
                         value={activeliters}
                         aria-label="Nombre de litres"
                         oninput={(e) => {
-                            const max = activeFuel === 'mazout' ? 3000 : 100;
+                            const max = activeFuel === 'mazout' ? 6000 : 100;
                             const v = Math.min(max, Math.max(1, parseInt(e.target.value) || 1));
                             if (activeFuel === 'mazout') { litersMazout = v; } else { liters = v; }
                             e.target.value = v;
@@ -700,7 +700,7 @@
 
     <!-- ── Footer ── -->
     <p class="source">
-        <a href="https://statbel.fgov.be/fr/themes/energie/prix-du-petrole" target="_blank" rel="noopener">Statbel / SPF Économie</a>
+        Source : <a href="https://statbel.fgov.be/fr/themes/energie/prix-du-petrole" target="_blank" rel="noopener">Statbel / SPF Économie</a>
         · Prix maximum TVA incluse
     </p>
 
@@ -1282,7 +1282,7 @@
         font-size: 0.68rem;
         opacity: 0.38;
         margin: 0;
-        text-align: center;
+        text-align: right;
         line-height: 1.6;
     }
 
