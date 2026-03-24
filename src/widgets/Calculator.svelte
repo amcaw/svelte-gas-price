@@ -499,16 +499,24 @@
     }
 
     const colors = $derived(getColors());
+
+    const priceDateLabel = $derived(() => {
+        if (!prices) return null;
+        const d = prices.priceDate ?? prices.lastUpdated; // YYYY-MM-DD
+        const label = formatDate(d);
+        const tag = d === todayISO ? 'aujourd\'hui' : 'demain';
+        return `pour le ${label} (${tag})`;
+    });
 </script>
 
 <div class="widget">
 
     <!-- ── Header ── -->
     <div class="header">
-        <h1 class="title">Prix maximum des carburants en Belgique</h1>
-        {#if prices}
-            <span class="updated">MAJ {formatDate(prices.lastUpdated)}</span>
-        {/if}
+        <h1 class="title">
+            Prix maximum des carburants en Belgique
+            {#if priceDateLabel()}<span class="title-date">{priceDateLabel()}</span>{/if}
+        </h1>
     </div>
 
     <!-- ── Segmented fuel selector ── -->
@@ -536,21 +544,17 @@
                     {@const cmp = comparison()}
                     <div class="price-row">
                         <p class="price-val">{fmtPrice(heroPrice(), 2)}<span class="price-unit"> €/L</span></p>
-                        <div
+                        <p
                             class="trend"
                             class:up={cmp.delta > 0}
                             class:down={cmp.delta < 0}
                             class:flat={cmp.delta === 0}
                         >
                             {#if cmp.delta > 0}↑{:else if cmp.delta < 0}↓{/if}
-                            {#if cmp.delta !== 0}
-                                {cmp.delta > 0 ? '+' : '-'}{fmtPrice(Math.abs(cmp.delta), 2)} €/L
-                            {:else}
-                                Stable
-                            {/if}
-                        </div>
+                            {#if cmp.delta !== 0}{cmp.delta > 0 ? '+' : '-'}{fmtPrice(Math.abs(cmp.delta), 2)} €/L{:else}Stable{/if}
+                            <span class="trend-label">· par rapport à la veille</span>
+                        </p>
                     </div>
-                    <p class="price-validity">Tarif valable à partir du {formatDate(cmp.dateB)}</p>
                 {:else}
                     <p class="price-val">{fmtPrice(heroPrice())}<span class="price-unit"> €/L</span></p>
                 {/if}
@@ -740,13 +744,13 @@
         margin: 0;
         line-height: 1.3;
     }
-
-    .updated {
+    .title-date {
+        display: block;
         font-size: 0.72rem;
-        opacity: 0.45;
-        white-space: nowrap;
-        flex-shrink: 0;
+        font-weight: 500;
+        opacity: 0.5;
     }
+
 
     /* ── Segmented control ── */
     .fuel-tabs {
@@ -805,8 +809,9 @@
 
     .price-row {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 14px;
+        gap: 4px;
     }
 
     .price-val {
@@ -823,12 +828,7 @@
         opacity: 0.55;
     }
 
-    .price-validity {
-        font-size: 0.78rem;
-        font-weight: 500;
-        opacity: 0.5;
-        margin: 0;
-    }
+
 
     /* ── Year-ago sub-line (solution A) ── */
     .cost-amount-col {
@@ -866,23 +866,19 @@
     }
 
     .trend {
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 0.82rem;
-        font-weight: 700;
-        padding: 5px 14px;
-        border-radius: 99px;
+        margin: 0;
+        font-size: 0.78rem;
+        font-weight: 600;
     }
 
-    .trend.up   { background: rgba(255,107,107,0.15); color: #FF6B6B; }
-    .trend.down { background: rgba(78,203,113,0.15);  color: #4ECB71; }
-    .trend.flat { background: rgba(255,255,255,0.07); opacity: 0.6; }
+    .trend.up   { color: #FF6B6B; }
+    .trend.down { color: #4ECB71; }
+    .trend.flat { opacity: 0.45; }
+    .trend-label { font-weight: 400; opacity: 0.6; }
 
     @media (prefers-color-scheme: light) {
-        .trend.up   { background: rgba(192,57,43,0.1);  color: #C0392B; }
-        .trend.down { background: rgba(26,122,60,0.1);  color: #1A7A3C; }
-        .trend.flat { background: rgba(0,0,0,0.05); }
+        .trend.up   { color: #C0392B; }
+        .trend.down { color: #1A7A3C; }
     }
 
     /* ── Calculator card ── */

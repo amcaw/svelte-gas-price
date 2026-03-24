@@ -148,6 +148,7 @@ async function main() {
 
     const output = {
         lastUpdated: new Date().toLocaleDateString('sv'), // date du cron, pas de l'API
+        priceDate:   todayData.date,                      // date de validité des prix
         today: todayData.prices,
         daily: dailyData,
         monthly: monthlyData,
