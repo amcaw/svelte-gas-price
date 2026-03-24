@@ -5,8 +5,8 @@
     "essence95": 1.86,
     "essence98": 1.93,
     "diesel": 2.29,
-    "mazout_plus": 1.4,
-    "mazout": 1.44
+    "mazout_plus": 1.37,
+    "mazout": 1.41
   },
   "daily": [
     {
@@ -2862,8 +2862,8 @@
       "essence95": 1.75,
       "essence98": 1.82,
       "diesel": 2.02,
-      "mazout_plus": 1.2,
-      "mazout": 1.24
+      "mazout_plus": 1.19,
+      "mazout": 1.23
     },
     {
       "date": "2026-03-18",
@@ -2878,7 +2878,7 @@
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.25,
+      "mazout_plus": 1.24,
       "mazout": 1.29
     },
     {
@@ -2886,48 +2886,48 @@
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.35,
-      "mazout": 1.39
+      "mazout_plus": 1.31,
+      "mazout": 1.35
     },
     {
       "date": "2026-03-21",
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.41,
-      "mazout": 1.45
+      "mazout_plus": 1.37,
+      "mazout": 1.41
     },
     {
       "date": "2026-03-22",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.44,
-      "mazout": 1.48
+      "mazout_plus": 1.39,
+      "mazout": 1.43
     },
     {
       "date": "2026-03-23",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.44,
-      "mazout": 1.48
+      "mazout_plus": 1.39,
+      "mazout": 1.43
     },
     {
       "date": "2026-03-24",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.44,
-      "mazout": 1.48
+      "mazout_plus": 1.39,
+      "mazout": 1.43
     },
     {
       "date": "2026-03-25",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.4,
-      "mazout": 1.44
+      "mazout_plus": 1.37,
+      "mazout": 1.41
     }
   ],
   "monthly": [
@@ -2947,7 +2947,7 @@
       "essence98": 1.99,
       "diesel": 1.87,
       "mazout_plus": 0.96,
-      "mazout": 1
+      "mazout": 0.99
     },
     {
       "year": 2024,
@@ -3194,8 +3194,8 @@
       "essence95": 1.72,
       "essence98": 1.84,
       "diesel": 1.79,
-      "mazout_plus": 0.89,
-      "mazout": 0.93
+      "mazout_plus": 0.86,
+      "mazout": 0.9
     },
     {
       "year": 2025,
