@@ -36,12 +36,17 @@ function matchProduct(name) {
         && !name.includes('Heating') && !name.includes('Chauffage')
         && !name.includes('Agriculture') && !name.includes('I&C')
         && !name.includes('pump') && !name.includes('pompe')) return 'diesel';
-    // Gasoil Diesel Heating/Chauffage (legacy denomination, consistent across all dates)
+    // H0/H7 (NBN T52-716, post-April 2024) — primary
+    if (name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+        && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus';
+    if (name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+        && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout';
+    // Legacy "Gasoil Diesel Chauffage" (pre-April 2024) — fallback
     if ((name.includes('Heating') || name.includes('Chauffage'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+        && !name.includes('Agriculture') && !name.includes('I&C')
         && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus';
     if ((name.includes('Heating') || name.includes('Chauffage'))
-        && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+        && !name.includes('Agriculture') && !name.includes('I&C')
         && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout';
     return null;
 }
@@ -64,14 +69,25 @@ function parseDay(str) {
     return `${yyyy}-${mm}-${dd}`;
 }
 
+// ── Priority setter — H0/H7 match locks the key, legacy cannot overwrite it ───
+function setH0Priority(bucket, lockedKeys, name, key, value) {
+    const isH0 = name.includes('H0');
+    if (isH0 || !lockedKeys.has(key)) {
+        bucket[key] = value;
+        if (isH0) lockedKeys.add(key);
+    }
+}
+
 // ── Fetch today ───────────────────────────────────────────────────────────────
 async function fetchToday() {
     const data = await fetchJSON(VIEWS.today);
     const today = {};
+    const locked = new Set();
     for (const fact of data.facts) {
-        const key = matchProduct(fact['Product'] || '');
+        const name = fact['Product'] || '';
+        const key = matchProduct(name);
         if (key && fact['Price incl. VAT'] != null) {
-            today[key] = parseFloat(fact['Price incl. VAT'].toFixed(2));
+            setH0Priority(today, locked, name, key, parseFloat(fact['Price incl. VAT'].toFixed(2)));
         }
     }
     const date = parseDay(data.facts[0]['Day']);
@@ -82,12 +98,14 @@ async function fetchToday() {
 async function fetchDaily() {
     const data = await fetchJSON(VIEWS.daily);
     const byDate = {};
+    const lockedByDate = {};
     for (const fact of data.facts) {
-        const key = matchProduct(fact['Product'] || '');
+        const name = fact['Product'] || '';
+        const key = matchProduct(name);
         if (!key || fact['Price incl. VAT'] == null) continue;
         const date = parseDay(fact['Day']);
-        if (!byDate[date]) byDate[date] = {};
-        byDate[date][key] = parseFloat(fact['Price incl. VAT'].toFixed(2));
+        if (!byDate[date]) { byDate[date] = {}; lockedByDate[date] = new Set(); }
+        setH0Priority(byDate[date], lockedByDate[date], name, key, parseFloat(fact['Price incl. VAT'].toFixed(2)));
     }
     return Object.entries(byDate)
         .filter(([, v]) => v.essence95 && v.diesel)

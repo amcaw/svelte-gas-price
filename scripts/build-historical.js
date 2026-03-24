@@ -98,9 +98,9 @@ const entries = Object.entries(byDate)
     .filter(([, v]) => v.essence95 != null || v.diesel != null)
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([date, p]) => {
-        // Resolve mazout: legacy denomination wins for consistency, H0/H7 as fallback
-        const mazout      = p.mazout_legacy ?? p.mazout;
-        const mazout_plus = p.mazout_plus_legacy ?? p.mazout_plus;
+        // Resolve mazout: H0/H7 wins (post-April 2024), legacy as fallback (pre-April 2024)
+        const mazout      = p.mazout ?? p.mazout_legacy;
+        const mazout_plus = p.mazout_plus ?? p.mazout_plus_legacy;
         const entry = { date };
         if (p.essence95  != null) entry.essence95  = p.essence95;
         if (p.essence98  != null) entry.essence98  = p.essence98;

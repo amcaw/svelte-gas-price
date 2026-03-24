@@ -659,7 +659,7 @@
                             </h2>
                             {#if activeFuel === 'mazout'}
                                 <span class="info-icon" aria-label="Note sur le mazout">ⓘ
-                                    <span class="info-tooltip">Prix affiché : gasoil de chauffage (Gasoil Diesel Chauffage), prix officiel maximum TVAC fixé par le SPF Économie.</span>
+                                    <span class="info-tooltip">Prix affiché : gasoil de chauffage H0/H7 (norme NBN T52-716, depuis avril 2024). Avant cette date, ce sont les prix pour «&nbsp;Gasoil Diesel Chauffage&nbsp;» qui s'affichent.</span>
                                 </span>
                             {/if}
                         </div>
