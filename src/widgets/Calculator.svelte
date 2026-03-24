@@ -20,15 +20,16 @@
 
     // ── Fuel tabs config ──────────────────────────────────────────────────────
     const FUELS = [
-        { key: 'essence95',  label: 'Essence 95',  defaultLiters: 45 },
-        { key: 'essence98',  label: 'Essence 98',  defaultLiters: 45 },
-        { key: 'diesel',     label: 'Diesel',      defaultLiters: 50 },
-        { key: 'mazout',     label: 'Mazout',      defaultLiters: 1000 },
+        { key: 'essence95',  label: 'Essence 95' },
+        { key: 'essence98',  label: 'Essence 98' },
+        { key: 'diesel',     label: 'Diesel' },
+        { key: 'mazout',     label: 'Mazout' },
     ];
 
     // ── State ─────────────────────────────────────────────────────────────────
     let activeFuel   = $state('essence95');
-    let liters       = $state(45);
+    let liters       = $state(50);   // shared across essence95/98/diesel
+    let litersMazout = $state(1000); // separate for mazout
     let prices       = $state(null);
     let loading      = $state(true);
     let error        = $state(null);
@@ -59,6 +60,9 @@
     });
 
     // ── Derived helpers ───────────────────────────────────────────────────────
+    // Active liters value — shared for essence/diesel, separate for mazout
+    const activeliters = $derived(activeFuel === 'mazout' ? litersMazout : liters);
+
     function fuelKey(fuel, litersVal) {
         if (fuel === 'mazout') return litersVal >= 2000 ? 'mazout_plus' : 'mazout';
         return fuel;
@@ -70,13 +74,13 @@
     // Today's current official price
     const todayPrice = $derived(() => {
         if (!prices) return null;
-        return prices.today[fuelKey(activeFuel, liters)] ?? null;
+        return prices.today[fuelKey(activeFuel, activeliters)] ?? null;
     });
 
     // Comparison: daily.at(-2) vs daily.at(-1)
     const comparison = $derived(() => {
         if (!prices || prices.daily.length < 2) return null;
-        const fk = fuelKey(activeFuel, liters);
+        const fk = fuelKey(activeFuel, activeliters);
         const entryA = prices.daily.at(-2);
         const entryB = prices.daily.at(-1);
         if (entryA[fk] == null || entryB[fk] == null) return null;
@@ -102,7 +106,7 @@
         if (!prices) return null;
         const cmp = comparison();
         if (!cmp) return null;
-        const fk = fuelKey(activeFuel, liters);
+        const fk = fuelKey(activeFuel, activeliters);
         function shiftYear(dateStr) {
             const d = new Date(dateStr);
             d.setFullYear(d.getFullYear() - 1);
@@ -115,7 +119,7 @@
     });
 
     // Chart key — follows mazout threshold (< vs ≥ 2000 L)
-    const activeChartKey = $derived(() => fuelKey(activeFuel, liters));
+    const activeChartKey = $derived(() => fuelKey(activeFuel, activeliters));
 
     // Chart data — merges historical + monthly bridge + daily depending on chartRange
     const chartData = $derived(() => {
@@ -470,15 +474,15 @@
 
     function setFuel(key) {
         activeFuel = key;
-        const fuel = FUELS.find(f => f.key === key);
-        liters = fuel?.defaultLiters ?? 45;
         sendHeight();
     }
 
     function adjust(delta) {
-        const step = activeFuel === 'mazout' ? 100 : 5;
-        const max  = activeFuel === 'mazout' ? 3000 : 100;
-        liters = Math.min(max, Math.max(1, (parseInt(liters) || 0) + delta * step));
+        if (activeFuel === 'mazout') {
+            litersMazout = Math.min(3000, Math.max(1, (parseInt(litersMazout) || 0) + delta * 100));
+        } else {
+            liters = Math.min(100, Math.max(1, (parseInt(liters) || 0) + delta * 5));
+        }
     }
 
     function euros(n) {
@@ -576,13 +580,13 @@
                         type="number"
                         min="1"
                         max={activeFuel === 'mazout' ? 3000 : 100}
-                        bind:value={liters}
+                        value={activeliters}
                         aria-label="Nombre de litres"
                         oninput={(e) => {
                             const max = activeFuel === 'mazout' ? 3000 : 100;
-                            const v = parseInt(e.target.value) || 1;
-                            liters = Math.min(max, Math.max(1, v));
-                            e.target.value = liters;
+                            const v = Math.min(max, Math.max(1, parseInt(e.target.value) || 1));
+                            if (activeFuel === 'mazout') { litersMazout = v; } else { liters = v; }
+                            e.target.value = v;
                         }}
                     />
                     <span class="unit-label">L</span>
@@ -592,17 +596,17 @@
 
             {#if comparison() != null}
                 {@const cmp = comparison()}
-                {@const costA = parseFloat((cmp.priceA * liters).toFixed(2))}
-                {@const costB = parseFloat((cmp.priceB * liters).toFixed(2))}
+                {@const costA = parseFloat((cmp.priceA * activeliters).toFixed(2))}
+                {@const costB = parseFloat((cmp.priceB * activeliters).toFixed(2))}
                 {@const labelA = cmp.isTomorrow ? "Aujourd'hui" : 'Hier'}
                 {@const labelB = cmp.isTomorrow ? 'Demain' : "Aujourd'hui"}
-                {@const mazoutTag = activeFuel === 'mazout' ? (liters >= 2000 ? '≥ 2000 L' : '< 2000 L') : null}
+                {@const mazoutTag = activeFuel === 'mazout' ? (activeliters >= 2000 ? '≥ 2000 L' : '< 2000 L') : null}
 
                 {@const ya = yearAgo()}
-                {@const diffA = ya?.priceYearAgoA != null ? parseFloat((costA - ya.priceYearAgoA * liters).toFixed(2)) : null}
-                {@const pctA  = diffA != null ? Math.round((diffA / (ya.priceYearAgoA * liters)) * 100) : null}
-                {@const diffB = ya?.priceYearAgoB != null ? parseFloat((costB - ya.priceYearAgoB * liters).toFixed(2)) : null}
-                {@const pctB  = diffB != null ? Math.round((diffB / (ya.priceYearAgoB * liters)) * 100) : null}
+                {@const diffA = ya?.priceYearAgoA != null ? parseFloat((costA - ya.priceYearAgoA * activeliters).toFixed(2)) : null}
+                {@const pctA  = diffA != null ? Math.round((diffA / (ya.priceYearAgoA * activeliters)) * 100) : null}
+                {@const diffB = ya?.priceYearAgoB != null ? parseFloat((costB - ya.priceYearAgoB * activeliters).toFixed(2)) : null}
+                {@const pctB  = diffB != null ? Math.round((diffB / (ya.priceYearAgoB * activeliters)) * 100) : null}
                 <div class="cost-card">
                     <div class="cost-row">
                         <span class="cost-label">
@@ -610,8 +614,8 @@
                             <span class="cost-date">{formatDate(cmp.dateA)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
                         <span class="cost-amount-col">
-                            <span class="cost-amount">{liters > 0 ? euros(costA) + ' €' : '—'}</span>
-                            {#if diffA != null && liters > 0 && !isNaN(pctA)}
+                            <span class="cost-amount">{activeliters > 0 ? euros(costA) + ' €' : '—'}</span>
+                            {#if diffA != null && activeliters > 0 && !isNaN(pctA)}
                                 <span class="ya-sub" class:ya-up={diffA > 0} class:ya-down={diffA < 0}>
                                     {diffA > 0 ? '+' : ''}{eurosCompact(diffA)} € ({pctA > 0 ? '+' : ''}{pctA}%)
                                 </span>
@@ -628,8 +632,8 @@
                             <span class="cost-date">{formatDate(cmp.dateB)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
                         <span class="cost-amount-col">
-                            <span class="cost-amount">{liters > 0 ? euros(costB) + ' €' : '—'}</span>
-                            {#if diffB != null && liters > 0 && !isNaN(pctB)}
+                            <span class="cost-amount">{activeliters > 0 ? euros(costB) + ' €' : '—'}</span>
+                            {#if diffB != null && activeliters > 0 && !isNaN(pctB)}
                                 <span class="ya-sub" class:ya-up={diffB > 0} class:ya-down={diffB < 0}>
                                     {diffB > 0 ? '+' : ''}{eurosCompact(diffB)} € ({pctB > 0 ? '+' : ''}{pctB}%)
                                 </span>
@@ -660,7 +664,7 @@
                             {/if}
                         </div>
                         {#if activeFuel === 'mazout'}
-                            <p class="chart-subtitle">Mazout ordinaire · livraison {liters >= 2000 ? '≥ 2000 L' : '< 2000 L'}</p>
+                            <p class="chart-subtitle">Mazout ordinaire · livraison {activeliters >= 2000 ? '≥ 2000 L' : '< 2000 L'}</p>
                         {/if}
                     </div>
                 </div>
