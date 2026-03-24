@@ -482,7 +482,7 @@
     }
 
     function euros(n) {
-        return n.toLocaleString('fr-BE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        return n.toLocaleString('fr-BE', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
     }
 
     function eurosCompact(n) {
@@ -1010,11 +1010,13 @@
     .cost-label {
         font-weight: 600;
         display: flex;
-        align-items: center;
-        gap: 6px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
     }
 
     .cost-date {
+        display: block;
         font-weight: 400;
         opacity: 0.45;
         font-size: 0.75rem;
