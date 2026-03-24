@@ -1,6 +1,8 @@
 name: Update fuel prices
 
 on:
+  push:
+    branches: [main]
   schedule:
     # SPF prices + carbu.com — 08:00 Brussels (07:00 UTC)
     - cron: '0 7 * * *'
@@ -10,12 +12,20 @@ on:
     - cron: '0 19 * * *'
   workflow_dispatch: {}
 
+# Prevent infinite loop: skip if the push was made by the bot itself
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
 jobs:
   update-spf:
     name: Fetch SPF prices (08:00 only)
     runs-on: ubuntu-latest
-    # Run only on the 07:00 UTC trigger (not the 11:00 or 19:00 ones)
-    if: github.event.schedule == '0 7 * * *' || github.event_name == 'workflow_dispatch'
+    # On push: run for all non-bot commits. On schedule: only the 07:00 UTC trigger.
+    if: |
+      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
+      github.event.schedule == '0 7 * * *' ||
+      github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
 
@@ -52,6 +62,8 @@ jobs:
   update-best-prices:
     name: Fetch carbu.com best prices
     runs-on: ubuntu-latest
+    # Skip if the push was made by the bot (avoid infinite loop)
+    if: github.actor != 'github-actions[bot]'
     permissions:
       contents: write
 
