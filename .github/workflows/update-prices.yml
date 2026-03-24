@@ -30,16 +30,19 @@ jobs:
       - name: Fetch latest prices
         run: node scripts/fetch-prices.js
 
+      - name: Fetch best prices (carbu.com)
+        run: node scripts/fetch-best-prices.js
+
       - name: Check if data changed
         id: diff
         run: |
-          git diff --quiet public/data/prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/prices.json public/data/best-prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated prices
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/prices.json
+          git add public/data/prices.json public/data/best-prices.json
           git commit -m "chore: update fuel prices $(date -u +%Y-%m-%d)"
           git push

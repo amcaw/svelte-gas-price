@@ -215,7 +215,7 @@
         const fuelColor = colors[activeFuel === 'mazout' ? 'mazout' : activeFuel] ?? colors.essence95;
         const duration = animate ? 450 : 0;
 
-        const margin = { top: 8, right: 8, bottom: 28, left: 48 };
+        const margin = { top: 12, right: 46, bottom: 22, left: 38 };
         const W = chartWrap.clientWidth  || 400;
         const H = Math.max(80, chartWrap.clientHeight || 140);
         const w = W - margin.left - margin.right;
@@ -238,13 +238,15 @@
         const areaGen = d3.area().x(d => x(d.date)).y0(h).y1(d => y(d.price)).curve(d3.curveCatmullRom);
         const lineGen = d3.line().x(d => x(d.date)).y(d => y(d.price)).curve(d3.curveCatmullRom);
 
-        // Grid — enter/update with transition
+        // Grid — horizontal lines only, no domain
         const gridFn = d3.axisLeft(y).ticks(3).tickSize(-w).tickFormat('');
         let gridG = g.select('g.grid');
         if (gridG.empty()) gridG = g.insert('g', ':first-child').attr('class', 'grid');
         (animate ? gridG.transition().duration(duration) : gridG).call(gridFn);
         gridG.select('.domain').remove();
-        gridG.selectAll('.tick line').attr('stroke', colors.grid);
+        gridG.selectAll('.tick line')
+            .attr('stroke', colors.grid)
+            .attr('stroke-dasharray', '3 3');
 
         // Ukraine war highlight band (24 Feb 2022 – 24 Aug 2022)
         g.selectAll('.war-band').remove();
@@ -279,27 +281,43 @@
             .attr('stroke-dasharray', '4 2').attr('stroke-width', 1).attr('y1', 0).attr('y2', h).attr('opacity', 0);
         vline.attr('stroke', colors.axis);
 
-        // X-axis — tick density adapts to range
+        // X-axis — text only, no domain line, no tick marks
         const xTickInterval = chartRange === '5y' ? d3.timeYear.every(1)
                             : chartRange === '3y' ? d3.timeMonth.every(6)
                             : d3.timeMonth.every(2);
         const xTickFormat = chartRange === '5y' ? frTimeFormat('%Y') : frTimeFormat('%b %y');
         g.selectAll('.x-axis').remove();
-        g.append('g').attr('class', 'x-axis').attr('transform', `translate(0,${h})`)
-            .call(d3.axisBottom(x).ticks(xTickInterval).tickFormat(xTickFormat))
-            .call(ax => ax.select('.domain').attr('stroke', colors.axis))
-            .call(ax => ax.selectAll('.tick line').attr('stroke', colors.axis))
-            .call(ax => ax.selectAll('text').attr('fill', colors.text).style('font-family', 'Montserrat, sans-serif').style('font-size', '10px'));
+        g.append('g').attr('class', 'x-axis').attr('transform', `translate(0,${h + 4})`)
+            .call(d3.axisBottom(x).ticks(xTickInterval).tickFormat(xTickFormat).tickSize(0))
+            .call(ax => ax.select('.domain').remove())
+            .call(ax => ax.selectAll('text')
+                .attr('fill', colors.text).attr('opacity', 0.45)
+                .style('font-family', 'Montserrat, sans-serif').style('font-size', '10px'));
 
-        // Y-axis — enter/update with transition so ticks interpolate
-        const yAxisFn = d3.axisLeft(y).ticks(3)
-            .tickFormat(d => `${d.toLocaleString('fr-BE', {minimumFractionDigits: 2, maximumFractionDigits: 2})}€`);
-        let yAxisG = g.select('g.y-axis');
-        if (yAxisG.empty()) yAxisG = g.append('g').attr('class', 'y-axis');
-        (animate ? yAxisG.transition().duration(duration) : yAxisG).call(yAxisFn);
-        yAxisG.select('.domain').attr('stroke', colors.axis);
-        yAxisG.selectAll('.tick line').attr('stroke', colors.axis);
-        yAxisG.selectAll('text').attr('fill', colors.text).style('font-family', 'Montserrat, sans-serif').style('font-size', '10px');
+        // Y-axis — labels outside left edge, no domain line, no tick marks
+        g.selectAll('.y-label').remove();
+        y.ticks(3).forEach(t => {
+            g.append('text').attr('class', 'y-label')
+                .attr('x', -5).attr('y', y(t) + 3)
+                .attr('fill', colors.text).attr('opacity', 0.4)
+                .style('font-family', 'Montserrat, sans-serif').style('font-size', '9px')
+                .attr('text-anchor', 'end')
+                .text(t.toLocaleString('fr-BE', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '€');
+        });
+
+        // End-of-line dot + current price label
+        g.selectAll('.end-label').remove();
+        const lastD = data[data.length - 1];
+        const ex = x(lastD.date);
+        const ey = y(lastD.price);
+        g.append('circle').attr('class', 'end-label')
+            .attr('cx', ex).attr('cy', ey).attr('r', 2.5)
+            .attr('fill', fuelColor);
+        g.append('text').attr('class', 'end-label')
+            .attr('x', ex + 6).attr('y', ey + 4)
+            .attr('fill', fuelColor)
+            .style('font-family', 'Montserrat, sans-serif').style('font-size', '10px').style('font-weight', '600')
+            .text(lastD.price.toLocaleString('fr-BE', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '€');
 
         // Denomination change markers
         g.selectAll('.denom-marker').remove();
@@ -318,49 +336,79 @@
                 .text(m.label);
         }
 
-        // Curved arrow annotation — 28 Feb 2026, US-Israel/Iran offensive
-        g.selectAll('.annot').remove();
+        // Curved arrow annotation — persistent group outside chart-g (not affected by crossfade)
         {
+            // Arrowhead marker (defs, once per svg)
+            let defs = svg.select('defs.annot-defs');
+            if (defs.empty()) {
+                defs = svg.insert('defs', ':first-child').attr('class', 'annot-defs');
+                defs.append('marker').attr('id', 'annot-arrow')
+                    .attr('viewBox', '0 -4 8 8').attr('refX', 7).attr('refY', 0)
+                    .attr('markerWidth', 7).attr('markerHeight', 7).attr('orient', 'auto')
+                    .append('path').attr('d', 'M0,-4L8,0L0,4').attr('class', 'annot-marker-path');
+            }
+            svg.select('.annot-marker-path').attr('fill', colors.text).attr('opacity', 0.8);
+
+            // Persistent group — always re-appended last so it stays on top
+            let annotG = svg.select('g.annot-g');
+            if (annotG.empty()) annotG = svg.append('g').attr('class', 'annot-g');
+            else svg.append(() => annotG.node());
+            annotG.attr('transform', `translate(${margin.left},${margin.top})`);
+
             const annotDate = new Date('2026-02-28');
-            const [xMin, xMax] = x.domain();
-            if (annotDate >= xMin && annotDate <= xMax) {
+            const [xMinA, xMaxA] = x.domain();
+            const annotVisible = annotDate >= xMinA && annotDate <= xMaxA;
+            const annotDur = 350;
+
+            if (annotVisible) {
                 const bisectA = d3.bisector(d => d.date).left;
                 const ai = bisectA(data, annotDate, 1);
                 const da = (data[ai - 1] && Math.abs(data[ai - 1].date - annotDate) <= Math.abs((data[ai] || data[ai-1]).date - annotDate))
                     ? data[ai - 1] : (data[ai] || data[ai - 1]);
                 const ax = x(annotDate);
                 const ay = y(da.price);
-                // Place label above, shifted left/right to stay in bounds
                 const labelOffX = ax > w * 0.6 ? -52 : 52;
                 const labelOffY = -38;
                 const lx = ax + labelOffX;
                 const ly = ay + labelOffY;
-                // Arrowhead marker (defs, once per svg)
-                let defs = svg.select('defs.annot-defs');
-                if (defs.empty()) {
-                    defs = svg.insert('defs', ':first-child').attr('class', 'annot-defs');
-                    defs.append('marker').attr('id', 'annot-arrow')
-                        .attr('viewBox', '0 -4 8 8').attr('refX', 7).attr('refY', 0)
-                        .attr('markerWidth', 7).attr('markerHeight', 7).attr('orient', 'auto')
-                        .append('path').attr('d', 'M0,-4L8,0L0,4').attr('class', 'annot-marker-path');
-                }
-                svg.select('.annot-marker-path').attr('fill', colors.text).attr('opacity', 0.8);
-                // Curved path
                 const cpx = ax + labelOffX * 0.3;
                 const cpy = ay + labelOffY * 0.6;
-                g.append('path').attr('class', 'annot')
-                    .attr('d', `M${lx},${ly} Q${cpx},${cpy} ${ax},${ay - 3}`)
-                    .attr('fill', 'none').attr('stroke', colors.text)
-                    .attr('stroke-width', 1).attr('opacity', 0.45)
-                    .attr('marker-end', 'url(#annot-arrow)');
-                // Label (two lines via tspan)
-                const txt = g.append('text').attr('class', 'annot')
-                    .attr('x', lx).attr('y', ly - 10)
-                    .attr('text-anchor', labelOffX > 0 ? 'start' : 'end')
-                    .attr('fill', colors.text).attr('opacity', 0.55)
-                    .attr('font-size', '8px').attr('font-family', 'Montserrat, sans-serif');
-                txt.append('tspan').attr('x', lx).attr('dy', 0).text('Début offensive');
-                txt.append('tspan').attr('x', lx).attr('dy', '1.2em').text('USA-Israël vs. Iran');
+                const pathD = `M${lx},${ly} Q${cpx},${cpy} ${ax},${ay - 3}`;
+                const anchor = labelOffX > 0 ? 'start' : 'end';
+
+                // Path — create once, transition position on update
+                let annotPath = annotG.select('path.annot');
+                if (annotPath.empty()) {
+                    annotPath = annotG.append('path').attr('class', 'annot')
+                        .attr('d', pathD).attr('fill', 'none').attr('stroke', colors.text)
+                        .attr('stroke-width', 1).attr('opacity', 0).attr('marker-end', 'url(#annot-arrow)');
+                    annotPath.transition('annot').duration(annotDur).attr('opacity', 0.6);
+                } else {
+                    annotPath.transition('annot').duration(annotDur)
+                        .attr('d', pathD).attr('stroke', colors.text).attr('opacity', 0.6);
+                }
+
+                // Text — create once, transition position on update
+                let annotText = annotG.select('text.annot');
+                if (annotText.empty()) {
+                    annotText = annotG.append('text').attr('class', 'annot')
+                        .attr('x', lx).attr('y', ly - 10).attr('text-anchor', anchor)
+                        .attr('fill', colors.text).attr('opacity', 0)
+                        .attr('font-size', '8px').attr('font-family', 'Montserrat, sans-serif');
+                    annotText.append('tspan').attr('x', lx).attr('dy', 0).text('Début offensive');
+                    annotText.append('tspan').attr('x', lx).attr('dy', '1.2em').text('USA-Israël vs. Iran');
+                    annotText.transition('annot').duration(annotDur).attr('opacity', 0.7);
+                } else {
+                    annotText.transition('annot').duration(annotDur)
+                        .attr('x', lx).attr('y', ly - 10).attr('text-anchor', anchor)
+                        .attr('fill', colors.text).attr('opacity', 0.7);
+                    annotText.selectAll('tspan').attr('x', lx);
+                }
+            } else {
+                annotG.select('path.annot').transition('annot').duration(200).attr('opacity', 0)
+                    .on('end', function() { d3.select(this).remove(); });
+                annotG.select('text.annot').transition('annot').duration(200).attr('opacity', 0)
+                    .on('end', function() { d3.select(this).remove(); });
             }
         }
 
@@ -425,7 +473,8 @@
 
     function adjust(delta) {
         const step = activeFuel === 'mazout' ? 100 : 5;
-        liters = Math.max(1, (parseInt(liters) || 0) + delta * step);
+        const max  = activeFuel === 'mazout' ? 3000 : 100;
+        liters = Math.min(max, Math.max(1, (parseInt(liters) || 0) + delta * step));
     }
 
     function euros(n) {
@@ -452,7 +501,7 @@
 
     <!-- ── Header ── -->
     <div class="header">
-        <h1 class="title">Prix des carburants en Belgique</h1>
+        <h1 class="title">Prix maximum des carburants en Belgique</h1>
         {#if prices}
             <span class="updated">MAJ {formatDate(prices.lastUpdated)}</span>
         {/if}
@@ -509,20 +558,28 @@
         <!-- ── Calculator ── -->
         <section class="calc-card">
             <p class="calc-label">
-                Indiquez une quantité de carburant
+                {activeFuel === 'mazout' ? 'Indiquez une quantité de combustible' : 'Indiquez une quantité de carburant'}
             </p>
 
             <div class="calc-row">
                 <button class="adj-btn" onclick={() => adjust(-1)} aria-label="Diminuer">−</button>
-                <input
-                    type="number"
-                    min="1"
-                    max={activeFuel === 'mazout' ? 10000 : 200}
-                    bind:value={liters}
-                    aria-label="Nombre de litres"
-                />
+                <div class="input-wrap" style:width={activeFuel === 'mazout' ? '116px' : '80px'}>
+                    <input
+                        type="number"
+                        min="1"
+                        max={activeFuel === 'mazout' ? 3000 : 100}
+                        bind:value={liters}
+                        aria-label="Nombre de litres"
+                        oninput={(e) => {
+                            const max = activeFuel === 'mazout' ? 3000 : 100;
+                            const v = parseInt(e.target.value) || 1;
+                            liters = Math.min(max, Math.max(1, v));
+                            e.target.value = liters;
+                        }}
+                    />
+                    <span class="unit-label">L</span>
+                </div>
                 <button class="adj-btn" onclick={() => adjust(1)} aria-label="Augmenter">+</button>
-                <span class="unit-label">L</span>
             </div>
 
             {#if comparison() != null}
@@ -545,11 +602,14 @@
                             <span class="cost-date">{formatDate(cmp.dateA)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
                         <span class="cost-amount-col">
-                            <span class="cost-amount">{euros(costA)} €</span>
-                            {#if diffA != null}
+                            <span class="cost-amount">{liters > 0 ? euros(costA) + ' €' : '—'}</span>
+                            {#if diffA != null && liters > 0 && !isNaN(pctA)}
                                 <span class="ya-sub" class:ya-up={diffA > 0} class:ya-down={diffA < 0}>
                                     {diffA > 0 ? '+' : ''}{eurosCompact(diffA)} € ({pctA > 0 ? '+' : ''}{pctA}%)
                                 </span>
+                                <span class="ya-label">par rapport à l'an dernier</span>
+                            {:else if ya?.priceYearAgoA != null}
+                                <span class="ya-sub">—%</span>
                                 <span class="ya-label">par rapport à l'an dernier</span>
                             {/if}
                         </span>
@@ -560,11 +620,14 @@
                             <span class="cost-date">{formatDate(cmp.dateB)}{mazoutTag ? ` · ${mazoutTag}` : ''}</span>
                         </span>
                         <span class="cost-amount-col">
-                            <span class="cost-amount">{euros(costB)} €</span>
-                            {#if diffB != null}
+                            <span class="cost-amount">{liters > 0 ? euros(costB) + ' €' : '—'}</span>
+                            {#if diffB != null && liters > 0 && !isNaN(pctB)}
                                 <span class="ya-sub" class:ya-up={diffB > 0} class:ya-down={diffB < 0}>
                                     {diffB > 0 ? '+' : ''}{eurosCompact(diffB)} € ({pctB > 0 ? '+' : ''}{pctB}%)
                                 </span>
+                                <span class="ya-label">par rapport à l'an dernier</span>
+                            {:else if ya?.priceYearAgoB != null}
+                                <span class="ya-sub">—%</span>
                                 <span class="ya-label">par rapport à l'an dernier</span>
                             {/if}
                         </span>
@@ -577,14 +640,21 @@
         <section class="chart-section">
             <div class="chart-header">
                 <div class="chart-title-row">
-                    <h2 class="chart-title">
-                        Évolution sur {chartRange === '1y' ? '1 an' : chartRange === '3y' ? '3 ans' : '5 ans'}
-                    </h2>
-                    {#if activeFuel === 'mazout'}
-                        <span class="info-icon" aria-label="Note sur le mazout">ⓘ
-                            <span class="info-tooltip">Prix affiché : gasoil de chauffage ordinaire H0/H7 (norme NBN T52-716, ≤10 ppm soufre), prix officiel maximum TVAC fixé par le SPF Économie. Avant avril 2024, le graphe utilise l'ancienne dénomination Statbel « Gasoil Diesel Chauffage ».</span>
-                        </span>
-                    {/if}
+                    <div>
+                        <div class="chart-title-line">
+                            <h2 class="chart-title">
+                                Évolution sur {chartRange === '1y' ? '1 an' : chartRange === '3y' ? '3 ans' : '5 ans'}
+                            </h2>
+                            {#if activeFuel === 'mazout'}
+                                <span class="info-icon" aria-label="Note sur le mazout">ⓘ
+                                    <span class="info-tooltip">Prix affiché : gasoil de chauffage (Gasoil Diesel Chauffage), prix officiel maximum TVAC fixé par le SPF Économie.</span>
+                                </span>
+                            {/if}
+                        </div>
+                        {#if activeFuel === 'mazout'}
+                            <p class="chart-subtitle">Mazout ordinaire · livraison {liters >= 2000 ? '≥ 2000 L' : '< 2000 L'}</p>
+                        {/if}
+                    </div>
                 </div>
                 <div class="range-tabs">
                     {#each [['1y','1 an'],['3y','3 ans'],['5y','5 ans']] as [r, label]}
@@ -596,12 +666,10 @@
                     {/each}
                 </div>
             </div>
-            {#if chartRange === '5y'}
-                <div class="chart-legend">
-                    <span class="war-swatch"></span>
-                    <span class="war-label">6 premiers mois de la guerre en Ukraine</span>
-                </div>
-            {/if}
+            <div class="chart-legend" style:visibility={chartRange === '5y' ? 'visible' : 'hidden'}>
+                <span class="war-swatch"></span>
+                <span class="war-label">6 premiers mois de la guerre en Ukraine</span>
+            </div>
             <div class="chart-wrap" bind:this={chartWrap}>
                 <svg bind:this={svgEl} style="width:100%;height:100%;display:block;"></svg>
                 {#if histLoading}
@@ -662,7 +730,6 @@
         justify-content: space-between;
         gap: 8px;
     }
-
     .title {
         font-size: 1rem;
         font-weight: 700;
@@ -871,15 +938,28 @@
         .adj-btn:hover, .adj-btn:active { background: #003D60; color: #fff; }
     }
 
-    input[type="number"] {
-        width: 80px;
+    .input-wrap {
+        display: inline-flex;
+        align-items: center;
+        gap: 1px;
+        border: 2px solid rgba(255,255,255,0.2);
+        border-radius: 10px;
+        padding: 0 12px;
         height: 48px;
-        text-align: center;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .input-wrap { border-color: rgba(0,0,0,0.12); }
+    }
+
+    input[type="number"] {
+        flex: 1;
+        min-width: 0;
+        text-align: right;
         font-family: inherit;
         font-size: 1.3rem;
         font-weight: 700;
-        border: 2px solid rgba(255,255,255,0.2);
-        border-radius: 10px;
+        border: none;
         background: transparent;
         color: inherit;
         outline: none;
@@ -890,14 +970,11 @@
     input[type="number"]::-webkit-outer-spin-button,
     input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
-    @media (prefers-color-scheme: light) {
-        input[type="number"] { border-color: rgba(0,0,0,0.12); }
-    }
-
     .unit-label {
         font-size: 1.3rem;
         font-weight: 700;
-        opacity: 0.45;
+        opacity: 0.4;
+        pointer-events: none;
     }
 
     /* ── Cost comparison card ── */
@@ -981,6 +1058,11 @@
         flex-shrink: 0;
     }
 
+    .chart-title-line {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
     .chart-title {
         font-size: 0.72rem;
         font-weight: 700;
@@ -988,6 +1070,13 @@
         margin: 0;
         text-transform: uppercase;
         letter-spacing: 0.07em;
+    }
+    .chart-subtitle {
+        font-size: 0.65rem;
+        font-weight: 500;
+        opacity: 0.4;
+        margin: 1px 0 0;
+        letter-spacing: 0.03em;
     }
 
     .range-tabs {

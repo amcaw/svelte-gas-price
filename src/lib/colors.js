@@ -7,6 +7,7 @@ export function getColors() {
         window.matchMedia('(prefers-color-scheme: dark)').matches;
     return {
         essence95:  dark ? '#E63946' : '#B82D35',
+        super98:    dark ? '#F4A261' : '#C15C00',
         diesel:     dark ? '#4A90E2' : '#053061',
         mazout:     dark ? '#F4A261' : '#B85C00',
         text:       dark ? '#F0F0F1' : '#2E3238',
