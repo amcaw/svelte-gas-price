@@ -11,7 +11,7 @@
  *   74d181b1  → annual averages 2019–present (French labels)
  */
 
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -146,11 +146,23 @@ async function main() {
         fetchAnnual(),
     ]);
 
+    // Merge new daily entries with existing archive (new data wins on duplicate dates)
+    let archivedDaily = [];
+    if (existsSync(OUT)) {
+        try {
+            const existing = JSON.parse(readFileSync(OUT, 'utf8'));
+            if (Array.isArray(existing.daily)) archivedDaily = existing.daily;
+        } catch { /* première exécution ou fichier corrompu */ }
+    }
+    const byDate = new Map(archivedDaily.map(e => [e.date, e]));
+    for (const entry of dailyData) byDate.set(entry.date, entry);
+    const mergedDaily = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+
     const output = {
         lastUpdated: new Date().toLocaleDateString('sv'), // date du cron, pas de l'API
         priceDate:   todayData.date,                      // date de validité des prix
         today: todayData.prices,
-        daily: dailyData,
+        daily: mergedDaily,
         monthly: monthlyData,
         annual: annualData,
     };
@@ -161,7 +173,7 @@ async function main() {
     const t = todayData.prices;
     console.log(`✓ Written to ${OUT}`);
     console.log(`  Today (${todayData.date}): E95=${t.essence95} E98=${t.essence98} D7=${t.diesel} Mazout<2000=${t.mazout} Mazout>=2000=${t.mazout_plus}`);
-    console.log(`  Daily: ${dailyData.length} entries | Monthly: ${monthlyData.length} | Annual: ${annualData.length} years (${annualData[0]?.year}–${annualData.at(-1)?.year})`);
+    console.log(`  Daily archive: ${mergedDaily.length} entries (${mergedDaily[0]?.date} → ${mergedDaily.at(-1)?.date}) | Monthly: ${monthlyData.length} | Annual: ${annualData.length} years (${annualData[0]?.year}–${annualData.at(-1)?.year})`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

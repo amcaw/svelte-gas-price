@@ -195,3 +195,76 @@ Prix en **€/L** pour essence et diesel, **€/1000L** pour le mazout (conventi
 - Aucun cookie, aucun tracking côté widget.
 - Les données sont locales (JSON statique servi depuis GitHub Pages).
 - Pas de formulaire avec envoi de données personnelles.
+
+---
+
+## Stratégie d'affichage — Gasoil de chauffage (mazout)
+
+### Les deux tarifs affichés
+
+Le gasoil de chauffage (mazout) belge est soumis à un **prix maximum légal** fixé par le SPF Économie. Ce prix dépend du volume livré :
+
+| Intitulé dans l'interface | Condition             | Code interne  |
+|---------------------------|-----------------------|---------------|
+| `< 2000 L`                | Livraison < 2 000 L  | `mazout`      |
+| `≥ 2000 L`                | Livraison ≥ 2 000 L  | `mazout_plus` |
+
+La livraison en plus grande quantité bénéficie toujours d'un tarif légèrement inférieur (typiquement **0,03 à 0,04 €/L** d'écart).
+
+### Deux dénominations dans les données Statbel
+
+L'API Statbel a changé sa nomenclature produit **en avril 2024**, suite à l'entrée en vigueur de la norme belge **NBN T52-716** (harmonisation européenne) :
+
+- **Avant avril 2024** — appellation *legacy* :
+  - `Gasoil Diesel Heating/Chauffage < 2000 L`
+  - `Gasoil Diesel Heating/Chauffage >= 2000 L`
+
+- **Depuis avril 2024** — nouvelle appellation normative :
+  - `H0 Domestic Heating … < 2000 L`
+  - `H7 Domestic Heating … >= 2000 L`
+
+L'API publie les deux appellations **en parallèle** depuis le changement — une même date peut donc avoir des entrées legacy *et* H0/H7.
+
+### Choix retenu : toujours l'appellation legacy
+
+Pour garantir une **continuité sur toute la plage historique** (2019 – aujourd'hui), `scripts/fetch-prices.js` utilise systématiquement l'appellation legacy et exclut explicitement `H0` :
+
+```js
+// Gasoil Diesel Heating/Chauffage (appellation legacy, cohérente sur toutes les dates)
+if ((name.includes('Heating') || name.includes('Chauffage'))
+    && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+    && (name.includes('>=2000') || name.includes('partir'))) return 'mazout_plus';
+if ((name.includes('Heating') || name.includes('Chauffage'))
+    && !name.includes('H0') && !name.includes('Agriculture') && !name.includes('I&C')
+    && (name.includes('<2000') || name.includes('moins de 2000'))) return 'mazout';
+```
+
+Le filtre `!name.includes('H0')` ignore volontairement la nouvelle nomenclature.
+
+Pour les données historiques issues d'un CSV (`scripts/build-historical.js`), la préférence est :
+
+```js
+mazout_legacy ?? mazout   // legacy d'abord, H0 en fallback si legacy absent
+```
+
+### Exemples de prix historiques
+
+Prix maximum TTC (€/L), livraison résidentielle standard :
+
+| Date       | `< 2000 L` | `≥ 2000 L` | Contexte                                        |
+|------------|------------|------------|-------------------------------------------------|
+| 2021-06-01 | 0,655      | 0,625      | Post-COVID, prix bas                            |
+| 2022-06-01 | 1,342      | 1,310      | Pic de la crise énergétique (guerre en Ukraine) |
+| 2023-03-01 | 1,016      | 0,980      | Détente progressive des marchés                 |
+| 2024-03-01 | 1,005      | 0,967      | Veille du changement de norme (H0/H7)           |
+| 2024-06-01 | 0,918      | 0,879      | Premier été post-norme — données legacy encore présentes |
+| 2025-01-01 | 0,897      | 0,857      | Légère baisse hivernale                         |
+
+### Résumé
+
+| Aspect                       | Choix retenu                                         |
+|------------------------------|------------------------------------------------------|
+| Intitulé affiché             | `< 2000 L` / `≥ 2000 L` (neutre, sans référence à la norme) |
+| Dénomination interne         | Legacy « Gasoil Diesel Chauffage »                   |
+| Norme H0/H7 (post-avril 2024)| Ignorée volontairement pour cohérence historique     |
+| Source                       | API Statbel (CC BY 4.0)                              |
