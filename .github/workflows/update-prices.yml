@@ -2,14 +2,55 @@ name: Update fuel prices
 
 on:
   schedule:
-    # Every weekday at 07:00 UTC (09:00 Brussels time) — prix du jour
-    - cron: '0 7 * * 1-5'
-    # Every weekday at 15:00 UTC (17:00 Brussels time) — prix du lendemain publiés ~16h
-    - cron: '0 15 * * 1-5'
-  workflow_dispatch: {}  # allow manual trigger
+    # SPF prices + carbu.com — 08:00 Brussels (07:00 UTC)
+    - cron: '0 7 * * *'
+    # carbu.com only — 12:00 Brussels (11:00 UTC)
+    - cron: '0 11 * * *'
+    # carbu.com only — 20:00 Brussels (19:00 UTC)
+    - cron: '0 19 * * *'
+  workflow_dispatch: {}
 
 jobs:
-  update:
+  update-spf:
+    name: Fetch SPF prices (08:00 only)
+    runs-on: ubuntu-latest
+    # Run only on the 07:00 UTC trigger (not the 11:00 or 19:00 ones)
+    if: github.event.schedule == '0 7 * * *' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch SPF prices
+        run: node scripts/fetch-prices.js
+
+      - name: Check if data changed
+        id: diff
+        run: |
+          git diff --quiet public/data/prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/prices.json
+          git commit -m "chore: update SPF prices $(date -u +%Y-%m-%d)"
+          git push
+
+  update-best-prices:
+    name: Fetch carbu.com best prices
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -27,22 +68,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch latest prices
-        run: node scripts/fetch-prices.js
-
       - name: Fetch best prices (carbu.com)
         run: node scripts/fetch-best-prices.js
 
       - name: Check if data changed
         id: diff
         run: |
-          git diff --quiet public/data/prices.json public/data/best-prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/best-prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push updated prices
+      - name: Commit and push
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/prices.json public/data/best-prices.json
-          git commit -m "chore: update fuel prices $(date -u +%Y-%m-%d)"
+          git add public/data/best-prices.json
+          git commit -m "chore: update best prices $(date -u +%Y-%m-%d %H:%M)"
           git push

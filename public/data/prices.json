@@ -4,18 +4,10 @@
     "essence95": 1.86,
     "essence98": 1.93,
     "diesel": 2.29,
-    "mazout_plus": 1.39,
-    "mazout": 1.43
+    "mazout_plus": 1.4,
+    "mazout": 1.44
   },
   "daily": [
-    {
-      "date": "2025-03-25",
-      "essence95": 1.64,
-      "essence98": 1.69,
-      "diesel": 1.72,
-      "mazout_plus": 0.81,
-      "mazout": 0.85
-    },
     {
       "date": "2025-03-26",
       "essence95": 1.64,
@@ -2869,8 +2861,8 @@
       "essence95": 1.75,
       "essence98": 1.82,
       "diesel": 2.02,
-      "mazout_plus": 1.19,
-      "mazout": 1.23
+      "mazout_plus": 1.2,
+      "mazout": 1.24
     },
     {
       "date": "2026-03-18",
@@ -2885,7 +2877,7 @@
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.24,
+      "mazout_plus": 1.25,
       "mazout": 1.29
     },
     {
@@ -2893,40 +2885,48 @@
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.31,
-      "mazout": 1.35
+      "mazout_plus": 1.35,
+      "mazout": 1.39
     },
     {
       "date": "2026-03-21",
       "essence95": 1.84,
       "essence98": 1.9,
       "diesel": 2.11,
-      "mazout_plus": 1.37,
-      "mazout": 1.41
+      "mazout_plus": 1.41,
+      "mazout": 1.45
     },
     {
       "date": "2026-03-22",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.39,
-      "mazout": 1.43
+      "mazout_plus": 1.44,
+      "mazout": 1.48
     },
     {
       "date": "2026-03-23",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.39,
-      "mazout": 1.43
+      "mazout_plus": 1.44,
+      "mazout": 1.48
     },
     {
       "date": "2026-03-24",
       "essence95": 1.86,
       "essence98": 1.93,
       "diesel": 2.29,
-      "mazout_plus": 1.39,
-      "mazout": 1.43
+      "mazout_plus": 1.44,
+      "mazout": 1.48
+    },
+    {
+      "date": "2026-03-25",
+      "essence95": 1.86,
+      "essence98": 1.93,
+      "diesel": 2.29,
+      "mazout_plus": 1.4,
+      "mazout": 1.44
     }
   ],
   "monthly": [
@@ -2935,7 +2935,9 @@
       "month": 3,
       "essence95": 1.76,
       "essence98": 1.96,
-      "diesel": 1.85
+      "diesel": 1.85,
+      "mazout_plus": 0.97,
+      "mazout": 1
     },
     {
       "year": 2024,
@@ -2944,7 +2946,7 @@
       "essence98": 1.99,
       "diesel": 1.87,
       "mazout_plus": 0.96,
-      "mazout": 0.99
+      "mazout": 1
     },
     {
       "year": 2024,
@@ -3150,39 +3152,49 @@
       "year": 2019,
       "essence95": 1.47,
       "essence98": 1.53,
-      "diesel": 1.52
+      "diesel": 1.52,
+      "mazout_plus": 0.67,
+      "mazout": 0.7
     },
     {
       "year": 2020,
       "essence95": 1.35,
       "essence98": 1.42,
-      "diesel": 1.37
+      "diesel": 1.37,
+      "mazout_plus": 0.46,
+      "mazout": 0.49
     },
     {
       "year": 2021,
       "essence95": 1.56,
       "essence98": 1.64,
-      "diesel": 1.57
+      "diesel": 1.57,
+      "mazout_plus": 0.65,
+      "mazout": 0.68
     },
     {
       "year": 2022,
       "essence95": 1.85,
       "essence98": 2.03,
-      "diesel": 1.99
+      "diesel": 1.99,
+      "mazout_plus": 1.2,
+      "mazout": 1.23
     },
     {
       "year": 2023,
       "essence95": 1.79,
       "essence98": 1.99,
-      "diesel": 1.83
+      "diesel": 1.83,
+      "mazout_plus": 0.96,
+      "mazout": 1
     },
     {
       "year": 2024,
       "essence95": 1.72,
       "essence98": 1.84,
       "diesel": 1.79,
-      "mazout_plus": 0.86,
-      "mazout": 0.9
+      "mazout_plus": 0.89,
+      "mazout": 0.93
     },
     {
       "year": 2025,
@@ -3196,9 +3208,9 @@
       "year": 2026,
       "essence95": 1.63,
       "essence98": 1.7,
-      "diesel": 1.79,
-      "mazout_plus": 0.87,
-      "mazout": 0.91
+      "diesel": 1.8,
+      "mazout_plus": 0.88,
+      "mazout": 0.92
     }
   ]
 }
