@@ -117,7 +117,6 @@
 
 <style>
     .widget {
-        padding: 16px 18px 14px;
         width: 100%;
         font-family: 'Montserrat', sans-serif;
         box-sizing: border-box;
