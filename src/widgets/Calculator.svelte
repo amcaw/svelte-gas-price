@@ -442,7 +442,7 @@
 
     $effect(() => {
         activeChartKey();
-        if (prices) untrack(() => drawChart(true));
+        if (prices) untrack(() => requestAnimationFrame(() => drawChart(true)));
     });
 
     onMount(() => {
