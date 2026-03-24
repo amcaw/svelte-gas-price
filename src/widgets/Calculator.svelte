@@ -571,7 +571,7 @@
 
             <div class="calc-row">
                 <button class="adj-btn" onclick={() => adjust(-1)} aria-label="Diminuer">−</button>
-                <div class="input-wrap" style:width={activeFuel === 'mazout' ? '116px' : '80px'}>
+                <div class="input-wrap" class:input-wrap-mazout={activeFuel === 'mazout'}>
                     <input
                         type="number"
                         min="1"
@@ -946,7 +946,9 @@
         border-radius: 10px;
         padding: 0 12px;
         height: 48px;
+        min-width: 90px;
     }
+    .input-wrap-mazout { min-width: 120px; }
 
     @media (prefers-color-scheme: light) {
         .input-wrap { border-color: rgba(0,0,0,0.12); }
