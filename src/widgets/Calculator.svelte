@@ -440,14 +440,18 @@
             });
     }
 
+    // Redraw on fuel/liter change (animated)
     $effect(() => {
         activeChartKey();
-        if (prices) untrack(() => requestAnimationFrame(() => drawChart(true)));
+        untrack(() => { if (prices && chartWrap) drawChart(true); });
     });
 
-    onMount(() => {
-        const ro = new ResizeObserver(() => { if (prices) drawChart(false); });
-        setTimeout(() => { if (chartWrap) ro.observe(chartWrap); }, 0);
+    // Attach ResizeObserver once chartWrap is in the DOM (after prices loads).
+    // ResizeObserver fires once on attach, giving correct clientWidth for initial draw.
+    $effect(() => {
+        if (!chartWrap) return;
+        const ro = new ResizeObserver(() => untrack(() => { if (prices) drawChart(false); }));
+        ro.observe(chartWrap);
         return () => ro.disconnect();
     });
 
