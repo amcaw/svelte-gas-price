@@ -19,9 +19,9 @@ concurrency:
 
 jobs:
   update-spf:
-    name: Fetch SPF prices (08:00 only)
+    name: Fetch SPF prices (10:00 only)
     runs-on: ubuntu-latest
-    # On push: run for all non-bot commits. On schedule: only the 07:00 UTC trigger.
+    # On push: run for all non-bot commits. On schedule: only the 09:00 UTC trigger.
     if: |
       (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
       github.event.schedule == '0 9 * * *' ||
@@ -50,7 +50,7 @@ jobs:
         run: |
           git diff --quiet public/data/prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push
+      - name: Commit to main
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
@@ -60,11 +60,18 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Trigger deploy
+      - name: Update data/prices.json on gh-pages directly
         if: steps.diff.outputs.changed == 'true'
-        run: gh workflow run deploy.yml --repo ${{ github.repository }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin gh-pages
+          git worktree add /tmp/gh-pages gh-pages
+          cp public/data/prices.json /tmp/gh-pages/data/prices.json
+          cd /tmp/gh-pages
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json
+          git diff --staged --quiet || git commit -m "chore: update prices data $(date -u +%Y-%m-%d)"
+          git push origin gh-pages
 
   update-best-prices:
     name: Fetch carbu.com best prices
@@ -95,7 +102,7 @@ jobs:
         run: |
           git diff --quiet public/data/best-prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push
+      - name: Commit to main
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
@@ -105,8 +112,15 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Trigger deploy
+      - name: Update data/best-prices.json on gh-pages directly
         if: steps.diff.outputs.changed == 'true'
-        run: gh workflow run deploy.yml --repo ${{ github.repository }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin gh-pages
+          git worktree add /tmp/gh-pages gh-pages
+          cp public/data/best-prices.json /tmp/gh-pages/data/best-prices.json
+          cd /tmp/gh-pages
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/best-prices.json
+          git diff --staged --quiet || git commit -m "chore: update best-prices data $(date -u +"%Y-%m-%d %H:%M")"
+          git push origin gh-pages
