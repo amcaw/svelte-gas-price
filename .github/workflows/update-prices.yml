@@ -60,6 +60,12 @@ jobs:
           git pull --rebase
           git push
 
+      - name: Trigger deploy
+        if: steps.diff.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   update-best-prices:
     name: Fetch carbu.com best prices
     runs-on: ubuntu-latest
@@ -98,3 +104,9 @@ jobs:
           git commit -m "chore: update best prices $(date -u +"%Y-%m-%d %H:%M")"
           git pull --rebase
           git push
+
+      - name: Trigger deploy
+        if: steps.diff.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
