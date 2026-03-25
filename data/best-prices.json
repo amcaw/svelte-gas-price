@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Overijse",
-        "price": 1.737,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Overijse/3090/BE_bf_496"
+        "locality": "Meise",
+        "price": 1.682,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Meise/1860/BE_bf_287"
       },
       "super98": {
         "locality": "Overijse",
@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Jodoigne",
-        "price": 1.738,
+        "price": 1.737,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jodoigne/1370/BE_bw_133"
       },
       "super98": {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Veurne",
-        "price": 1.703,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Veurne/8630/BE_foc_2429"
+        "locality": "Oudenburg",
+        "price": 1.713,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oudenburg/8460/BE_foc_2345"
       },
       "super98": {
         "locality": "Langemark-Poelkapelle",
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Kortessem",
-        "price": 1.708,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kortessem/3720/BE_li_690"
+        "locality": "Borgloon",
+        "price": 1.711,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Borgloon/3840/BE_li_755"
       },
       "super98": {
         "locality": "Kortessem",
@@ -167,19 +167,19 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Bastogne",
-        "price": 1.783,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bastogne/6600/BE_lu_1705"
+        "locality": "Paliseul",
+        "price": 1.813,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Paliseul/6850/BE_lu_1845"
       },
       "super98": {
-        "locality": "Bastogne",
-        "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Bastogne/6600/BE_lu_1705"
+        "locality": "Paliseul",
+        "price": 1.879,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Bastogne",
-        "price": 2.209,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bastogne/6600/BE_lu_1705"
+        "locality": "Paliseul",
+        "price": 2.239,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Paliseul/6850/BE_lu_1845"
       }
     },
     {
