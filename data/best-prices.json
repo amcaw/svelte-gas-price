@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-03-25",
   "source": "carbu.com",
   "provinces": [
     {
@@ -131,9 +131,9 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Aywaille",
-        "price": 1.73,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
+        "locality": "Blégny",
+        "price": 1.695,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blegny/4670/BE_lg_1085"
       },
       "super98": {
         "locality": "Ans",
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Bastogne/6600/BE_lu_1705"
       },
       "diesel": {
-        "locality": "Marche-en-Famenne",
-        "price": 2.142,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Bastogne",
+        "price": 2.209,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bastogne/6600/BE_lu_1705"
       }
     },
     {
