@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
   schedule:
-    # SPF prices + carbu.com — 08:00 Brussels (07:00 UTC)
-    - cron: '0 7 * * *'
-    # carbu.com only — 12:00 Brussels (11:00 UTC)
-    - cron: '0 11 * * *'
+    # SPF prices + carbu.com — 10:00 Brussels (09:00 UTC)
+    - cron: '0 9 * * *'
+    # carbu.com only — 13:00 Brussels (12:00 UTC)
+    - cron: '0 12 * * *'
     # carbu.com only — 20:00 Brussels (19:00 UTC)
     - cron: '0 19 * * *'
   workflow_dispatch: {}
@@ -24,7 +24,7 @@ jobs:
     # On push: run for all non-bot commits. On schedule: only the 07:00 UTC trigger.
     if: |
       (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
-      github.event.schedule == '0 7 * * *' ||
+      github.event.schedule == '0 9 * * *' ||
       github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
