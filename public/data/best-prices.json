@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25",
+  "lastUpdated": "2026-03-26",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Meise",
-        "price": 1.682,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Meise/1860/BE_bf_287"
+        "locality": "Kampenhout",
+        "price": 1.713,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kampenhout/1910/BE_bf_294"
       },
       "super98": {
         "locality": "Overijse",
@@ -131,9 +131,9 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Blégny",
-        "price": 1.695,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blegny/4670/BE_lg_1085"
+        "locality": "Aywaille",
+        "price": 1.73,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
         "locality": "Ans",
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ans/4430/BE_lg_980"
       },
       "diesel": {
-        "locality": "Blégny",
-        "price": 2.114,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Blegny/4670/BE_lg_1085"
+        "locality": "Fléron",
+        "price": 2.119,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Fleron/4620/BE_lg_1066"
       }
     },
     {
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Paliseul",
-        "price": 2.239,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Paliseul/6850/BE_lu_1845"
+        "locality": "Marche-en-Famenne",
+        "price": 2.142,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
     {
