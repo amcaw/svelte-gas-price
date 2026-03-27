@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 /**
  * fetch-prices.js
- * Fetches Belgian max fuel prices from Statbel / be.STAT API
- * and writes public/data/prices.json
+ * Fetches Belgian max fuel prices and writes public/data/prices.json
  *
- * Data sources (all CC BY 4.0):
- *   665e2960  → current day prices (all products)
+ * Today's prices: scraped from SPF official page (iframe)
+ *   https://petrolprices.economie.fgov.be/petrolprices?locale=fr
+ *
+ * Historical data (all CC BY 4.0, Statbel / be.STAT API):
  *   00881a30  → last 365 price-change events (daily, ~5–8 months)
  *   b2be867c  → last 24-month averages (monthly)
  *   74d181b1  → annual averages 2019–present (French labels)
@@ -14,13 +15,15 @@
 import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import * as cheerio from 'cheerio';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, '..', 'public', 'data', 'prices.json');
 
+const SPF_URL = 'https://petrolprices.economie.fgov.be/petrolprices?locale=fr';
+
 const BASE = 'https://bestat.statbel.fgov.be/bestat/api/views';
 const VIEWS = {
-    today:   '665e2960-bf86-4d64-b4a8-90f2d30ea892',
     daily:   '00881a30-7ec8-4117-93c3-c9e661b3dbd4',
     monthly: 'b2be867c-947a-47d3-8098-80a5071204b1',
     annual:  '74d181b1-7074-4c9f-9a71-85303980d41f',
@@ -78,19 +81,35 @@ function setH0Priority(bucket, lockedKeys, name, key, value) {
     }
 }
 
-// ── Fetch today ───────────────────────────────────────────────────────────────
+// ── Fetch today (SPF official page) ──────────────────────────────────────────
 async function fetchToday() {
-    const data = await fetchJSON(VIEWS.today);
+    const res = await fetch(SPF_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status} for SPF page`);
+    const html = await res.text();
+    const $ = cheerio.load(html);
+
+    // Date: "tarif valable à partir du 28.03.2026"
+    const headerText = $('.ui-datatable-header').text();
+    const dateMatch = headerText.match(/(\d{2})\.(\d{2})\.(\d{4})/);
+    if (!dateMatch) throw new Error('Could not parse date from SPF page');
+    const date = `${dateMatch[3]}-${dateMatch[2]}-${dateMatch[1]}`;
+
     const today = {};
-    const locked = new Set();
-    for (const fact of data.facts) {
-        const name = fact['Product'] || '';
-        const key = matchProduct(name);
-        if (key && fact['Price incl. VAT'] != null) {
-            setH0Priority(today, locked, name, key, parseFloat(fact['Price incl. VAT'].toFixed(2)));
-        }
-    }
-    const date = parseDay(data.facts[0]['Day']);
+    $('#petrolTable_data tr').each((_, row) => {
+        const cells = $(row).find('td');
+        const name = $(cells[0]).text().trim();
+        const priceText = $(cells[1]).text().trim();
+        const price = parseFloat(priceText.replace(',', '.'));
+        if (isNaN(price)) return;
+
+        const rounded = Math.round(price * 100) / 100;
+        if (name.includes('95'))               today.essence95 = rounded;
+        else if (name.includes('98'))          today.essence98 = rounded;
+        else if (name.includes('Diesel'))      today.diesel = rounded;
+        else if (name.includes('H0') && name.includes('partir'))     today.mazout_plus = rounded;
+        else if (name.includes('H0') && name.includes('moins'))      today.mazout = rounded;
+    });
+
     return { date, prices: today };
 }
 
@@ -155,7 +174,7 @@ async function fetchAnnual() {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-    console.log('Fetching prices from Statbel...');
+    console.log('Fetching prices (today: SPF, historical: Statbel)...');
 
     const [todayData, dailyData, monthlyData, annualData] = await Promise.all([
         fetchToday(),

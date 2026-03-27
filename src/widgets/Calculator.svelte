@@ -77,12 +77,18 @@
         return prices.today[fuelKey(activeFuel, activeliters)] ?? null;
     });
 
-    // Comparison: daily.at(-2) vs daily.at(-1)
+    // Comparison: previous daily vs current (SPF today or last daily)
     const comparison = $derived(() => {
         if (!prices || prices.daily.length < 2) return null;
         const fk = fuelKey(activeFuel, activeliters);
-        const entryA = prices.daily.at(-2);
-        const entryB = prices.daily.at(-1);
+        // Use SPF today price as entryB when it's newer than the last daily entry
+        const lastDaily = prices.daily.at(-1);
+        const spfDate = prices.priceDate;
+        const useSpf = spfDate && spfDate > lastDaily.date && prices.today[fk] != null;
+        const entryB = useSpf
+            ? { date: spfDate, [fk]: prices.today[fk] }
+            : lastDaily;
+        const entryA = useSpf ? lastDaily : prices.daily.at(-2);
         if (entryA[fk] == null || entryB[fk] == null) return null;
         const isTomorrow = entryB.date > todayISO;
         const delta = parseFloat((entryB[fk] - entryA[fk]).toFixed(4));
@@ -130,6 +136,12 @@
         const dailyEntries = prices.daily
             .filter(d => d[chartKey] != null)
             .map(d => ({ date: parse(d.date), price: d[chartKey] }));
+
+        // Append SPF today price if it's newer than the last daily entry
+        const lastDailyDate = prices.daily.at(-1)?.date;
+        if (prices.priceDate && prices.priceDate > lastDailyDate && prices.today[chartKey] != null) {
+            dailyEntries.push({ date: parse(prices.priceDate), price: prices.today[chartKey] });
+        }
 
         if (chartRange === '1y') return dailyEntries;
 
