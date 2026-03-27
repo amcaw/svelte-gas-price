@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 1.993,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Uccle",
+        "price": 2.053,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
       }
     },
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ans/4430/BE_lg_980"
       },
       "diesel": {
-        "locality": "Seraing",
-        "price": 2.014,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Seraing/4100/BE_lg_847"
+        "locality": "Aywaille",
+        "price": 2.032,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aywaille/4920/BE_lg_1177"
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Walcourt",
-        "price": 2.093,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
+        "locality": "Hastière",
+        "price": 2.089,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
