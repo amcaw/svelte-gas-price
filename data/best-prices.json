@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28",
+  "lastUpdated": "2026-03-29",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,14 +23,14 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Kampenhout",
-        "price": 1.713,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kampenhout/1910/BE_bf_294"
+        "locality": "Boortmeerbeek",
+        "price": 1.799,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Boortmeerbeek/3190/BE_bf_508"
       },
       "super98": {
-        "locality": "Overijse",
-        "price": 1.83,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Overijse/3090/BE_bf_496"
+        "locality": "Geetbets",
+        "price": 1.879,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Geetbets/3450/BE_bf_592"
       },
       "diesel": {
         "locality": "Kortenberg",
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Paliseul",
-        "price": 2.113,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Paliseul/6850/BE_lu_1845"
+        "locality": "Marche-en-Famenne",
+        "price": 2.016,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
     {
