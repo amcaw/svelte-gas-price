@@ -391,14 +391,23 @@
                     ? data[ai - 1] : (data[ai] || data[ai - 1]);
                 const ax = x(annotDate);
                 const ay = y(da.price);
-                const labelOffX = ax > w * 0.6 ? -52 : 52;
+                // Estimate text width (~100px) to decide placement side and clamping
+                const textW = 100;
+                const goLeft = ax + textW + 10 > w; // not enough room on the right
+                const labelOffX = goLeft ? -52 : 52;
                 const labelOffY = -38;
-                const lx = ax + labelOffX;
-                const ly = ay + labelOffY;
+                let lx = ax + labelOffX;
+                let ly = Math.max(20, ay + labelOffY); // don't go above chart
+                // Clamp horizontally: ensure label text stays within chart bounds
+                if (goLeft) {
+                    lx = Math.max(textW, lx); // 'end' anchor: text extends left from lx
+                } else {
+                    lx = Math.min(w - textW, lx); // 'start' anchor: text extends right from lx
+                }
                 const cpx = ax + labelOffX * 0.3;
                 const cpy = ay + labelOffY * 0.6;
                 const pathD = `M${lx},${ly} Q${cpx},${cpy} ${ax},${ay - 3}`;
-                const anchor = labelOffX > 0 ? 'start' : 'end';
+                const anchor = goLeft ? 'end' : 'start';
 
                 // Path — create once, transition position on update
                 let annotPath = annotG.select('path.annot');
