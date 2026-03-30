@@ -70,6 +70,16 @@
 
     // Actual current date in YYYY-MM-DD (browser clock, not API date)
     const todayISO = new Date().toLocaleDateString('sv'); // 'sv' locale gives YYYY-MM-DD
+    const yesterdayISO = (() => { const d = new Date(); d.setDate(d.getDate() - 1); return d.toLocaleDateString('sv'); })();
+    const tomorrowISO = (() => { const d = new Date(); d.setDate(d.getDate() + 1); return d.toLocaleDateString('sv'); })();
+
+    /** Returns a relative label for a date string: Hier, Aujourd'hui, Demain, or the formatted date */
+    function relativeLabel(dateStr) {
+        if (dateStr === todayISO) return "Aujourd'hui";
+        if (dateStr === yesterdayISO) return 'Hier';
+        if (dateStr === tomorrowISO) return 'Demain';
+        return formatDate(dateStr);
+    }
 
     // Today's current official price
     const todayPrice = $derived(() => {
@@ -90,12 +100,10 @@
             : lastDaily;
         const entryA = useSpf ? lastDaily : prices.daily.at(-2);
         if (entryA[fk] == null || entryB[fk] == null) return null;
-        const isTomorrow = entryB.date > todayISO;
         const delta = parseFloat((entryB[fk] - entryA[fk]).toFixed(4));
         return {
             dateA:  entryA.date, priceA: entryA[fk],
             dateB:  entryB.date, priceB: entryB[fk],
-            isTomorrow,
             samePrice: entryA[fk] === entryB[fk],
             delta,
         };
@@ -520,7 +528,11 @@
         if (!prices) return null;
         const d = prices.priceDate ?? prices.lastUpdated; // YYYY-MM-DD
         const label = formatDate(d);
-        const tag = d === todayISO ? 'aujourd\'hui' : 'demain';
+        const rel = relativeLabel(d);
+        // If relativeLabel returned a known tag (Hier/Aujourd'hui/Demain), use it in parens
+        // Otherwise just show "dernier tarif en vigueur" for older dates
+        const isRelative = ["Aujourd'hui", 'Hier', 'Demain'].includes(rel);
+        const tag = isRelative ? rel.toLowerCase() : 'dernier tarif en vigueur';
         return `pour le ${label} (${tag})`;
     });
 </script>
@@ -610,8 +622,8 @@
                 {@const cmp = comparison()}
                 {@const costA = parseFloat((cmp.priceA * activeliters).toFixed(2))}
                 {@const costB = parseFloat((cmp.priceB * activeliters).toFixed(2))}
-                {@const labelA = cmp.isTomorrow ? "Aujourd'hui" : 'Hier'}
-                {@const labelB = cmp.isTomorrow ? 'Demain' : "Aujourd'hui"}
+                {@const labelA = relativeLabel(cmp.dateA)}
+                {@const labelB = relativeLabel(cmp.dateB)}
                 {@const mazoutTag = activeFuel === 'mazout' ? (activeliters >= 2000 ? '≥ 2000 L' : '< 2000 L') : null}
 
                 {@const ya = yearAgo()}
@@ -940,7 +952,8 @@
         justify-content: center;
         transition: background 0.15s, color 0.15s;
         flex-shrink: 0;
-        line-height: 1;
+        line-height: 0;
+        padding-top: 1px;
     }
 
     .adj-btn:hover, .adj-btn:active {
