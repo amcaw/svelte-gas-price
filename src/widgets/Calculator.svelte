@@ -302,8 +302,8 @@
         // Crosshair
         let vline = g.select('line.vline');
         if (vline.empty()) vline = g.append('line').attr('class', 'vline')
-            .attr('stroke-dasharray', '4 2').attr('stroke-width', 1).attr('y1', 0).attr('y2', h).attr('opacity', 0);
-        vline.attr('stroke', colors.axis);
+            .attr('stroke-dasharray', '4 2').attr('stroke-width', 1).attr('opacity', 0);
+        vline.attr('stroke', colors.axis).attr('y1', 0).attr('y2', h);
 
         // X-axis — text only, no domain line, no tick marks
         const xTickInterval = chartRange === '5y' ? d3.timeYear.every(1)
@@ -391,23 +391,30 @@
                     ? data[ai - 1] : (data[ai] || data[ai - 1]);
                 const ax = x(annotDate);
                 const ay = y(da.price);
-                // Estimate text width (~100px) to decide placement side and clamping
-                const textW = 100;
-                const goLeft = ax + textW + 10 > w; // not enough room on the right
-                const labelOffX = goLeft ? -52 : 52;
-                const labelOffY = -38;
-                let lx = ax + labelOffX;
-                let ly = Math.max(20, ay + labelOffY); // don't go above chart
-                // Clamp horizontally: ensure label text stays within chart bounds
-                if (goLeft) {
-                    lx = Math.max(textW, lx); // 'end' anchor: text extends left from lx
-                } else {
-                    lx = Math.min(w - textW, lx); // 'start' anchor: text extends right from lx
-                }
-                const cpx = ax + labelOffX * 0.3;
-                const cpy = ay + labelOffY * 0.6;
-                const pathD = `M${lx},${ly} Q${cpx},${cpy} ${ax},${ay - 3}`;
+                // Decide label placement: prefer right, fall back to left
+                const textW = 120;
+                const textH = 24;
+                const roomRight = w - ax;
+                const roomLeft = ax;
+                const goLeft = roomRight < textW + 60; // not enough room on the right
                 const anchor = goLeft ? 'end' : 'start';
+                // Position label: keep fully inside chart area (0..w horizontally, 0..h vertically)
+                let lx, ly;
+                if (goLeft) {
+                    lx = ax - 16; // end-anchor: text extends left from lx
+                    if (lx - textW < 0) lx = textW; // don't overflow left edge
+                } else {
+                    lx = ax + 16; // start-anchor: text extends right from lx
+                    if (lx + textW > w) lx = w - textW; // don't overflow right edge
+                }
+                ly = Math.max(textH + 4, ay - 38);
+                ly = Math.min(h - 4, ly);
+                // Arrow starts vertically centered with the two text lines
+                const arrowStartY = ly - 4;
+                // Curved arrow from label to data point
+                const cpx = ax;
+                const cpy = arrowStartY;
+                const pathD = `M${lx},${arrowStartY} Q${cpx},${cpy} ${ax},${Math.max(3, ay - 3)}`;
 
                 // Path — create once, transition position on update
                 let annotPath = annotG.select('path.annot');
