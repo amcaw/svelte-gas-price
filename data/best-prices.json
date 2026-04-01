@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Affligem",
-        "price": 1.861,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Affligem/1790/BE_bf_267"
+        "locality": "Tervuren",
+        "price": 1.772,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
         "locality": "Geetbets",
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Anderlecht",
-        "price": 1.861,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
+        "locality": "Uccle",
+        "price": 1.782,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Uccle",
-        "price": 2.225,
+        "price": 2.195,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
       }
     },
