@@ -100,9 +100,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gand/9000/BE_foi_2551"
       },
       "super98": {
-        "locality": "Wetteren",
-        "price": 1.9,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wetteren/9230/BE_foi_2617"
+        "locality": "Oosterzele",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
         "locality": "Deinze",
@@ -168,12 +168,12 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Paliseul",
-        "price": 1.87,
+        "price": 1.842,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Paliseul/6850/BE_lu_1845"
       },
       "super98": {
         "locality": "Paliseul",
-        "price": 1.941,
+        "price": 1.913,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
