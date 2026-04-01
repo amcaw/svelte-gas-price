@@ -24,7 +24,7 @@ jobs:
     # On push: run for all non-bot commits. On schedule: only the 09:00 UTC trigger.
     if: |
       (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
-      github.event.schedule == '0 8 * * *' ||
+      github.event.schedule == '0 6 * * *' ||
       github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
