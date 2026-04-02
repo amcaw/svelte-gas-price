@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Geetbets/3450/BE_bf_592"
       },
       "diesel": {
-        "locality": "Kortenberg",
-        "price": 2.175,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kortenberg/3070/BE_bf_489"
+        "locality": "Leuven",
+        "price": 2.225,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Leuven/3000/BE_bf_468"
       }
     },
     {
@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Walcourt",
-        "price": 1.808,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Walcourt/5650/BE_nm_1536"
+        "locality": "Hastière",
+        "price": 1.782,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
       },
       "super98": {
-        "locality": "Walcourt",
-        "price": 1.92,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Walcourt/5650/BE_nm_1536"
+        "locality": "Hastière",
+        "price": 1.903,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Walcourt",
-        "price": 2.265,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
+        "locality": "Hastière",
+        "price": 2.195,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
