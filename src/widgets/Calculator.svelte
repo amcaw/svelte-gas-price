@@ -1083,20 +1083,18 @@
     .cost-amount {
         font-weight: 700;
         font-size: 1rem;
+        padding: 3px 8px;
+        border-radius: 6px;
     }
 
     .cost-row.featured-up .cost-amount {
         background: rgba(255,107,107,0.18);
         color: #FF6B6B;
-        padding: 3px 8px;
-        border-radius: 6px;
     }
 
     .cost-row.featured-down .cost-amount {
         background: rgba(78,203,113,0.18);
         color: #4ECB71;
-        padding: 3px 8px;
-        border-radius: 6px;
     }
 
     @media (prefers-color-scheme: light) {
