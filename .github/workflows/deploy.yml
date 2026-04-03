@@ -11,6 +11,7 @@ on:
 
 jobs:
   deploy:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: write   # needed for gh-pages branch push
