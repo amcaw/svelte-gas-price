@@ -87,24 +87,30 @@
         return prices.today[fuelKey(activeFuel, activeliters)] ?? null;
     });
 
-    // Comparison: previous daily vs current (SPF today or last daily)
+    // Comparison: today vs tomorrow (using priceDate or daily entries)
     const comparison = $derived(() => {
         if (!prices || prices.daily.length < 2) return null;
         const fk = fuelKey(activeFuel, activeliters);
-        // Use SPF today price as entryB when it's newer than the last daily entry
-        const lastDaily = prices.daily.at(-1);
+        const dailyByDate = new Map(prices.daily.map(e => [e.date, e]));
+
+        // entryB = tomorrow if available, otherwise today
+        // entryA = today if entryB is tomorrow, otherwise yesterday
         const spfDate = prices.priceDate;
-        const useSpf = spfDate && spfDate > lastDaily.date && prices.today[fk] != null;
-        const entryB = useSpf
-            ? { date: spfDate, [fk]: prices.today[fk] }
-            : lastDaily;
-        const entryA = useSpf ? lastDaily : prices.daily.at(-2);
-        if (entryA[fk] == null || entryB[fk] == null) return null;
-        const delta = parseFloat((entryB[fk] - entryA[fk]).toFixed(4));
+        const hasTomorrow = dailyByDate.has(tomorrowISO) || spfDate === tomorrowISO;
+        const dateB = hasTomorrow ? tomorrowISO : todayISO;
+        const dateA = hasTomorrow ? todayISO : yesterdayISO;
+
+        const priceB = spfDate === dateB && prices.today[fk] != null
+            ? prices.today[fk]
+            : dailyByDate.get(dateB)?.[fk] ?? null;
+        const priceA = dailyByDate.get(dateA)?.[fk] ?? null;
+
+        if (priceA == null || priceB == null) return null;
+        const delta = parseFloat((priceB - priceA).toFixed(4));
         return {
-            dateA:  entryA.date, priceA: entryA[fk],
-            dateB:  entryB.date, priceB: entryB[fk],
-            samePrice: entryA[fk] === entryB[fk],
+            dateA, priceA,
+            dateB, priceB,
+            samePrice: priceA === priceB,
             delta,
         };
     });
@@ -126,9 +132,13 @@
             d.setFullYear(d.getFullYear() - 1);
             return d.toLocaleDateString('sv');
         }
+        const dateYearAgoA = shiftYear(cmp.dateA);
+        const dateYearAgoB = shiftYear(cmp.dateB);
         return {
-            priceYearAgoA: getClosestPrice(prices, fk, shiftYear(cmp.dateA)),
-            priceYearAgoB: getClosestPrice(prices, fk, shiftYear(cmp.dateB)),
+            priceYearAgoA: getClosestPrice(prices, fk, dateYearAgoA),
+            priceYearAgoB: getClosestPrice(prices, fk, dateYearAgoB),
+            dateYearAgoA,
+            dateYearAgoB,
         };
     });
 
@@ -141,15 +151,11 @@
         const chartKey = activeChartKey();
         const parse = d3.timeParse('%Y-%m-%d');
 
+        // Cap daily data at tomorrow — don't show dates further in the future
+        const maxDate = tomorrowISO;
         const dailyEntries = prices.daily
-            .filter(d => d[chartKey] != null)
+            .filter(d => d[chartKey] != null && d.date <= maxDate)
             .map(d => ({ date: parse(d.date), price: d[chartKey] }));
-
-        // Append SPF today price if it's newer than the last daily entry
-        const lastDailyDate = prices.daily.at(-1)?.date;
-        if (prices.priceDate && prices.priceDate > lastDailyDate && prices.today[chartKey] != null) {
-            dailyEntries.push({ date: parse(prices.priceDate), price: prices.today[chartKey] });
-        }
 
         if (chartRange === '1y') return dailyEntries;
 
@@ -538,6 +544,14 @@
         return `${d}/${m}`;
     }
 
+    const MOIS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+    function formatDateLong(iso) {
+        const [y, m, d] = iso.split('-');
+        const day = parseInt(d);
+        const dayStr = day === 1 ? '1<sup>er</sup>' : String(day);
+        return `${dayStr} ${MOIS[parseInt(m) - 1]} ${y}`;
+    }
+
     const colors = $derived(getColors());
 
     const priceDateLabel = $derived(() => {
@@ -659,7 +673,7 @@
                                 <span class="ya-sub" class:ya-up={diffA > 0} class:ya-down={diffA < 0}>
                                     {diffA > 0 ? '+' : ''}{eurosCompact(diffA)} € ({pctA > 0 ? '+' : ''}{pctA}%)
                                 </span>
-                                <span class="ya-label">par rapport à l'an dernier</span>
+                                <span class="ya-label" class:ya-up={diffA > 0} class:ya-down={diffA < 0}>par rapport au {@html formatDateLong(ya.dateYearAgoA)}</span>
                             {:else if ya?.priceYearAgoA != null}
                                 <span class="ya-sub">—%</span>
                                 <span class="ya-label">par rapport à l'an dernier</span>
@@ -677,7 +691,7 @@
                                 <span class="ya-sub" class:ya-up={diffB > 0} class:ya-down={diffB < 0}>
                                     {diffB > 0 ? '+' : ''}{eurosCompact(diffB)} € ({pctB > 0 ? '+' : ''}{pctB}%)
                                 </span>
-                                <span class="ya-label">par rapport à l'an dernier</span>
+                                <span class="ya-label" class:ya-up={diffB > 0} class:ya-down={diffB < 0}>par rapport au {@html formatDateLong(ya.dateYearAgoB)}</span>
                             {:else if ya?.priceYearAgoB != null}
                                 <span class="ya-sub">—%</span>
                                 <span class="ya-label">par rapport à l'an dernier</span>
@@ -887,12 +901,12 @@
         opacity: 0.55;
     }
 
-    .ya-sub.ya-up   { color: #FF6B6B; opacity: 1; }
-    .ya-sub.ya-down { color: #4ECB71; opacity: 1; }
+    .ya-sub.ya-up, .ya-label.ya-up     { color: #FF6B6B; opacity: 1; }
+    .ya-sub.ya-down, .ya-label.ya-down { color: #4ECB71; opacity: 1; }
 
     @media (prefers-color-scheme: light) {
-        .ya-sub.ya-up   { color: #C0392B; }
-        .ya-sub.ya-down { color: #1A7A3C; }
+        .ya-sub.ya-up, .ya-label.ya-up     { color: #C0392B; }
+        .ya-sub.ya-down, .ya-label.ya-down { color: #1A7A3C; }
     }
 
     .ya-label {
