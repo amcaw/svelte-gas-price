@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-06",
   "source": "carbu.com",
   "provinces": [
     {
@@ -136,9 +136,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Ans",
-        "price": 1.914,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ans/4430/BE_lg_980"
+        "locality": "Amay",
+        "price": 1.952,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Amay/4540/BE_lg_1019"
       },
       "diesel": {
         "locality": "Seraing",
@@ -154,9 +154,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Borgloon/3840/BE_li_755"
       },
       "super98": {
-        "locality": "Nieuwerkerken",
-        "price": 1.882,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Nieuwerkerken/3850/BE_li_771"
+        "locality": "Kortessem",
+        "price": 1.88,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
         "locality": "Borgloon",
