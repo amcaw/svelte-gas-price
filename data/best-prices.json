@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06",
+  "lastUpdated": "2026-04-07",
   "source": "carbu.com",
   "provinces": [
     {
@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Jodoigne",
-        "price": 1.766,
+        "price": 1.767,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jodoigne/1370/BE_bw_133"
       },
       "super98": {
