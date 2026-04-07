@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    # SPF prices + carbu.com — 09:00 Brussels (07:00 UTC summer / 08:00 UTC winter)
+    # SPF prices — 07:00 UTC (09:00 Brussels CEST)
     - cron: '0 7 * * *'
-    # carbu.com only — 13:00 Brussels (11:00 UTC summer)
+    # carbu.com best prices — 07:15, 09:00, 16:00 UTC
+    - cron: '15 7 * * *'
     - cron: '0 9 * * *'
-    # carbu.com only — 20:00 Brussels (18:00 UTC summer)
     - cron: '0 16 * * *'
   workflow_dispatch: {}
 
@@ -57,8 +57,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/prices.json
           git commit -m "chore: update SPF prices $(date -u +%Y-%m-%d)"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            echo "Push attempt $i failed, retrying in 5s..."
+            sleep 5
+          done
 
       - name: Update data/prices.json on gh-pages directly
         if: steps.diff.outputs.changed == 'true'
@@ -76,8 +79,10 @@ jobs:
   update-best-prices:
     name: Fetch carbu.com best prices
     runs-on: ubuntu-latest
-    # Skip if the push was made by the bot (avoid infinite loop)
-    if: github.actor != 'github-actions[bot]'
+    # Skip bot pushes (avoid loop) and the SPF-only 07:00 UTC cron
+    if: |
+      github.actor != 'github-actions[bot]' &&
+      github.event.schedule != '0 7 * * *'
     permissions:
       contents: write
 
@@ -109,8 +114,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/best-prices.json
           git commit -m "chore: update best prices $(date -u +"%Y-%m-%d %H:%M")"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            echo "Push attempt $i failed, retrying in 5s..."
+            sleep 5
+          done
 
       - name: Update data/best-prices.json on gh-pages directly
         if: steps.diff.outputs.changed == 'true'
