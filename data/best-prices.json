@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Jodoigne",
-        "price": 1.767,
+        "price": 1.776,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jodoigne/1370/BE_bw_133"
       },
       "super98": {
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Borgloon",
-        "price": 1.749,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Borgloon/3840/BE_li_755"
+        "locality": "Nieuwerkerken",
+        "price": 1.756,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nieuwerkerken/3850/BE_li_771"
       },
       "super98": {
         "locality": "Kortessem",
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Borgloon",
+        "locality": "Nieuwerkerken",
         "price": 2.161,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Borgloon/3840/BE_li_755"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nieuwerkerken/3850/BE_li_771"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 2.174,
+        "price": 2.199,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
