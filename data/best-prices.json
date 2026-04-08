@@ -23,14 +23,14 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Asse",
+        "locality": "Affligem",
         "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Asse/1730/BE_bf_238"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Affligem/1790/BE_bf_267"
       },
       "super98": {
-        "locality": "Asse",
+        "locality": "Affligem",
         "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Asse/1730/BE_bf_238"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Affligem/1790/BE_bf_267"
       },
       "diesel": {
         "locality": "Leuven",
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Anderlecht",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.849,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
         "locality": "Anderlecht",
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuze-en-Hainaut/7900/BE_ht_2245"
       },
       "super98": {
-        "locality": "Péruwelz",
-        "price": 1.944,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Peruwelz/7600/BE_ht_2126"
+        "locality": "Quévy",
+        "price": 1.898,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
       },
       "diesel": {
         "locality": "Tournai",
