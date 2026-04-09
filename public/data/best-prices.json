@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Schoten",
-        "price": 1.859,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
+        "locality": "Anvers",
+        "price": 1.848,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anvers/2000/BE_a_310"
       },
       "super98": {
         "locality": "Heist-op-den-Berg",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
       },
       "diesel": {
-        "locality": "Momignies",
-        "price": 2.279,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
+        "locality": "Mouscron",
+        "price": 2.18,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Mouscron/7700/BE_ht_2156"
       }
     },
     {
@@ -136,14 +136,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Amay",
-        "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Amay/4540/BE_lg_1019"
+        "locality": "Seraing",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Seraing/4100/BE_lg_847"
       },
       "diesel": {
-        "locality": "Aywaille",
-        "price": 2.358,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aywaille/4920/BE_lg_1177"
+        "locality": "Seraing",
+        "price": 2.33,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Seraing/4100/BE_lg_847"
       }
     },
     {
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Nieuwerkerken",
-        "price": 2.329,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nieuwerkerken/3850/BE_li_771"
+        "locality": "Heusden-Zolder",
+        "price": 2.18,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heusden-Zolder/3550/BE_li_623"
       }
     },
     {
@@ -173,13 +173,13 @@
       },
       "super98": {
         "locality": "Paliseul",
-        "price": 1.927,
+        "price": 1.921,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Marche-en-Famenne",
-        "price": 2.342,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Paliseul",
+        "price": 2.18,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Paliseul/6850/BE_lu_1845"
       }
     },
     {
