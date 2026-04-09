@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-08",
+  "lastUpdated": "2026-04-09",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Ranst",
-        "price": 1.865,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ranst/2520/BE_a_401"
+        "locality": "Schoten",
+        "price": 1.859,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
       },
       "super98": {
         "locality": "Heist-op-den-Berg",
@@ -23,19 +23,19 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Affligem",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Affligem/1790/BE_bf_267"
+        "locality": "Tervuren",
+        "price": 1.795,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Affligem",
+        "locality": "Aarschot",
         "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Affligem/1790/BE_bf_267"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aarschot/3200/BE_bf_510"
       },
       "diesel": {
-        "locality": "Leuven",
-        "price": 2.379,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Leuven/3000/BE_bf_468"
+        "locality": "Tervuren",
+        "price": 2.339,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tervuren/3080/BE_bf_494"
       }
     },
     {
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Uccle",
+        "price": 1.805,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
         "locality": "Anderlecht",
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anderlecht/1070/BE_bx_20"
       },
       "diesel": {
-        "locality": "Uccle",
-        "price": 2.379,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
+        "locality": "Anderlecht",
+        "price": 2.321,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
       }
     },
     {
@@ -82,22 +82,22 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oudenburg/8460/BE_foc_2345"
       },
       "super98": {
-        "locality": "Oudenburg",
+        "locality": "Brugge",
         "price": 1.927,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oudenburg/8460/BE_foc_2345"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brugge/8000/BE_foc_2292"
       },
       "diesel": {
-        "locality": "Oudenburg",
+        "locality": "Brugge",
         "price": 2.329,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Oudenburg/8460/BE_foc_2345"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Brugge/8000/BE_foc_2292"
       }
     },
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Oosterzele",
+        "locality": "Aalst",
         "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oosterzele/9860/BE_foi_2814"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalst/9300/BE_foi_2633"
       },
       "super98": {
         "locality": "Oosterzele",
@@ -105,17 +105,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Lierde",
-        "price": 2.381,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lierde/9570/BE_foi_2705"
+        "locality": "Aalst",
+        "price": 2.319,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
       }
     },
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.779,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Charleroi",
+        "price": 1.766,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
         "locality": "Quévy",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
       },
       "diesel": {
-        "locality": "Tournai",
-        "price": 2.349,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tournai/7500/BE_ht_2098"
+        "locality": "Momignies",
+        "price": 2.279,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
       }
     },
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Hastière",
+        "locality": "Assesse",
         "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
         "locality": "Hastière",
