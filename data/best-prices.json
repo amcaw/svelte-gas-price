@@ -23,14 +23,14 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Herne",
-        "price": 1.79,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Herne/1540/BE_bf_204"
+        "locality": "Asse",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Asse/1730/BE_bf_238"
       },
       "super98": {
-        "locality": "Tielt-Winge",
-        "price": 1.863,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Tielt-Winge/3390/BE_bf_571"
+        "locality": "Geetbets",
+        "price": 1.871,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Geetbets/3450/BE_bf_592"
       },
       "diesel": {
         "locality": "Leuven",
