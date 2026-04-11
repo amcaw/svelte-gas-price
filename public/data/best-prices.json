@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10",
+  "lastUpdated": "2026-04-11",
   "source": "carbu.com",
   "provinces": [
     {
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heist-op-den-Berg/2220/BE_a_333"
       },
       "diesel": {
-        "locality": "Mol",
-        "price": 2.02,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Mol/2400/BE_a_381"
+        "locality": "Ravels",
+        "price": 2.05,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ravels/2380/BE_a_374"
       }
     },
     {
@@ -136,14 +136,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Awans",
-        "price": 1.916,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Awans/4340/BE_lg_941"
+        "locality": "Clavier",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Clavier/4560/BE_lg_1035"
       },
       "diesel": {
-        "locality": "Eupen",
-        "price": 2.055,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Eupen/4700/BE_lg_1105"
+        "locality": "Aywaille",
+        "price": 2.049,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aywaille/4920/BE_lg_1177"
       }
     },
     {
