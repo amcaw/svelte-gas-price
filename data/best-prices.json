@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11",
+  "lastUpdated": "2026-04-12",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Asse",
-        "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Asse/1730/BE_bf_238"
+        "locality": "Dilbeek",
+        "price": 1.748,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilbeek/1700/BE_bf_232"
       },
       "super98": {
         "locality": "Geetbets",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.682,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Thuin",
+        "price": 1.704,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Thuin/6530/BE_ht_1678"
       },
       "super98": {
         "locality": "Péruwelz",
