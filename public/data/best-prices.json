@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-13",
   "source": "carbu.com",
   "provinces": [
     {
@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ranst/2520/BE_a_401"
       },
       "super98": {
-        "locality": "Heist-op-den-Berg",
-        "price": 1.824,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heist-op-den-Berg/2220/BE_a_333"
+        "locality": "Kapellen",
+        "price": 1.861,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kapellen/2950/BE_a_460"
       },
       "diesel": {
         "locality": "Ravels",
@@ -136,9 +136,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Blégny",
-        "price": 1.889,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Blegny/4670/BE_lg_1085"
+        "locality": "Clavier",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Clavier/4560/BE_lg_1035"
       },
       "diesel": {
         "locality": "Aywaille",
