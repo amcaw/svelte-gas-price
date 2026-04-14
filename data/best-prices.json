@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Geetbets/3450/BE_bf_592"
       },
       "diesel": {
-        "locality": "Asse",
+        "locality": "Aarschot",
         "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Asse/1730/BE_bf_238"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aarschot/3200/BE_bf_510"
       }
     },
     {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Houthulst",
-        "price": 1.771,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Houthulst/8650/BE_foc_2442"
+        "locality": "Tielt",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tielt/8700/BE_foc_2465"
       },
       "super98": {
         "locality": "Wervik",
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wervik/8940/BE_foc_2529"
       },
       "diesel": {
-        "locality": "Waregem",
-        "price": 2.098,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Waregem/8790/BE_foc_2484"
+        "locality": "Tielt",
+        "price": 2.089,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tielt/8700/BE_foc_2465"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Aalst",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
+        "locality": "Maldegem",
+        "price": 2.095,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maldegem/9990/BE_foi_2853"
       }
     },
     {
