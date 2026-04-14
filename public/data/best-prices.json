@@ -6,7 +6,7 @@
       "province": "Anvers",
       "essence95": {
         "locality": "Aartselaar",
-        "price": 1.799,
+        "price": 1.797,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aartselaar/2630/BE_a_420"
       },
       "super98": {
@@ -77,19 +77,19 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Tielt",
+        "locality": "Ingelmunster",
         "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tielt/8700/BE_foc_2465"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ingelmunster/8770/BE_foc_2482"
       },
       "super98": {
-        "locality": "Wervik",
-        "price": 1.854,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wervik/8940/BE_foc_2529"
+        "locality": "Brugge",
+        "price": 1.844,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brugge/8000/BE_foc_2292"
       },
       "diesel": {
-        "locality": "Tielt",
+        "locality": "Ingelmunster",
         "price": 2.089,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tielt/8700/BE_foc_2465"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ingelmunster/8770/BE_foc_2482"
       }
     },
     {
