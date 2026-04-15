@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-04-14",
+  "lastUpdated": "2026-04-15",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Aartselaar",
-        "price": 1.797,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aartselaar/2630/BE_a_420"
+        "locality": "Geel",
+        "price": 1.805,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Geel/2440/BE_a_387"
       },
       "super98": {
         "locality": "Kapellen",
-        "price": 1.884,
+        "price": 1.914,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kapellen/2950/BE_a_460"
       },
       "diesel": {
@@ -23,31 +23,31 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Dilbeek",
-        "price": 1.781,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilbeek/1700/BE_bf_232"
+        "locality": "Tervuren",
+        "price": 1.763,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Geetbets",
-        "price": 1.894,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Geetbets/3450/BE_bf_592"
+        "locality": "Asse",
+        "price": 1.919,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Asse/1730/BE_bf_238"
       },
       "diesel": {
-        "locality": "Aarschot",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aarschot/3200/BE_bf_510"
+        "locality": "Tervuren",
+        "price": 2.07,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tervuren/3080/BE_bf_494"
       }
     },
     {
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Jodoigne",
-        "price": 1.756,
+        "price": 1.788,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jodoigne/1370/BE_bw_133"
       },
       "super98": {
         "locality": "Jodoigne",
-        "price": 1.844,
+        "price": 1.874,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
@@ -59,31 +59,31 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.789,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Uccle",
+        "price": 1.773,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
         "locality": "Anderlecht",
-        "price": 1.899,
+        "price": 1.919,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anderlecht/1070/BE_bx_20"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 2.09,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Uccle",
+        "price": 2.08,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
       }
     },
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ingelmunster",
-        "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ingelmunster/8770/BE_foc_2482"
+        "locality": "Poperinge",
+        "price": 1.799,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Poperinge/8970/BE_foc_2540"
       },
       "super98": {
         "locality": "Brugge",
-        "price": 1.844,
+        "price": 1.874,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brugge/8000/BE_foc_2292"
       },
       "diesel": {
@@ -95,31 +95,31 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Oosterzele",
-        "price": 1.789,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oosterzele/9860/BE_foi_2814"
+        "locality": "Gand",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gand/9000/BE_foi_2551"
       },
       "super98": {
         "locality": "Oosterzele",
-        "price": 1.849,
+        "price": 1.879,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Maldegem",
-        "price": 2.095,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maldegem/9990/BE_foi_2853"
+        "locality": "Gand",
+        "price": 2.069,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
       }
     },
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Thuin",
-        "price": 1.737,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Thuin/6530/BE_ht_1678"
+        "locality": "Charleroi",
+        "price": 1.746,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
         "locality": "Péruwelz",
-        "price": 1.861,
+        "price": 1.891,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Peruwelz/7600/BE_ht_2126"
       },
       "diesel": {
@@ -132,12 +132,12 @@
       "province": "Liège",
       "essence95": {
         "locality": "Aywaille",
-        "price": 1.748,
+        "price": 1.78,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
         "locality": "Amay",
-        "price": 1.899,
+        "price": 1.919,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Amay/4540/BE_lg_1019"
       },
       "diesel": {
@@ -150,30 +150,30 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Nieuwerkerken",
-        "price": 1.736,
+        "price": 1.768,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nieuwerkerken/3850/BE_li_771"
       },
       "super98": {
         "locality": "Kortessem",
-        "price": 1.84,
+        "price": 1.87,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Dilsen-Stokkem",
-        "price": 2.055,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Nieuwerkerken",
+        "price": 2.06,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nieuwerkerken/3850/BE_li_771"
       }
     },
     {
       "province": "Luxembourg",
       "essence95": {
         "locality": "Paliseul",
-        "price": 1.799,
+        "price": 1.832,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Paliseul/6850/BE_lu_1845"
       },
       "super98": {
         "locality": "Paliseul",
-        "price": 1.863,
+        "price": 1.893,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
@@ -186,12 +186,12 @@
       "province": "Namur",
       "essence95": {
         "locality": "Hastière",
-        "price": 1.741,
+        "price": 1.773,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
       },
       "super98": {
         "locality": "Hastière",
-        "price": 1.854,
+        "price": 1.884,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
