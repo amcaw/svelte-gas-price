@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Geel/2440/BE_a_387"
       },
       "super98": {
-        "locality": "Kapellen",
-        "price": 1.914,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kapellen/2950/BE_a_460"
+        "locality": "Ravels",
+        "price": 1.905,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
         "locality": "Ravels",
@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Asse",
+        "locality": "Aarschot",
         "price": 1.919,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Asse/1730/BE_bf_238"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aarschot/3200/BE_bf_510"
       },
       "diesel": {
         "locality": "Tervuren",
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Poperinge",
+        "locality": "Ingelmunster",
         "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Poperinge/8970/BE_foc_2540"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ingelmunster/8770/BE_foc_2482"
       },
       "super98": {
         "locality": "Brugge",
@@ -124,7 +124,7 @@
       },
       "diesel": {
         "locality": "Momignies",
-        "price": 2.029,
+        "price": 2.039,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
       }
     },
