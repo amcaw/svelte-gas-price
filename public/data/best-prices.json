@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Hulshout",
-        "price": 1.813,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hulshout/2235/BE_a_341"
+        "locality": "Schoten",
+        "price": 1.815,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
       },
       "super98": {
         "locality": "Wuustwezel",
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Hastière",
-        "price": 1.773,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
+        "locality": "Dinant",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dinant/5500/BE_nm_1366"
       },
       "super98": {
         "locality": "Hastière",
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Hastière",
-        "price": 2.08,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
+        "locality": "Dinant",
+        "price": 2.079,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dinant/5500/BE_nm_1366"
       }
     }
   ]
