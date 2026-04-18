@@ -6,13 +6,13 @@
       "province": "Anvers",
       "essence95": {
         "locality": "Schoten",
-        "price": 1.736,
+        "price": 1.735,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
       },
       "super98": {
-        "locality": "Wuustwezel",
-        "price": 1.859,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wuustwezel/2990/BE_a_467"
+        "locality": "Ravels",
+        "price": 1.863,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
         "locality": "Schoten",
@@ -64,21 +64,21 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
-        "locality": "Anderlecht",
+        "locality": "Evere",
         "price": 1.877,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anderlecht/1070/BE_bx_20"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 2.04,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 2.036,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       }
     },
     {
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Blankenberge",
-        "price": 1.74,
+        "price": 1.739,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blankenberge/8370/BE_foc_2317"
       },
       "super98": {
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Nieuwerkerken",
-        "price": 1.719,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nieuwerkerken/3850/BE_li_771"
+        "locality": "Maasmechelen",
+        "price": 1.735,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maasmechelen/3630/BE_li_642"
       },
       "super98": {
         "locality": "Kortessem",
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Nieuwerkerken",
-        "price": 2.023,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nieuwerkerken/3850/BE_li_771"
+        "locality": "Maasmechelen",
+        "price": 2.045,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maasmechelen/3630/BE_li_642"
       }
     },
     {
