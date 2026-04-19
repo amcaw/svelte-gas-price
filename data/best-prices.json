@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Schoten",
-        "price": 1.735,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
+        "locality": "Zwijndrecht",
+        "price": 1.729,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zwijndrecht/2070/BE_a_321"
       },
       "super98": {
         "locality": "Ravels",
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
-        "locality": "Schoten",
-        "price": 2.045,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schoten/2900/BE_a_454"
+        "locality": "Zwijndrecht",
+        "price": 2.039,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Zwijndrecht/2070/BE_a_321"
       }
     },
     {
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Peruwelz/7600/BE_ht_2126"
       },
       "diesel": {
-        "locality": "Charleroi",
-        "price": 2.04,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
+        "locality": "Momignies",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
       }
     },
     {
@@ -136,9 +136,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Herstal",
-        "price": 1.877,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Herstal/4040/BE_lg_836"
+        "locality": "Blégny",
+        "price": 1.869,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Blegny/4670/BE_lg_1085"
       },
       "diesel": {
         "locality": "Huy",
