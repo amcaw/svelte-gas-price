@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-19",
   "source": "carbu.com",
   "provinces": [
     {
@@ -136,9 +136,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Blégny",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Blegny/4670/BE_lg_1085"
+        "locality": "Herstal",
+        "price": 1.877,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Herstal/4040/BE_lg_836"
       },
       "diesel": {
         "locality": "Huy",
