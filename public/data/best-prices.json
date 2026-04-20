@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Olen",
+        "locality": "Zwijndrecht",
         "price": 1.729,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Olen/2250/BE_a_348"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zwijndrecht/2070/BE_a_321"
       },
       "super98": {
         "locality": "Ravels",
@@ -51,9 +51,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
-        "locality": "Jodoigne",
-        "price": 2.053,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Jodoigne/1370/BE_bw_133"
+        "locality": "Waterloo",
+        "price": 2.049,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Waterloo/1410/BE_bw_157"
       }
     },
     {
@@ -64,9 +64,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
-        "locality": "Evere",
-        "price": 1.877,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
+        "locality": "Schaerbeek",
+        "price": 1.892,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
         "locality": "Woluwe-Saint-Lambert",
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Thuin/6530/BE_ht_1678"
       },
       "super98": {
-        "locality": "Péruwelz",
-        "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Peruwelz/7600/BE_ht_2126"
+        "locality": "Gerpinnes",
+        "price": 1.789,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Gerpinnes/6280/BE_ht_1640"
       },
       "diesel": {
         "locality": "Momignies",
