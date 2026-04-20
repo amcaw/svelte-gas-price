@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-04-20",
   "source": "carbu.com",
   "provinces": [
     {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Blankenberge",
+        "locality": "Anzegem",
         "price": 1.739,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blankenberge/8370/BE_foc_2317"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anzegem/8570/BE_foc_2381"
       },
       "super98": {
         "locality": "Brugge",
@@ -136,14 +136,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Blégny",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Blegny/4670/BE_lg_1085"
+        "locality": "Herstal",
+        "price": 1.877,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Herstal/4040/BE_lg_836"
       },
       "diesel": {
-        "locality": "Huy",
-        "price": 2.017,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Huy/4500/BE_lg_1003"
+        "locality": "Seraing",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Seraing/4100/BE_lg_847"
       }
     },
     {
