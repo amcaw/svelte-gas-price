@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Zwijndrecht",
+        "locality": "Olen",
         "price": 1.729,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zwijndrecht/2070/BE_a_321"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Olen/2250/BE_a_348"
       },
       "super98": {
         "locality": "Ravels",
@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Liedekerke",
-        "price": 1.867,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
+        "locality": "Aarschot",
+        "price": 1.869,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aarschot/3200/BE_bf_510"
       },
       "diesel": {
         "locality": "Tervuren",
