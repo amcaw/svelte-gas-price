@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # SPF prices — 07:00 UTC (09:00 Brussels CEST)
-    - cron: '0 7 * * *'
+    # SPF prices
+    - cron: '0 6 * * *
     # carbu.com best prices — 07:15, 09:00, 16:00 UTC
     - cron: '15 7 * * *'
     - cron: '0 9 * * *'
