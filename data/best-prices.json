@@ -51,9 +51,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
-        "locality": "Waterloo",
-        "price": 1.929,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Waterloo/1410/BE_bw_157"
+        "locality": "Braine-l'Alleud",
+        "price": 1.937,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Braine-l'Alleud/1420/BE_bw_2857"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.914,
+        "price": 1.924,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
