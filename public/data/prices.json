@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-21",
-  "priceDate": "2026-04-22",
+  "lastUpdated": "2026-04-22",
+  "priceDate": "2026-04-23",
   "today": {
     "essence95": 1.86,
     "essence98": 1.93,
     "diesel": 2.06,
-    "mazout_plus": 1.14,
-    "mazout": 1.18
+    "mazout_plus": 1.17,
+    "mazout": 1.21
   },
   "daily": [
     {
