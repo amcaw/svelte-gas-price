@@ -5,7 +5,7 @@ on:
     branches: [main]
   schedule:
     # SPF prices
-    - cron: '0 6 * * *
+    - cron: '0 5 * * *'
     # carbu.com best prices — 07:15, 09:00, 16:00 UTC
     - cron: '15 7 * * *'
     - cron: '0 9 * * *'
