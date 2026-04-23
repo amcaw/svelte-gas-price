@@ -82,7 +82,7 @@ jobs:
     # Skip bot pushes (avoid loop) and the SPF-only 07:00 UTC cron
     if: |
       github.actor != 'github-actions[bot]' &&
-      github.event.schedule != '0 7 * * *'
+      github.event.schedule != '0 5 * * *'
     permissions:
       contents: write
 
