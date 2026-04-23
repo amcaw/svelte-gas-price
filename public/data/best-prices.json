@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.729,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Uccle",
+        "price": 1.724,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Uccle/1180/BE_bx_62"
       },
       "super98": {
         "locality": "Evere",
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 1.927,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Uccle",
+        "price": 1.921,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Gand",
-        "price": 1.909,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
+        "locality": "Beveren-Waas",
+        "price": 1.919,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Beveren-Waas/9120/BE_foi_2578"
       }
     },
     {
