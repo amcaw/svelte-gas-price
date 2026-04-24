@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "source": "carbu.com",
   "provinces": [
     {
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
-        "locality": "Zwijndrecht",
-        "price": 1.923,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Zwijndrecht/2070/BE_a_321"
+        "locality": "Putte",
+        "price": 1.939,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Putte/2580/BE_a_413"
       }
     },
     {
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
       },
       "diesel": {
-        "locality": "Tervuren",
-        "price": 1.911,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tervuren/3080/BE_bf_494"
+        "locality": "Leuven",
+        "price": 1.948,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Leuven/3000/BE_bf_468"
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Braine-l'Alleud",
-        "price": 1.937,
+        "price": 2.033,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Braine-l'Alleud/1420/BE_bw_2857"
       }
     },
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Uccle",
-        "price": 1.921,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
+        "locality": "Forest",
+        "price": 1.947,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Forest/1190/BE_bx_66"
       }
     },
     {
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brugge/8000/BE_foc_2292"
       },
       "diesel": {
-        "locality": "Diksmuide",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Diksmuide/8600/BE_foc_2399"
+        "locality": "Blankenberge",
+        "price": 1.937,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Blankenberge/8370/BE_foc_2317"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Deinze",
-        "price": 1.919,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
+        "locality": "Sint-Niklaas",
+        "price": 1.937,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Sint-Niklaas/9100/BE_foi_2575"
       }
     },
     {
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Peruwelz/7600/BE_ht_2126"
       },
       "diesel": {
-        "locality": "Momignies",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
+        "locality": "Charleroi",
+        "price": 1.947,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
       }
     },
     {
@@ -142,7 +142,7 @@
       },
       "diesel": {
         "locality": "Lontzen",
-        "price": 1.881,
+        "price": 1.977,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
       }
     },
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Hoeselt",
-        "price": 1.917,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
+        "locality": "Hasselt",
+        "price": 1.966,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hasselt/3500/BE_li_603"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.914,
+        "price": 2.01,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Hastière",
-        "price": 1.919,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
+        "locality": "Jemeppe-sur-Sambre",
+        "price": 1.995,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
       }
     }
   ]
