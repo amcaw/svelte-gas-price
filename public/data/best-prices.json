@@ -82,9 +82,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blankenberge/8370/BE_foc_2317"
       },
       "super98": {
-        "locality": "Poperinge",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Poperinge/8970/BE_foc_2540"
+        "locality": "Ostende",
+        "price": 1.882,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
       },
       "diesel": {
         "locality": "Ichtegem",
@@ -154,9 +154,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Heusden-Zolder/3550/BE_li_623"
       },
       "super98": {
-        "locality": "Kortessem",
-        "price": 1.878,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
+        "locality": "Dilsen-Stokkem",
+        "price": 1.856,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dilsen-Stokkem/3650/BE_li_653"
       },
       "diesel": {
         "locality": "Hoeselt",
