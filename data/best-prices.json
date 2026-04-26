@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-25",
+  "lastUpdated": "2026-04-26",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Wommelgem",
-        "price": 1.739,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wommelgem/2160/BE_a_326"
+        "locality": "Brecht",
+        "price": 1.74,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brecht/2960/BE_a_461"
       },
       "super98": {
         "locality": "Schoten",
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Boortmeerbeek",
-        "price": 1.729,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Leuven",
+        "price": 1.739,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
         "locality": "Aarschot",
@@ -41,9 +41,9 @@
     {
       "province": "Brabant Wallon",
       "essence95": {
-        "locality": "Genappe",
-        "price": 1.74,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Genappe/1470/BE_bw_184"
+        "locality": "Jodoigne",
+        "price": 1.798,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jodoigne/1370/BE_bw_133"
       },
       "super98": {
         "locality": "Jodoigne",
@@ -132,13 +132,13 @@
       "province": "Liège",
       "essence95": {
         "locality": "Liège",
-        "price": 1.72,
+        "price": 1.74,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Liege/4000/BE_lg_826"
       },
       "super98": {
-        "locality": "Ans",
+        "locality": "Gr&acirc;ce-Hollogne",
         "price": 1.932,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ans/4430/BE_lg_980"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Grace-Hollogne/4460/BE_lg_994"
       },
       "diesel": {
         "locality": "Lontzen",
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Heusden-Zolder",
-        "price": 1.74,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Heusden-Zolder/3550/BE_li_623"
+        "locality": "Hasselt",
+        "price": 1.774,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hasselt/3500/BE_li_603"
       },
       "super98": {
         "locality": "Kortessem",
@@ -159,17 +159,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Hoeselt",
-        "price": 2.019,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
+        "locality": "Kinrooi",
+        "price": 1.997,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kinrooi/3640/BE_li_650"
       }
     },
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Bouillon",
+        "locality": "Wellin",
         "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bouillon/6830/BE_lu_1826"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
       },
       "super98": {
         "locality": "Paliseul",
@@ -186,7 +186,7 @@
       "province": "Namur",
       "essence95": {
         "locality": "Namur",
-        "price": 1.719,
+        "price": 1.769,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Namur/5000/BE_nm_1204"
       },
       "super98": {
