@@ -24,7 +24,7 @@
       "province": "Brabant Flamand",
       "essence95": {
         "locality": "Leuven",
-        "price": 1.739,
+        "price": 1.74,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
       },
       "diesel": {
-        "locality": "Ichtegem",
-        "price": 1.995,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ichtegem/8480/BE_foc_2354"
+        "locality": "Diksmuide",
+        "price": 2.012,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Diksmuide/8600/BE_foc_2399"
       }
     },
     {
