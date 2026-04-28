@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
         "locality": "Oud-Turnhout",
-        "price": 1.789,
+        "price": 1.788,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oud-Turnhout/2360/BE_a_372"
       },
       "super98": {
@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bierbeek/3360/BE_bf_554"
       },
       "super98": {
-        "locality": "Aarschot",
-        "price": 1.919,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aarschot/3200/BE_bf_510"
+        "locality": "Liedekerke",
+        "price": 1.917,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
       },
       "diesel": {
         "locality": "Tervuren",
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mouscron/7700/BE_ht_2156"
       },
       "super98": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Quévy",
+        "price": 1.886,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
       },
       "diesel": {
         "locality": "Thuin",
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Wellin",
-        "price": 1.799,
+        "price": 1.829,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
       },
       "super98": {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Jemeppe-sur-Sambre",
-        "price": 1.995,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
+        "locality": "Walcourt",
+        "price": 1.998,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
       }
     }
   ]
