@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-04-29",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Oud-Turnhout",
-        "price": 1.788,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oud-Turnhout/2360/BE_a_372"
+        "locality": "Brasschaat",
+        "price": 1.779,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
         "locality": "Wuustwezel",
