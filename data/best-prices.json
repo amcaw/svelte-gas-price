@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Brasschaat",
-        "price": 1.779,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
+        "locality": "Oud-Turnhout",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oud-Turnhout/2360/BE_a_372"
       },
       "super98": {
         "locality": "Wuustwezel",
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Bierbeek",
-        "price": 1.76,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bierbeek/3360/BE_bf_554"
+        "locality": "Ternat",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ternat/1740/BE_bf_244"
       },
       "super98": {
         "locality": "Liedekerke",
@@ -59,14 +59,14 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Evere",
-        "price": 1.72,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.779,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
-        "locality": "Evere",
-        "price": 1.927,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
+        "locality": "Anderlecht",
+        "price": 1.828,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anderlecht/1070/BE_bx_20"
       },
       "diesel": {
         "locality": "Anderlecht",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Mouscron",
+        "locality": "Charleroi",
         "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mouscron/7700/BE_ht_2156"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
         "locality": "Quévy",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
       },
       "diesel": {
-        "locality": "Thuin",
-        "price": 1.987,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
+        "locality": "Charleroi",
+        "price": 1.993,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Walcourt",
-        "price": 1.998,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
+        "locality": "Couvin",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
