@@ -10,13 +10,13 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Oud-Turnhout/2360/BE_a_372"
       },
       "super98": {
-        "locality": "Wuustwezel",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wuustwezel/2990/BE_a_467"
+        "locality": "Schoten",
+        "price": 1.915,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schoten/2900/BE_a_454"
       },
       "diesel": {
         "locality": "Zwijndrecht",
-        "price": 2.019,
+        "price": 2.011,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Zwijndrecht/2070/BE_a_321"
       }
     },
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
-        "locality": "Quévy",
-        "price": 1.886,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Quevy/7040/BE_ht_1972"
+        "locality": "Leuze-en-Hainaut",
+        "price": 1.873,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
       },
       "diesel": {
         "locality": "Charleroi",
