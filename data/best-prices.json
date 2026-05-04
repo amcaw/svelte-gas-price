@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03",
+  "lastUpdated": "2026-05-04",
   "source": "carbu.com",
   "provinces": [
     {
@@ -136,9 +136,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Esneux/4130/BE_lg_855"
       },
       "super98": {
-        "locality": "Dison",
-        "price": 1.944,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
+        "locality": "Eupen",
+        "price": 1.957,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Eupen/4700/BE_lg_1105"
       },
       "diesel": {
         "locality": "Lontzen",
@@ -150,7 +150,7 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Hoeselt",
-        "price": 1.779,
+        "price": 1.777,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
