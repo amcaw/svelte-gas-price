@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
-        "locality": "Borsbeek",
-        "price": 2.065,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Borsbeek/2150/BE_a_325"
+        "locality": "Schoten",
+        "price": 2.033,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schoten/2900/BE_a_454"
       }
     },
     {
@@ -114,7 +114,7 @@
       "province": "Hainaut",
       "essence95": {
         "locality": "Charleroi",
-        "price": 1.769,
+        "price": 1.768,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortessem/3720/BE_li_690"
       },
       "diesel": {
-        "locality": "Leopoldsburg",
-        "price": 2.055,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Leopoldsburg/3970/BE_li_818"
+        "locality": "Beringen",
+        "price": 2.031,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Beringen/3580/BE_li_629"
       }
     },
     {
