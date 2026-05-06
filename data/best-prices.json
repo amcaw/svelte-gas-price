@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "source": "carbu.com",
   "provinces": [
     {
@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Puurs Sint Amands/2870/BE_a_4450"
       },
       "super98": {
-        "locality": "Schoten",
-        "price": 1.975,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schoten/2900/BE_a_454"
+        "locality": "Ravels",
+        "price": 1.962,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ravels/2380/BE_a_374"
       },
       "diesel": {
         "locality": "Borsbeek",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Tournai",
-        "price": 1.827,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tournai/7500/BE_ht_2098"
+        "locality": "Charleroi",
+        "price": 1.842,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
         "locality": "Péruwelz",
@@ -154,9 +154,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
       },
       "super98": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Hasselt",
+        "price": 1.921,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
         "locality": "Maaseik",
