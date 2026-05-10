@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09",
+  "lastUpdated": "2026-05-10",
   "source": "carbu.com",
   "provinces": [
     {
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Aalst",
-        "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalst/9300/BE_foi_2633"
+        "locality": "Gand",
+        "price": 1.789,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gand/9000/BE_foi_2551"
       },
       "super98": {
         "locality": "Oosterzele",
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oosterzele/9860/BE_foi_2814"
       },
       "diesel": {
-        "locality": "Dendermonde",
-        "price": 1.989,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
+        "locality": "Gand",
+        "price": 1.979,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
       }
     },
     {
