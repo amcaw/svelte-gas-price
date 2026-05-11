@@ -77,14 +77,14 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ostende",
+        "locality": "Diksmuide",
         "price": 1.785,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
-        "locality": "Ostende",
-        "price": 1.897,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
+        "locality": "Diksmuide",
+        "price": 1.887,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Diksmuide/8600/BE_foc_2399"
       },
       "diesel": {
         "locality": "Gistel",
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Lontzen",
-        "price": 1.957,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
+        "locality": "Remicourt",
+        "price": 1.971,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Remicourt/4350/BE_lg_953"
       }
     },
     {
