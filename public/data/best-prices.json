@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-12",
   "source": "carbu.com",
   "provinces": [
     {
@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Affligem",
-        "price": 1.935,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Affligem/1790/BE_bf_267"
+        "locality": "Liedekerke",
+        "price": 1.933,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
       },
       "diesel": {
         "locality": "Tervuren",
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 1.909,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       }
     },
     {
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Bouillon",
+        "price": 1.837,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bouillon/6830/BE_lu_1826"
       },
       "super98": {
         "locality": "Paliseul",
