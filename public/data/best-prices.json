@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Ravels",
-        "price": 1.798,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ravels/2380/BE_a_374"
+        "locality": "Puurs Sint Amands",
+        "price": 1.795,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Puurs Sint Amands/2870/BE_a_4450"
       },
       "super98": {
         "locality": "Oud-Turnhout",
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Deinze",
+        "locality": "Gand",
         "price": 1.789,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Deinze/9800/BE_foi_2783"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gand/9000/BE_foi_2551"
       },
       "super98": {
         "locality": "Evergem",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Silly",
-        "price": 1.779,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
+        "locality": "Thuin",
+        "price": 1.793,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Thuin/6530/BE_ht_1678"
       },
       "super98": {
         "locality": "Leuze-en-Hainaut",
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Bouillon",
-        "price": 1.837,
+        "price": 1.857,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bouillon/6830/BE_lu_1826"
       },
       "super98": {
