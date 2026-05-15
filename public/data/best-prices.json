@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Nivelles",
-        "price": 1.839,
+        "price": 1.829,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nivelles/1400/BE_bw_153"
       },
       "super98": {
@@ -51,9 +51,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
-        "locality": "Nivelles",
-        "price": 2.039,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
+        "locality": "Mont-Saint-Guibert",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Mont-Saint-Guibert/1435/BE_bw_167"
       }
     },
     {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ostende",
+        "locality": "Diksmuide",
         "price": 1.819,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
         "locality": "Diksmuide",
