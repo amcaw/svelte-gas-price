@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-17",
   "source": "carbu.com",
   "provinces": [
     {
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kampenhout/1910/BE_bf_294"
       },
       "diesel": {
-        "locality": "Kampenhout",
-        "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
+        "locality": "Tervuren",
+        "price": 1.966,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tervuren/3080/BE_bf_494"
       }
     },
     {
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 1.982,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Uccle",
+        "price": 1.976,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
       }
     },
     {
