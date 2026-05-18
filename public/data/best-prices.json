@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-05-18",
   "source": "carbu.com",
   "provinces": [
     {
@@ -51,9 +51,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
-        "locality": "Mont-Saint-Guibert",
-        "price": 1.937,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Mont-Saint-Guibert/1435/BE_bw_167"
+        "locality": "Nivelles",
+        "price": 1.968,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
     {
@@ -69,17 +69,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evere/1140/BE_bx_47"
       },
       "diesel": {
-        "locality": "Uccle",
-        "price": 1.976,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Uccle/1180/BE_bx_62"
+        "locality": "Anderlecht",
+        "price": 1.982,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
       }
     },
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Diksmuide",
+        "locality": "Ostende",
         "price": 1.819,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
       },
       "super98": {
         "locality": "Diksmuide",
@@ -100,14 +100,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
       },
       "super98": {
-        "locality": "Gavere",
-        "price": 1.936,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Gavere/9890/BE_foi_2826"
+        "locality": "Deinze",
+        "price": 1.939,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
       },
       "diesel": {
-        "locality": "Deinze",
+        "locality": "Gand",
         "price": 1.959,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
       }
     },
     {
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Thuin/6530/BE_ht_1678"
       },
       "super98": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.945,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Charleroi",
+        "price": 1.939,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
         "locality": "Charleroi",
