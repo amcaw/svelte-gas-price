@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Anderlecht",
-        "price": 1.982,
+        "price": 1.979,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
       }
     },
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Maaseik",
+        "locality": "Kinrooi",
         "price": 1.796,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kinrooi/3640/BE_li_650"
       },
       "super98": {
         "locality": "Hasselt",
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Maaseik",
-        "price": 1.956,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
+        "locality": "Kinrooi",
+        "price": 1.936,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kinrooi/3640/BE_li_650"
       }
     },
     {
