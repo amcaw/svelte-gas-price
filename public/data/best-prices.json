@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Zwijndrecht",
-        "price": 1.829,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zwijndrecht/2070/BE_a_321"
+        "locality": "Ravels",
+        "price": 1.832,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ravels/2380/BE_a_374"
       },
       "super98": {
         "locality": "Oud-Turnhout",
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oud-Turnhout/2360/BE_a_372"
       },
       "diesel": {
-        "locality": "Balen",
-        "price": 1.977,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
+        "locality": "Duffel",
+        "price": 1.973,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Duffel/2570/BE_a_411"
       }
     },
     {
@@ -106,7 +106,7 @@
       },
       "diesel": {
         "locality": "Deinze",
-        "price": 1.959,
+        "price": 1.953,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
       }
     },
@@ -114,7 +114,7 @@
       "province": "Hainaut",
       "essence95": {
         "locality": "Silly",
-        "price": 1.799,
+        "price": 1.805,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
       },
       "super98": {
@@ -196,7 +196,7 @@
       },
       "diesel": {
         "locality": "Walcourt",
-        "price": 1.935,
+        "price": 1.933,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
       }
     }
