@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oud-Turnhout/2360/BE_a_372"
       },
       "diesel": {
-        "locality": "Duffel",
+        "locality": "Berlaar",
         "price": 2.049,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Duffel/2570/BE_a_411"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Berlaar/2590/BE_a_414"
       }
     },
     {
@@ -33,16 +33,16 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kampenhout/1910/BE_bf_294"
       },
       "diesel": {
-        "locality": "Boortmeerbeek",
-        "price": 2.045,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Kampenhout",
+        "price": 2.039,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
     {
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Nivelles",
-        "price": 1.859,
+        "price": 1.849,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nivelles/1400/BE_bw_153"
       },
       "super98": {
@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 2.034,
+        "price": 2.024,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Zottegem",
-        "price": 1.853,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zottegem/9620/BE_foi_2721"
+        "locality": "Lokeren",
+        "price": 1.849,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
       },
       "super98": {
         "locality": "Evergem",
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evergem/9940/BE_foi_2838"
       },
       "diesel": {
-        "locality": "Deinze",
-        "price": 2.029,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
+        "locality": "Sint-Martens-Latem",
+        "price": 2.035,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Sint-Martens-Latem/9830/BE_foi_2800"
       }
     },
     {
@@ -131,13 +131,13 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Aywaille",
-        "price": 1.87,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
+        "locality": "Fléron",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Fleron/4620/BE_lg_1066"
       },
       "super98": {
         "locality": "Dison",
-        "price": 2.045,
+        "price": 2.044,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -185,14 +185,14 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Namur",
-        "price": 1.86,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Namur/5000/BE_nm_1204"
+        "locality": "Hastière",
+        "price": 1.857,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
       },
       "super98": {
-        "locality": "Onhaye",
-        "price": 2.003,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
+        "locality": "Hastière",
+        "price": 1.994,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
         "locality": "Walcourt",
