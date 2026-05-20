@@ -100,9 +100,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
       },
       "super98": {
-        "locality": "Evergem",
+        "locality": "Deinze",
         "price": 1.989,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evergem/9940/BE_foi_2838"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
       },
       "diesel": {
         "locality": "Sint-Martens-Latem",
@@ -114,7 +114,7 @@
       "province": "Hainaut",
       "essence95": {
         "locality": "Silly",
-        "price": 1.849,
+        "price": 1.839,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
       },
       "super98": {
@@ -149,19 +149,19 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.833,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Maaseik",
+        "price": 1.845,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
       },
       "super98": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.966,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Hasselt",
+        "price": 1.97,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.978,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Ham",
+        "price": 2.034,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ham/3945/BE_li_807"
       }
     },
     {
