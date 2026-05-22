@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Kampenhout",
+        "locality": "Boortmeerbeek",
         "price": 2.029,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kampenhout/1910/BE_bf_294"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Boortmeerbeek/3190/BE_bf_508"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -64,9 +64,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
-        "locality": "Schaerbeek",
-        "price": 2.056,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
+        "locality": "Auderghem",
+        "price": 2.049,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Auderghem/1160/BE_bx_54"
       },
       "diesel": {
         "locality": "Uccle",
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
       },
       "diesel": {
-        "locality": "Gavere",
+        "locality": "Deinze",
         "price": 1.979,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gavere/9890/BE_foi_2826"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
       }
     },
     {
