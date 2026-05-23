@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Marche-en-Famenne",
+        "price": 1.824,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.994,
+        "price": 1.991,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
