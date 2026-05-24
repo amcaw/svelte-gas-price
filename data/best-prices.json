@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-24",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,13 +23,13 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Tervuren",
-        "price": 1.824,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
+        "locality": "Opwijk",
+        "price": 1.818,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Opwijk/1745/BE_bf_248"
       },
       "super98": {
         "locality": "Opwijk",
-        "price": 1.968,
+        "price": 1.969,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Opwijk/1745/BE_bf_248"
       },
       "diesel": {
@@ -101,7 +101,7 @@
       },
       "super98": {
         "locality": "Deinze",
-        "price": 1.938,
+        "price": 1.939,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
       },
       "diesel": {
