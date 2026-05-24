@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Opwijk/1745/BE_bf_248"
       },
       "super98": {
-        "locality": "Opwijk",
+        "locality": "Asse",
         "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Opwijk/1745/BE_bf_248"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Asse/1730/BE_bf_238"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ostende",
-        "price": 1.822,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
+        "locality": "Torhout",
+        "price": 1.818,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Torhout/8820/BE_foc_2493"
       },
       "super98": {
         "locality": "Ostende",
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Marche-en-Famenne",
-        "price": 1.824,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Wellin",
+        "price": 1.849,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
       },
       "super98": {
         "locality": "Paliseul",
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.991,
+        "price": 1.994,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
