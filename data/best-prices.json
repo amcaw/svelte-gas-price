@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-25",
   "source": "carbu.com",
   "provinces": [
     {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Torhout",
-        "price": 1.818,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Torhout/8820/BE_foc_2493"
+        "locality": "Diksmuide",
+        "price": 1.807,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
         "locality": "Ostende",
