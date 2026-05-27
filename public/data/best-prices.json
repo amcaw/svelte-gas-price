@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
       },
       "super98": {
-        "locality": "Oud-Turnhout",
-        "price": 1.948,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oud-Turnhout/2360/BE_a_372"
+        "locality": "Wuustwezel",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wuustwezel/2990/BE_a_467"
       },
       "diesel": {
         "locality": "Balen",
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Asse/1730/BE_bf_238"
       },
       "diesel": {
-        "locality": "Kampenhout",
+        "locality": "Boortmeerbeek",
         "price": 1.989,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
       }
     },
     {
@@ -59,19 +59,19 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Evere",
-        "price": 1.824,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
+        "locality": "Auderghem",
+        "price": 1.774,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Auderghem/1160/BE_bx_54"
       },
       "super98": {
         "locality": "Auderghem",
-        "price": 1.998,
+        "price": 1.845,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Auderghem/1160/BE_bx_54"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 1.999,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Auderghem",
+        "price": 1.941,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Auderghem/1160/BE_bx_54"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
       },
       "diesel": {
-        "locality": "Kruishoutem",
-        "price": 1.969,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kruishoutem/9770/BE_foi_2772"
+        "locality": "Deinze",
+        "price": 1.979,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
       }
     },
     {
