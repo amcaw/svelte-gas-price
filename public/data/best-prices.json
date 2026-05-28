@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Balen",
-        "price": 1.826,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
+        "locality": "Aartselaar",
+        "price": 1.829,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aartselaar/2630/BE_a_420"
       },
       "super98": {
-        "locality": "Wuustwezel",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wuustwezel/2990/BE_a_467"
+        "locality": "Oud-Turnhout",
+        "price": 1.948,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Oud-Turnhout/2360/BE_a_372"
       },
       "diesel": {
-        "locality": "Balen",
-        "price": 1.992,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
+        "locality": "Aartselaar",
+        "price": 1.998,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aartselaar/2630/BE_a_420"
       }
     },
     {
@@ -96,13 +96,13 @@
       "province": "Flandre Orientale",
       "essence95": {
         "locality": "Lokeren",
-        "price": 1.808,
+        "price": 1.807,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
       },
       "super98": {
-        "locality": "Deinze",
-        "price": 1.939,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deinze/9800/BE_foi_2783"
+        "locality": "Evergem",
+        "price": 1.936,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Evergem/9940/BE_foi_2838"
       },
       "diesel": {
         "locality": "Deinze",
