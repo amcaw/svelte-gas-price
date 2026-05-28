@@ -24,7 +24,7 @@
       "province": "Brabant Flamand",
       "essence95": {
         "locality": "Merchtem",
-        "price": 1.818,
+        "price": 1.817,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Merchtem/1785/BE_bf_266"
       },
       "super98": {
@@ -78,7 +78,7 @@
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Diksmuide",
-        "price": 1.819,
+        "price": 1.817,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
@@ -113,19 +113,19 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Silly",
+        "locality": "Mouscron",
         "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mouscron/7700/BE_ht_2156"
       },
       "super98": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.945,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Mouscron",
+        "price": 1.938,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Mouscron/7700/BE_ht_2156"
       },
       "diesel": {
-        "locality": "Thuin",
-        "price": 1.936,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
+        "locality": "Mouscron",
+        "price": 1.929,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Mouscron/7700/BE_ht_2156"
       }
     },
     {
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Hotton",
-        "price": 1.886,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hotton/6990/BE_lu_1939"
+        "locality": "Neufch&acirc;teau",
+        "price": 1.856,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Neufchateau/6840/BE_lu_1841"
       },
       "super98": {
         "locality": "Paliseul",
