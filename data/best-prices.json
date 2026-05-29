@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Merchtem/1785/BE_bf_266"
       },
       "super98": {
-        "locality": "Opwijk",
+        "locality": "Merchtem",
         "price": 1.859,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Opwijk/1745/BE_bf_248"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Merchtem/1785/BE_bf_266"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 1.887,
+        "price": 1.894,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -150,7 +150,7 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Maaseik",
-        "price": 1.676,
+        "price": 1.696,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
       },
       "super98": {
@@ -159,17 +159,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Maaseik",
-        "price": 1.863,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
+        "locality": "Ham",
+        "price": 1.88,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ham/3945/BE_li_807"
       }
     },
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Bertrix",
+        "price": 1.759,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
       },
       "super98": {
         "locality": "Paliseul",
