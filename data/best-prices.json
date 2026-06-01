@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-01",
   "source": "carbu.com",
   "provinces": [
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Clavier/4560/BE_lg_1035"
       },
       "diesel": {
-        "locality": "Wanze",
-        "price": 1.855,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Wanze/4520/BE_lg_1010"
+        "locality": "Remicourt",
+        "price": 1.872,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Remicourt/4350/BE_lg_953"
       }
     },
     {
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Hasselt",
-        "price": 1.875,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hasselt/3500/BE_li_603"
+        "locality": "Ham",
+        "price": 1.88,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ham/3945/BE_li_807"
       }
     },
     {
