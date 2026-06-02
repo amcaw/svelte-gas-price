@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Merchtem",
+        "locality": "Asse",
         "price": 1.699,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Merchtem/1785/BE_bf_266"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Asse/1730/BE_bf_238"
       },
       "super98": {
         "locality": "Diest",
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.719,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Bouillon",
+        "price": 1.756,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bouillon/6830/BE_lu_1826"
       },
       "super98": {
         "locality": "Paliseul",
