@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kasterlee/2460/BE_a_389"
       },
       "super98": {
-        "locality": "Kasterlee",
-        "price": 1.753,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kasterlee/2460/BE_a_389"
+        "locality": "Wijnegem",
+        "price": 1.742,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wijnegem/2110/BE_a_323"
       },
       "diesel": {
         "locality": "Kasterlee",
@@ -78,7 +78,7 @@
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Diksmuide",
-        "price": 1.719,
+        "price": 1.717,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
       },
       "diesel": {
-        "locality": "Heuvelland",
-        "price": 1.919,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
+        "locality": "Diksmuide",
+        "price": 1.915,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Diksmuide/8600/BE_foc_2399"
       }
     },
     {
