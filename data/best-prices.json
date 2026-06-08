@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07",
+  "lastUpdated": "2026-06-08",
   "source": "carbu.com",
   "provinces": [
     {
@@ -78,7 +78,7 @@
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Diksmuide",
-        "price": 1.719,
+        "price": 1.699,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
@@ -87,16 +87,16 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
       },
       "diesel": {
-        "locality": "Heuvelland",
+        "locality": "Diksmuide",
         "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Diksmuide/8600/BE_foc_2399"
       }
     },
     {
       "province": "Flandre Orientale",
       "essence95": {
         "locality": "Lokeren",
-        "price": 1.707,
+        "price": 1.699,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
       },
       "super98": {
@@ -105,27 +105,27 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/De Pinte/9840/BE_foi_2802"
       },
       "diesel": {
-        "locality": "Deinze",
-        "price": 1.909,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deinze/9800/BE_foi_2783"
+        "locality": "Dendermonde",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
       }
     },
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Silly",
-        "price": 1.709,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
+        "locality": "Chimay",
+        "price": 1.674,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Chimay/6460/BE_ht_1651"
       },
       "super98": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.853,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Chimay",
+        "price": 1.753,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Chimay/6460/BE_ht_1651"
       },
       "diesel": {
-        "locality": "Charleroi",
-        "price": 1.885,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
+        "locality": "Chimay",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
     {
@@ -159,16 +159,16 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Ham",
-        "price": 1.904,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ham/3945/BE_li_807"
+        "locality": "Hoeselt",
+        "price": 1.896,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
     {
       "province": "Luxembourg",
       "essence95": {
         "locality": "Marche-en-Famenne",
-        "price": 1.724,
+        "price": 1.749,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.915,
+        "price": 1.918,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
