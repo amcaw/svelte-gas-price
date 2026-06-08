@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Nivelles",
-        "price": 1.673,
+        "price": 1.668,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nivelles/1400/BE_bw_153"
       },
       "super98": {
@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 1.862,
+        "price": 1.857,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Hoeselt",
-        "price": 1.896,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
+        "locality": "Maaseik",
+        "price": 1.895,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
       }
     },
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Namur",
-        "price": 1.709,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Namur/5000/BE_nm_1204"
+        "locality": "Gembloux",
+        "price": 1.706,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
       },
       "super98": {
         "locality": "Onhaye",
