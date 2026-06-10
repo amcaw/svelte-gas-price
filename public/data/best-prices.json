@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.668,
-        "url": null
+        "locality": "Gembloux",
+        "price": 1.706,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
       },
       "super98": {
-        "locality": "Anvers",
-        "price": 1.742,
-        "url": null
+        "locality": "Onhaye",
+        "price": 1.859,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Brabant Wallon",
-        "price": 1.857,
-        "url": null
+        "locality": "Hastière",
+        "price": 1.864,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
