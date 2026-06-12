@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "source": "carbu.com",
   "provinces": [
     {
@@ -23,18 +23,18 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Haacht",
-        "price": 1.704,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Haacht/3150/BE_bf_505"
+        "locality": "Zaventem",
+        "price": 1.674,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zaventem/1930/BE_bf_297"
       },
       "super98": {
         "locality": "Zaventem",
-        "price": 1.793,
+        "price": 1.753,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Zaventem/1930/BE_bf_297"
       },
       "diesel": {
         "locality": "Zaventem",
-        "price": 1.905,
+        "price": 1.865,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Zaventem/1930/BE_bf_297"
       }
     },
@@ -131,9 +131,9 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Blégny",
-        "price": 1.719,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blegny/4670/BE_lg_1085"
+        "locality": "Ans",
+        "price": 1.724,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ans/4430/BE_lg_980"
       },
       "super98": {
         "locality": "Clavier",
