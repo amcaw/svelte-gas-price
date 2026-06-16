@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Lokeren",
+        "locality": "Aalter",
         "price": 1.699,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
         "locality": "Kluisbergen",
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kluisbergen/9690/BE_foi_2752"
       },
       "diesel": {
-        "locality": "Dendermonde",
-        "price": 1.819,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
+        "locality": "Aalter",
+        "price": 1.809,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalter/9880/BE_foi_2819"
       }
     },
     {
@@ -131,9 +131,9 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Ans",
-        "price": 1.724,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ans/4430/BE_lg_980"
+        "locality": "Blégny",
+        "price": 1.719,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Blegny/4670/BE_lg_1085"
       },
       "super98": {
         "locality": "Clavier",
