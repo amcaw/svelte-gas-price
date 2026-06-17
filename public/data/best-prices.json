@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Evere",
-        "price": 1.819,
+        "price": 1.814,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 1.831,
+        "price": 1.794,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -190,14 +190,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
       },
       "super98": {
-        "locality": "Onhaye",
-        "price": 1.796,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
+        "locality": "Hastière",
+        "price": 1.793,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Florennes",
-        "price": 1.785,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Florennes/5620/BE_nm_1505"
+        "locality": "Hastière",
+        "price": 1.759,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
