@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "source": "carbu.com",
   "provinces": [
     {
@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kasterlee/2460/BE_a_389"
       },
       "super98": {
-        "locality": "Wijnegem",
-        "price": 1.679,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Wijnegem/2110/BE_a_323"
+        "locality": "Kasterlee",
+        "price": 1.69,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kasterlee/2460/BE_a_389"
       },
       "diesel": {
         "locality": "Kasterlee",
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Aalter",
-        "price": 1.644,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
+        "locality": "Gavere",
+        "price": 1.639,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gavere/9890/BE_foi_2826"
       },
       "super98": {
         "locality": "Kluisbergen",
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Maaseik",
+        "locality": "Dilsen-Stokkem",
         "price": 1.639,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilsen-Stokkem/3650/BE_li_653"
       },
       "super98": {
         "locality": "Hasselt",
@@ -159,17 +159,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
-        "locality": "Maaseik",
-        "price": 1.815,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
+        "locality": "Dilsen-Stokkem",
+        "price": 1.819,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dilsen-Stokkem/3650/BE_li_653"
       }
     },
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Bertrix",
-        "price": 1.699,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
+        "locality": "Marche-en-Famenne",
+        "price": 1.679,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
