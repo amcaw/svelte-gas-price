@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "source": "carbu.com",
   "provinces": [
     {
@@ -42,7 +42,7 @@
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Nivelles",
-        "price": 1.619,
+        "price": 1.635,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nivelles/1400/BE_bw_153"
       },
       "super98": {
@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 1.703,
+        "price": 1.711,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.689,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Bertrix",
+        "price": 1.699,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
       },
       "super98": {
         "locality": "Paliseul",
