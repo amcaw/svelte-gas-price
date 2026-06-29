@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.629,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Maaseik",
+        "price": 1.596,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
       },
       "super98": {
         "locality": "Hasselt",
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Maaseik",
-        "price": 1.746,
+        "price": 1.729,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
       }
     },
