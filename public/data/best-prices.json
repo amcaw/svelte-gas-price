@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Schaerbeek",
-        "price": 1.761,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schaerbeek/1030/BE_bx_5"
+        "locality": "Auderghem",
+        "price": 1.758,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Auderghem/1160/BE_bx_54"
       }
     },
     {
@@ -113,13 +113,13 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Chimay",
+        "locality": "Sivry-Rance",
         "price": 1.606,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Chimay/6460/BE_ht_1651"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sivry-Rance/6470/BE_ht_1668"
       },
       "super98": {
         "locality": "Chimay",
-        "price": 1.687,
+        "price": 1.787,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Chimay/6460/BE_ht_1651"
       },
       "diesel": {
