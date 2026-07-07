@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "source": "carbu.com",
   "provinces": [
     {
@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Auderghem",
-        "price": 1.794,
+        "price": 1.784,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Auderghem/1160/BE_bx_54"
       }
     },
