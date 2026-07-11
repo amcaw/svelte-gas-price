@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.769,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Marche-en-Famenne",
+        "price": 1.759,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
@@ -178,16 +178,16 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 1.955,
+        "price": 1.952,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Namur",
-        "price": 1.695,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Namur/5000/BE_nm_1204"
+        "locality": "Jemeppe-sur-Sambre",
+        "price": 1.723,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
       },
       "super98": {
         "locality": "Onhaye",
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Namur",
-        "price": 1.809,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Namur/5000/BE_nm_1204"
+        "locality": "Walcourt",
+        "price": 1.908,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Walcourt/5650/BE_nm_1536"
       }
     }
   ]
