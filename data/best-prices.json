@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "source": "carbu.com",
   "provinces": [
     {
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kasterlee/2460/BE_a_389"
       },
       "diesel": {
-        "locality": "Retie",
-        "price": 1.844,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Retie/2470/BE_a_392"
+        "locality": "Kasterlee",
+        "price": 1.902,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
       }
     },
     {
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Marche-en-Famenne",
-        "price": 1.777,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Wellin",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
       },
       "super98": {
         "locality": "Paliseul",
