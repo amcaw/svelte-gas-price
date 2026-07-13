@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Schaerbeek",
-        "price": 1.742,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schaerbeek/1030/BE_bx_5"
+        "locality": "Anderlecht",
+        "price": 1.752,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -114,7 +114,7 @@
       "province": "Hainaut",
       "essence95": {
         "locality": "Quiévrain",
-        "price": 1.728,
+        "price": 1.729,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Quievrain/7380/BE_ht_2081"
       },
       "super98": {
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Maaseik",
-        "price": 1.748,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
+        "locality": "Hasselt",
+        "price": 1.749,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hasselt/3500/BE_li_603"
       },
       "super98": {
         "locality": "Hasselt",
