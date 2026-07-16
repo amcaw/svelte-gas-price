@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kasterlee/2460/BE_a_389"
       },
       "diesel": {
-        "locality": "Lier",
-        "price": 1.89,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lier/2500/BE_a_397"
+        "locality": "Herselt",
+        "price": 1.895,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Herselt/2230/BE_a_338"
       }
     },
     {
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Zaventem/1930/BE_bf_297"
       },
       "diesel": {
-        "locality": "Boortmeerbeek",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Asse",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Asse/1730/BE_bf_238"
       }
     },
     {
@@ -51,9 +51,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Jodoigne/1370/BE_bw_133"
       },
       "diesel": {
-        "locality": "Genappe",
-        "price": 1.889,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Genappe/1470/BE_bw_184"
+        "locality": "Braine-le-Ch&acirc;teau",
+        "price": 1.934,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Braine-le-Chateau/1440/BE_bw_168"
       }
     },
     {
@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Evere",
-        "price": 1.879,
+        "price": 1.98,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Mons/7000/BE_ht_1945"
       },
       "diesel": {
-        "locality": "Charleroi",
-        "price": 1.873,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
+        "locality": "Braine-le-Comte",
+        "price": 1.893,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Braine-le-Comte/7090/BE_ht_2000"
       }
     },
     {
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hasselt",
-        "price": 1.875,
+        "price": 1.977,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hasselt/3500/BE_li_603"
       }
     },
