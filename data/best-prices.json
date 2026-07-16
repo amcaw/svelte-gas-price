@@ -96,13 +96,13 @@
       "province": "Flandre Orientale",
       "essence95": {
         "locality": "Aalter",
-        "price": 1.679,
+        "price": 1.682,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
-        "locality": "Sint-Niklaas",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Sint-Niklaas/9100/BE_foi_2575"
+        "locality": "Waasmunster",
+        "price": 1.924,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Waasmunster/9250/BE_foi_2619"
       },
       "diesel": {
         "locality": "Lokeren",
