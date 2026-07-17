@@ -101,7 +101,7 @@
       },
       "super98": {
         "locality": "Waasmunster",
-        "price": 1.986,
+        "price": 1.979,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Waasmunster/9250/BE_foi_2619"
       },
       "diesel": {
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Anderlues",
-        "price": 1.733,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlues/6150/BE_ht_1603"
+        "locality": "Mons",
+        "price": 1.739,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mons/7000/BE_ht_1945"
       },
       "super98": {
         "locality": "Mons",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Mons/7000/BE_ht_1945"
       },
       "diesel": {
-        "locality": "Quiévrain",
-        "price": 1.972,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Quievrain/7380/BE_ht_2081"
+        "locality": "Chimay",
+        "price": 1.969,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Philippeville",
-        "price": 1.979,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Philippeville/5600/BE_nm_1493"
+        "locality": "Couvin",
+        "price": 1.969,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
