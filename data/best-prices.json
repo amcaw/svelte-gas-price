@@ -60,7 +60,7 @@
       "province": "Bruxelles",
       "essence95": {
         "locality": "Evere",
-        "price": 1.777,
+        "price": 1.78,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
       },
       "super98": {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Hastière",
-        "price": 1.949,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
+        "locality": "Couvin",
+        "price": 1.969,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
