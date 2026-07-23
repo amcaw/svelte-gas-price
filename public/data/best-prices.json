@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Evere",
-        "price": 1.98,
+        "price": 1.999,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Mons/7000/BE_ht_1945"
       },
       "diesel": {
-        "locality": "Charleroi",
-        "price": 1.991,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
+        "locality": "La Louvière",
+        "price": 1.992,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/La Louviere/7100/BE_ht_2008"
       }
     },
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Verviers",
-        "price": 1.994,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Verviers/4800/BE_lg_1140"
+        "locality": "Pepinster",
+        "price": 1.996,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Pepinster/4860/BE_lg_1161"
       }
     },
     {
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hasselt",
-        "price": 1.977,
+        "price": 2.062,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hasselt/3500/BE_li_603"
       }
     },
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Hotton",
-        "price": 2.045,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hotton/6990/BE_lu_1939"
+        "locality": "Marche-en-Famenne",
+        "price": 2.083,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
     {
