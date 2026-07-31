@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 2.059,
+        "price": 2.061,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hastiere/5540/BE_nm_1398"
       },
       "diesel": {
-        "locality": "Namur",
-        "price": 2.072,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Namur/5000/BE_nm_1204"
+        "locality": "Eghezée",
+        "price": 2.069,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Eghezee/5310/BE_nm_1299"
       }
     }
   ]
