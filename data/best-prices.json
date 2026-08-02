@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "source": "carbu.com",
   "provinces": [
     {
@@ -34,7 +34,7 @@
       },
       "diesel": {
         "locality": "Boortmeerbeek",
-        "price": 2.069,
+        "price": 2.105,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
       }
     },
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Anderlecht",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "locality": "Evere",
+        "price": 2.12,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Waasmunster/9250/BE_foi_2619"
       },
       "diesel": {
-        "locality": "Aalst",
-        "price": 2.075,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
+        "locality": "Gand",
+        "price": 2.079,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
       }
     },
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Beyne-Heusay",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Beyne-Heusay/4610/BE_lg_1064"
+        "locality": "Lontzen",
+        "price": 2.109,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 2.103,
+        "price": 2.139,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
