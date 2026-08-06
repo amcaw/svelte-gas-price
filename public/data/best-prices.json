@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "source": "carbu.com",
   "provinces": [
     {
@@ -60,7 +60,7 @@
       "province": "Bruxelles",
       "essence95": {
         "locality": "Evere",
-        "price": 1.699,
+        "price": 1.694,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
       },
       "super98": {
@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Evere",
-        "price": 2.036,
+        "price": 2.034,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
@@ -155,7 +155,7 @@
       },
       "super98": {
         "locality": "Hasselt",
-        "price": 1.833,
+        "price": 1.862,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
