@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Kasterlee",
+        "locality": "Balen",
         "price": 1.666,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kasterlee/2460/BE_a_389"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
       },
       "super98": {
-        "locality": "Kasterlee",
+        "locality": "Balen",
         "price": 1.788,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kasterlee/2460/BE_a_389"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Balen/2490/BE_a_394"
       },
       "diesel": {
-        "locality": "Kasterlee",
+        "locality": "Balen",
         "price": 2.011,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
       }
     },
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Flémalle",
-        "price": 2.011,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Flemalle/4400/BE_lg_971"
+        "locality": "Liège",
+        "price": 2.022,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Liege/4000/BE_lg_826"
       }
     },
     {
@@ -154,9 +154,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ham/3945/BE_li_807"
       },
       "super98": {
-        "locality": "Hasselt",
-        "price": 1.862,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
+        "locality": "Leopoldsburg",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leopoldsburg/3970/BE_li_818"
       },
       "diesel": {
         "locality": "Ham",
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Onhaye",
+        "locality": "Florennes",
         "price": 1.689,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Onhaye/5520/BE_nm_1376"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Florennes/5620/BE_nm_1505"
       },
       "super98": {
         "locality": "Onhaye",
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Onhaye",
+        "locality": "Florennes",
         "price": 2.019,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Onhaye/5520/BE_nm_1376"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Florennes/5620/BE_nm_1505"
       }
     }
   ]
