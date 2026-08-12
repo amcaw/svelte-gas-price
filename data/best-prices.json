@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "source": "carbu.com",
   "provinces": [
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Florennes",
+        "locality": "Onhaye",
         "price": 1.689,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Florennes/5620/BE_nm_1505"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Onhaye/5520/BE_nm_1376"
       },
       "super98": {
         "locality": "Onhaye",
