@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "source": "carbu.com",
   "provinces": [
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Onhaye",
+        "locality": "Jemeppe-sur-Sambre",
         "price": 1.689,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Onhaye/5520/BE_nm_1376"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
       },
       "super98": {
         "locality": "Onhaye",
