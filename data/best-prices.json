@@ -23,26 +23,26 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Boortmeerbeek",
-        "price": 1.678,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Tervuren",
+        "price": 1.666,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tervuren/3080/BE_bf_494"
       },
       "super98": {
-        "locality": "Boortmeerbeek",
-        "price": 1.886,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Tervuren",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Tervuren/3080/BE_bf_494"
       },
       "diesel": {
-        "locality": "Kampenhout",
-        "price": 2.019,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
+        "locality": "Tervuren",
+        "price": 2.011,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Tervuren/3080/BE_bf_494"
       }
     },
     {
       "province": "Brabant Wallon",
       "essence95": {
         "locality": "Nivelles",
-        "price": 1.661,
+        "price": 1.659,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Nivelles/1400/BE_bw_153"
       },
       "super98": {
@@ -52,26 +52,26 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 2.006,
+        "price": 2.002,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Evere",
-        "price": 1.694,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
+        "locality": "Forest",
+        "price": 1.666,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Forest/1190/BE_bx_66"
       },
       "super98": {
-        "locality": "Schaerbeek",
-        "price": 1.948,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
+        "locality": "Forest",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Forest/1190/BE_bx_66"
       },
       "diesel": {
-        "locality": "Evere",
-        "price": 2.034,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
+        "locality": "Forest",
+        "price": 2.011,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Forest/1190/BE_bx_66"
       }
     },
     {
@@ -101,7 +101,7 @@
       },
       "super98": {
         "locality": "De Pinte",
-        "price": 1.889,
+        "price": 1.893,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/De Pinte/9840/BE_foi_2802"
       },
       "diesel": {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Jemeppe-sur-Sambre",
-        "price": 1.689,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
+        "locality": "Gembloux",
+        "price": 1.686,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
       },
       "super98": {
         "locality": "Onhaye",
