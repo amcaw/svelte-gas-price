@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-13",
-  "priceDate": "2026-08-14",
+  "lastUpdated": "2026-08-14",
+  "priceDate": "2026-08-15",
   "today": {
     "essence95": 1.94,
     "essence98": 2.09,
-    "diesel": 2.21,
-    "mazout_plus": 1.33,
-    "mazout": 1.37
+    "diesel": 2.28,
+    "mazout_plus": 1.32,
+    "mazout": 1.36
   },
   "daily": [
     {
@@ -4056,6 +4056,14 @@
       "diesel": 2.21,
       "mazout_plus": 1.32,
       "mazout": 1.36
+    },
+    {
+      "date": "2026-08-14",
+      "essence95": 1.94,
+      "essence98": 2.09,
+      "diesel": 2.21,
+      "mazout_plus": 1.33,
+      "mazout": 1.37
     }
   ],
   "monthly": [
