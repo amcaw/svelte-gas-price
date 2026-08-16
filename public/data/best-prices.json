@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-16",
   "source": "carbu.com",
   "provinces": [
     {
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Balen/2490/BE_a_394"
       },
       "diesel": {
-        "locality": "Kapellen",
-        "price": 2.07,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kapellen/2950/BE_a_460"
+        "locality": "Balen",
+        "price": 2.073,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
       }
     },
     {
