@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
       },
       "super98": {
-        "locality": "Balen",
-        "price": 1.894,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Balen/2490/BE_a_394"
+        "locality": "Retie",
+        "price": 1.889,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
       },
       "diesel": {
         "locality": "Balen",
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Forest",
+        "locality": "Woluwe-Saint-Lambert",
         "price": 1.736,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Forest/1190/BE_bx_66"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
         "locality": "Forest",
@@ -83,7 +83,7 @@
       },
       "super98": {
         "locality": "Ostende",
-        "price": 1.899,
+        "price": 1.894,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
       },
       "diesel": {
@@ -100,9 +100,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
-        "locality": "Dendermonde",
-        "price": 1.939,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dendermonde/9200/BE_foi_2607"
+        "locality": "Zele",
+        "price": 1.894,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Zele/9240/BE_foi_2618"
       },
       "diesel": {
         "locality": "Aalter",
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Marche-en-Famenne",
-        "price": 1.809,
+        "price": 1.799,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Marche-en-Famenne",
-        "price": 2.136,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Bertrix",
+        "price": 2.149,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Gembloux",
-        "price": 2.028,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gembloux/5030/BE_nm_1222"
+        "locality": "Namur",
+        "price": 2.099,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Namur/5000/BE_nm_1204"
       }
     }
   ]
