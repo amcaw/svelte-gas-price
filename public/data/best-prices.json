@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "source": "carbu.com",
   "provinces": [
     {
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.736,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Anderlecht",
+        "price": 1.724,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
       },
       "super98": {
         "locality": "Forest",
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Bertrix",
-        "price": 2.149,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
+        "locality": "Marche-en-Famenne",
+        "price": 2.136,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
     {
