@@ -150,17 +150,17 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Ham",
-        "price": 1.736,
+        "price": 1.735,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ham/3945/BE_li_807"
       },
       "super98": {
-        "locality": "Ham",
-        "price": 1.894,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ham/3945/BE_li_807"
+        "locality": "Hasselt",
+        "price": 1.966,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
       },
       "diesel": {
         "locality": "Ham",
-        "price": 2.115,
+        "price": 2.114,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ham/3945/BE_li_807"
       }
     },
