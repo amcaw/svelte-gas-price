@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Halle/1500/BE_bf_200"
       },
       "diesel": {
-        "locality": "Halle",
-        "price": 2.041,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Halle/1500/BE_bf_200"
+        "locality": "Kampenhout",
+        "price": 2.039,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
     {
@@ -88,7 +88,7 @@
       },
       "diesel": {
         "locality": "Ostende",
-        "price": 1.995,
+        "price": 1.999,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ostende/8400/BE_foc_2326"
       }
     },
