@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "source": "carbu.com",
   "provinces": [
     {
@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
       },
       "super98": {
-        "locality": "Bonheiden",
+        "locality": "Anvers",
         "price": 1.934,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Bonheiden/2820/BE_a_430"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anvers/2000/BE_a_310"
       },
       "diesel": {
         "locality": "Balen",
@@ -59,14 +59,14 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Forest",
-        "price": 1.766,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Forest/1190/BE_bx_66"
+        "locality": "Anderlecht",
+        "price": 1.768,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
       },
       "super98": {
-        "locality": "Forest",
-        "price": 1.934,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Forest/1190/BE_bx_66"
+        "locality": "Schaerbeek",
+        "price": 2.094,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
         "locality": "Anderlecht",
@@ -124,7 +124,7 @@
       },
       "diesel": {
         "locality": "Chimay",
-        "price": 2.05,
+        "price": 2.049,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hoeselt",
-        "price": 2.059,
+        "price": 2.056,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
