@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Balen",
-        "price": 1.746,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Balen/2490/BE_a_394"
+        "locality": "Flandre Occidentale",
+        "price": 1.729,
+        "url": null
       },
       "super98": {
         "locality": "Anvers",
         "price": 1.934,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anvers/2000/BE_a_310"
+        "url": null
       },
       "diesel": {
-        "locality": "Balen",
-        "price": 2.021,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
+        "locality": "Flandre Occidentale",
+        "price": 1.999,
+        "url": null
       }
     },
     {
@@ -77,19 +77,19 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ostende",
+        "locality": "Flandre Occidentale",
         "price": 1.729,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
+        "url": null
       },
       "super98": {
-        "locality": "Ostende",
+        "locality": "Anvers",
         "price": 1.934,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Ostende/8400/BE_foc_2326"
+        "url": null
       },
       "diesel": {
-        "locality": "Ostende",
+        "locality": "Flandre Occidentale",
         "price": 1.999,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ostende/8400/BE_foc_2326"
+        "url": null
       }
     },
     {
@@ -149,19 +149,19 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Leopoldsburg",
-        "price": 1.776,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leopoldsburg/3970/BE_li_818"
+        "locality": "Flandre Occidentale",
+        "price": 1.729,
+        "url": null
       },
       "super98": {
-        "locality": "Hasselt",
-        "price": 2.006,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
+        "locality": "Anvers",
+        "price": 1.934,
+        "url": null
       },
       "diesel": {
-        "locality": "Hoeselt",
-        "price": 2.056,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
+        "locality": "Flandre Occidentale",
+        "price": 1.999,
+        "url": null
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Gembloux",
-        "price": 2.048,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gembloux/5030/BE_nm_1222"
+        "locality": "Florennes",
+        "price": 2.045,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Florennes/5620/BE_nm_1505"
       }
     }
   ]
