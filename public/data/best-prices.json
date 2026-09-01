@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Sombreffe",
+        "locality": "Assesse",
         "price": 1.766,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sombreffe/5140/BE_nm_1264"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
-        "locality": "Sombreffe",
+        "locality": "Assesse",
         "price": 1.934,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Sombreffe/5140/BE_nm_1264"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Assesse/5330/BE_nm_1310"
       },
       "diesel": {
-        "locality": "Namur",
+        "locality": "Assesse",
         "price": 2.041,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Namur/5000/BE_nm_1204"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Assesse/5330/BE_nm_1310"
       }
     }
   ]
