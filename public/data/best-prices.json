@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06",
+  "lastUpdated": "2026-09-07",
   "source": "carbu.com",
   "provinces": [
     {
@@ -136,14 +136,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
-        "locality": "Dison",
-        "price": 2.134,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
+        "locality": "Amay",
+        "price": 2.034,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Amay/4540/BE_lg_1019"
       },
       "diesel": {
-        "locality": "Liège",
-        "price": 2.206,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Liege/4000/BE_lg_826"
+        "locality": "Amay",
+        "price": 2.186,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Amay/4540/BE_lg_1019"
       }
     },
     {
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Wellin",
-        "price": 1.909,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Wellin/6920/BE_lu_1885"
+        "locality": "Marche-en-Famenne",
+        "price": 1.919,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
