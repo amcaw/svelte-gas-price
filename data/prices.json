@@ -4320,6 +4320,14 @@
       "diesel": 2.41,
       "mazout_plus": 1.53,
       "mazout": 1.57
+    },
+    {
+      "date": "2026-09-16",
+      "essence95": 2.06,
+      "essence98": 2.23,
+      "diesel": 2.47,
+      "mazout_plus": 1.53,
+      "mazout": 1.57
     }
   ],
   "monthly": [
@@ -4599,7 +4607,7 @@
     },
     {
       "year": 2026,
-      "essence95": 1.82,
+      "essence95": 1.83,
       "essence98": 1.92,
       "diesel": 2.05,
       "mazout_plus": 1.13,
