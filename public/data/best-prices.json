@@ -23,19 +23,19 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Boortmeerbeek",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Hoeilaart",
+        "price": 1.858,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeilaart/1560/BE_bf_208"
       },
       "super98": {
-        "locality": "Boortmeerbeek",
-        "price": 2.129,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Hoeilaart",
+        "price": 2.034,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hoeilaart/1560/BE_bf_208"
       },
       "diesel": {
-        "locality": "Kampenhout",
-        "price": 2.209,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
+        "locality": "Hoeilaart",
+        "price": 2.207,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeilaart/1560/BE_bf_208"
       }
     },
     {
@@ -60,7 +60,7 @@
       "province": "Bruxelles",
       "essence95": {
         "locality": "Woluwe-Saint-Lambert",
-        "price": 1.878,
+        "price": 1.881,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
@@ -113,19 +113,19 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Estinnes",
+        "locality": "Enghien",
         "price": 1.858,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Estinnes//BE_ht_2017"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Enghien/7850/BE_ht_2220"
       },
       "super98": {
-        "locality": "Estinnes",
+        "locality": "Enghien",
         "price": 2.034,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Estinnes//BE_ht_2017"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Enghien/7850/BE_ht_2220"
       },
       "diesel": {
-        "locality": "Estinnes",
+        "locality": "Enghien",
         "price": 2.207,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Estinnes//BE_ht_2017"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Enghien/7850/BE_ht_2220"
       }
     },
     {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Assesse/5330/BE_nm_1310"
       },
       "diesel": {
-        "locality": "Assesse",
-        "price": 2.207,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Assesse/5330/BE_nm_1310"
+        "locality": "Gembloux",
+        "price": 2.204,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gembloux/5030/BE_nm_1222"
       }
     }
   ]
