@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "source": "carbu.com",
   "provinces": [
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Assesse",
-        "price": 1.858,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
+        "locality": "Onhaye",
+        "price": 1.857,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Onhaye/5520/BE_nm_1376"
       },
       "super98": {
         "locality": "Fernelmont",
