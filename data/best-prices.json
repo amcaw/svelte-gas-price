@@ -59,19 +59,19 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Flandre Occidentale",
-        "price": 1.829,
-        "url": null
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.881,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
-        "locality": "Anvers",
-        "price": 2.034,
-        "url": null
+        "locality": "Schaerbeek",
+        "price": 2.194,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Flandre Orientale",
-        "price": 2.209,
-        "url": null
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 2.288,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       }
     },
     {
