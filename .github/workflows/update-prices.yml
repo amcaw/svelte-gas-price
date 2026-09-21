@@ -5,11 +5,11 @@ on:
     branches: [main]
   schedule:
     # SPF prices
-    - cron: '0 6 * * *'
+    - cron: '0 5 * * *'
     # carbu.com best prices — 07:15, 09:00, 16:00 UTC
-    - cron: '15 7 * * *'
-    - cron: '0 9 * * *'
-    - cron: '0 16 * * *'
+    - cron: '15 6 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch: {}
 
 # Prevent infinite loop: skip if the push was made by the bot itself
