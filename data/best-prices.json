@@ -5,14 +5,14 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Schoten",
+        "locality": "Edegem",
         "price": 1.858,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Edegem/2650/BE_a_422"
       },
       "super98": {
-        "locality": "Berlaar",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Berlaar/2590/BE_a_414"
+        "locality": "Edegem",
+        "price": 2.034,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Edegem/2650/BE_a_422"
       },
       "diesel": {
         "locality": "Balen",
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hoeilaart/1560/BE_bf_208"
       },
       "diesel": {
-        "locality": "Hoeilaart",
-        "price": 2.268,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeilaart/1560/BE_bf_208"
+        "locality": "Kampenhout",
+        "price": 2.266,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
     {
@@ -149,19 +149,19 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Hoeselt",
-        "price": 1.878,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
+        "locality": "Lummen",
+        "price": 1.858,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lummen/3560/BE_li_626"
       },
       "super98": {
-        "locality": "Maaseik",
-        "price": 2.094,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
+        "locality": "Lummen",
+        "price": 2.034,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Lummen/3560/BE_li_626"
       },
       "diesel": {
-        "locality": "Hoeselt",
-        "price": 2.289,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
+        "locality": "Lummen",
+        "price": 2.268,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lummen/3560/BE_li_626"
       }
     },
     {
