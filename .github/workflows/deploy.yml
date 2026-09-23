@@ -38,6 +38,9 @@ jobs:
           BASE_PATH: ${{ vars.BASE_PATH || github.event.repository.name }}
         run: npm run build
 
+      - name: Leave live data to the update workflows
+        run: rm -f dist/data/prices.json dist/data/best-prices.json
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -102,6 +102,12 @@ const results = await Promise.all(provinces.map(async prov => {
 
 const valid = results.filter(Boolean);
 
+const MIN_PROVINCES = 11;
+if (valid.length < MIN_PROVINCES) {
+    console.error(`✗ Only ${valid.length} provinces parsed (expected ${MIN_PROVINCES}), keeping previous file`);
+    process.exit(1);
+}
+
 const output = {
     lastUpdated: new Date().toLocaleDateString('sv'),
     source:      'carbu.com',
