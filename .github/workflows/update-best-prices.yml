@@ -1,4 +1,4 @@
-name: Update SPF prices
+name: Update carbu.com best prices
 
 on:
   push:
@@ -6,21 +6,19 @@ on:
     paths-ignore:
       - 'public/data/**'
   schedule:
-    - cron: '23 8 * * *'
-    - cron: '53 8 * * *'
-    - cron: '23 9 * * *'
-    - cron: '53 9 * * *'
-    - cron: '23 10 * * *'
-    - cron: '41 12 * * *'
+    - cron: '4 5 * * *'
+    - cron: '19 6 * * *'
+    - cron: '4 8 * * *'
+    - cron: '4 15 * * *'
   workflow_dispatch: {}
 
 concurrency:
-  group: update-spf
+  group: update-best-prices
   cancel-in-progress: false
 
 jobs:
-  update-spf:
-    name: Fetch SPF prices
+  update-best-prices:
+    name: Fetch carbu.com best prices
     runs-on: ubuntu-latest
     if: github.actor != 'github-actions[bot]'
     permissions:
@@ -39,38 +37,38 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch SPF prices
-        run: node scripts/fetch-prices.js
+      - name: Fetch best prices (carbu.com)
+        run: node scripts/fetch-best-prices.js
 
       - name: Check if data changed
         id: diff
         run: |
-          git diff --quiet public/data/prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/best-prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit to main
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/prices.json
-          git commit -m "chore: update SPF prices $(date -u +%Y-%m-%d)"
+          git add public/data/best-prices.json
+          git commit -m "chore: update best prices $(date -u +"%Y-%m-%d %H:%M")"
           for i in 1 2 3 4 5; do
             git pull --rebase && git push && break
             echo "Push attempt $i failed, retrying in 5s..."
             sleep 5
           done
 
-      - name: Update data/prices.json on gh-pages directly
+      - name: Update data/best-prices.json on gh-pages directly
         if: steps.diff.outputs.changed == 'true'
         run: |
           git fetch origin gh-pages
           git worktree add /tmp/gh-pages gh-pages
-          cp public/data/prices.json /tmp/gh-pages/data/prices.json
+          cp public/data/best-prices.json /tmp/gh-pages/data/best-prices.json
           cd /tmp/gh-pages
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json
-          git diff --staged --quiet || git commit -m "chore: update prices data $(date -u +%Y-%m-%d)"
+          git add data/best-prices.json
+          git diff --staged --quiet || git commit -m "chore: update best-prices data $(date -u +"%Y-%m-%d %H:%M")"
           for i in 1 2 3 4 5; do
             git pull --rebase && git push origin gh-pages && break
             echo "Push attempt $i failed, retrying in 5s..."
