@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Edegem/2650/BE_a_422"
       },
       "diesel": {
-        "locality": "Kasterlee",
-        "price": 2.299,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
+        "locality": "Balen",
+        "price": 2.301,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
       }
     },
     {
@@ -34,7 +34,7 @@
       },
       "diesel": {
         "locality": "Kampenhout",
-        "price": 2.299,
+        "price": 2.295,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Destelbergen/9070/BE_foi_2566"
       },
       "diesel": {
-        "locality": "Aalter",
-        "price": 2.299,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalter/9880/BE_foi_2819"
+        "locality": "Dendermonde",
+        "price": 2.295,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
       }
     },
     {
@@ -191,13 +191,13 @@
       },
       "super98": {
         "locality": "Onhaye",
-        "price": 2.129,
+        "price": 2.034,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Jemeppe-sur-Sambre",
-        "price": 2.29,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
+        "locality": "Onhaye",
+        "price": 2.289,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Onhaye/5520/BE_nm_1376"
       }
     }
   ]
