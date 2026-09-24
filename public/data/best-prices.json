@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Edegem/2650/BE_a_422"
       },
       "diesel": {
-        "locality": "Balen",
+        "locality": "Edegem",
         "price": 2.205,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Edegem/2650/BE_a_422"
       }
     },
     {
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Marche-en-Famenne",
-        "price": 2.258,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Bertrix",
+        "price": 2.273,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
       }
     },
     {
