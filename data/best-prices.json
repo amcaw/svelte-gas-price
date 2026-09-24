@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "source": "carbu.com",
   "provinces": [
     {
@@ -16,7 +16,7 @@
       },
       "diesel": {
         "locality": "Balen",
-        "price": 2.301,
+        "price": 2.205,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Balen/2490/BE_a_394"
       }
     },
@@ -34,7 +34,7 @@
       },
       "diesel": {
         "locality": "Kampenhout",
-        "price": 2.295,
+        "price": 2.199,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
@@ -52,7 +52,7 @@
       },
       "diesel": {
         "locality": "Nivelles",
-        "price": 2.288,
+        "price": 2.192,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Nivelles/1400/BE_bw_153"
       }
     },
@@ -60,7 +60,7 @@
       "province": "Bruxelles",
       "essence95": {
         "locality": "Woluwe-Saint-Lambert",
-        "price": 1.881,
+        "price": 1.879,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 2.321,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Anderlecht",
+        "price": 2.212,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
       }
     },
     {
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deerlijk/8540/BE_foc_2372"
       },
       "diesel": {
-        "locality": "Ostende",
-        "price": 2.269,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ostende/8400/BE_foc_2326"
+        "locality": "Heuvelland",
+        "price": 2.199,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Destelbergen/9070/BE_foi_2566"
       },
       "diesel": {
-        "locality": "Dendermonde",
-        "price": 2.295,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
+        "locality": "Aalter",
+        "price": 2.199,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalter/9880/BE_foi_2819"
       }
     },
     {
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Enghien/7850/BE_ht_2220"
       },
       "diesel": {
-        "locality": "Momignies",
-        "price": 2.299,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
+        "locality": "Enghien",
+        "price": 2.205,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Enghien/7850/BE_ht_2220"
       }
     },
     {
@@ -142,7 +142,7 @@
       },
       "diesel": {
         "locality": "Lontzen",
-        "price": 2.321,
+        "price": 2.225,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
       }
     },
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Lummen",
-        "price": 2.301,
+        "price": 2.205,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lummen/3560/BE_li_626"
       }
     },
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 2.354,
+        "price": 2.258,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
@@ -191,13 +191,13 @@
       },
       "super98": {
         "locality": "Onhaye",
-        "price": 2.034,
+        "price": 2.129,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Onhaye/5520/BE_nm_1376"
       },
       "diesel": {
-        "locality": "Onhaye",
-        "price": 2.289,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Onhaye/5520/BE_nm_1376"
+        "locality": "Gembloux",
+        "price": 2.202,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gembloux/5030/BE_nm_1222"
       }
     }
   ]
