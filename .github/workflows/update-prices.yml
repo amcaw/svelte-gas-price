@@ -6,12 +6,7 @@ on:
     paths-ignore:
       - 'public/data/**'
   schedule:
-    - cron: '23 8 * * *'
-    - cron: '53 8 * * *'
-    - cron: '23 9 * * *'
-    - cron: '53 9 * * *'
-    - cron: '23 10 * * *'
-    - cron: '41 12 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch: {}
 
 concurrency:

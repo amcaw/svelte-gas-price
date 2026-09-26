@@ -20,7 +20,7 @@ Embeddable fuel price widgets for Belgium, built with Svelte 5 + D3 + pym.js and
 | Statbel | `b2be867c` | Last 24-month averages (monthly) |
 | Statbel | `74d181b1` | Annual averages 2019–present |
 
-Both sources are fetched daily via GitHub Actions → `public/data/prices.json`. Data is pushed directly to `gh-pages` (no rebuild needed).
+Both sources are fetched daily at 10:00 Brussels time via GitHub Actions → `public/data/prices.json`, triggered by a Cloudflare Worker (see [`worker/`](worker/README.md)) because GitHub's own cron runs hours late. Data is pushed directly to `gh-pages` (no rebuild needed).
 
 **Best pump prices** — scraped from carbu.com by province and locality → `public/data/best-prices.json` (used with permission from carbu.com).
 
