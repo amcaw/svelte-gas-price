@@ -1,7 +1,10 @@
 const DEPOT = 'amcaw/svelte-gas-price';
-const WORKFLOW = 'update-prices.yml';
-const HEURE_BRUXELLES = 10;
-const CRONS_HORAIRES = ['0 8 * * *', '0 9 * * *'];
+const CRON_HORAIRE = '0 * * * *';
+const WORKFLOWS_PAR_HEURE = {
+    8: ['update-best-prices.yml'],
+    10: ['update-prices.yml', 'update-best-prices.yml'],
+    17: ['update-best-prices.yml'],
+};
 
 function heureBruxelles(date) {
     const parties = new Intl.DateTimeFormat('en-GB', {
@@ -12,9 +15,16 @@ function heureBruxelles(date) {
     return Number(parties.find((p) => p.type === 'hour').value);
 }
 
-async function lancerWorkflow(jeton) {
+function workflowsALancer(cron, date) {
+    if (cron !== CRON_HORAIRE) {
+        return [...new Set(Object.values(WORKFLOWS_PAR_HEURE).flat())];
+    }
+    return WORKFLOWS_PAR_HEURE[heureBruxelles(date)] ?? [];
+}
+
+async function lancerWorkflow(workflow, jeton) {
     const reponse = await fetch(
-        `https://api.github.com/repos/${DEPOT}/actions/workflows/${WORKFLOW}/dispatches`,
+        `https://api.github.com/repos/${DEPOT}/actions/workflows/${workflow}/dispatches`,
         {
             method: 'POST',
             headers: {
@@ -27,17 +37,20 @@ async function lancerWorkflow(jeton) {
         },
     );
     if (!reponse.ok) {
-        throw new Error(`GitHub a répondu ${reponse.status} : ${await reponse.text()}`);
+        throw new Error(`${workflow} : GitHub a répondu ${reponse.status} : ${await reponse.text()}`);
     }
+    console.log(`Workflow ${workflow} lancé`);
 }
 
 export default {
     async scheduled(controller, env) {
-        const horaire = CRONS_HORAIRES.includes(controller.cron);
-        if (horaire && heureBruxelles(new Date(controller.scheduledTime)) !== HEURE_BRUXELLES) {
-            return;
+        const workflows = workflowsALancer(controller.cron, new Date(controller.scheduledTime));
+        const resultats = await Promise.allSettled(
+            workflows.map((workflow) => lancerWorkflow(workflow, env.GITHUB_TOKEN)),
+        );
+        const echecs = resultats.filter((r) => r.status === 'rejected');
+        if (echecs.length) {
+            throw new Error(echecs.map((r) => r.reason.message).join('\n'));
         }
-        await lancerWorkflow(env.GITHUB_TOKEN);
-        console.log(`Workflow ${WORKFLOW} lancé (cron ${controller.cron})`);
     },
 };

@@ -1,8 +1,16 @@
-# Déclencheur SPF (Cloudflare Worker)
+# Déclencheur des collectes (Cloudflare Worker)
 
-Les crons de GitHub Actions partent avec plusieurs heures de retard, et ce retard varie. Ce Worker lance `update-prices.yml` à 10h pile, heure de Bruxelles, par l'API `workflow_dispatch`.
+Les crons de GitHub Actions partent avec plusieurs heures de retard, et ce retard varie. Ce Worker lance les collectes à l'heure pile, heure de Bruxelles, par l'API `workflow_dispatch` :
 
-Il a deux Cron Triggers, 8h et 9h UTC, et ne lance le workflow que sur celui qui tombe à 10h à Bruxelles : 8h UTC en heure d'été, 9h UTC en heure d'hiver. Le cron `0 10 * * *` de `update-prices.yml` reste en secours si le Worker échoue.
+| Heure (Bruxelles) | Workflow |
+|---|---|
+| 8h | `update-best-prices.yml` (carbu.com) |
+| 10h | `update-prices.yml` (SPF) et `update-best-prices.yml` |
+| 17h | `update-best-prices.yml` |
+
+Il a un seul Cron Trigger, toutes les heures (`0 * * * *`), et lit l'heure de Bruxelles pour savoir quoi lancer : le passage à l'heure d'hiver ou d'été ne demande rien. Les horaires se changent dans `WORKFLOWS_PAR_HEURE` de `src/index.js`. Les crons `schedule` des deux workflows restent en secours si le Worker échoue.
+
+Le Worker s'appelle toujours `svelte-gas-price-spf` : le renommer en créerait un second, sans le secret, pendant que l'ancien continuerait de tourner.
 
 ## Mise en place
 
@@ -17,9 +25,9 @@ Il a deux Cron Triggers, 8h et 9h UTC, et ne lance le workflow que sur celui qui
    npx wrangler secret put GITHUB_TOKEN
    ```
    La dernière commande demande le jeton : le coller.
-3. **Vérifier.** Dans le tableau de bord Cloudflare, Workers & Pages > `svelte-gas-price-spf` > Settings > Trigger Events : les deux crons doivent apparaître. Le lendemain, `gh run list -R amcaw/svelte-gas-price -w update-prices.yml` doit montrer un run `workflow_dispatch` à 10h.
+3. **Vérifier.** Dans le tableau de bord Cloudflare, Workers & Pages > `svelte-gas-price-spf` > Settings > Trigger Events : le cron `0 * * * *` doit apparaître. Le lendemain, `gh run list -R amcaw/svelte-gas-price -w update-best-prices.yml` doit montrer des runs `workflow_dispatch` à 8h, 10h et 17h, et `-w update-prices.yml` un run à 10h.
 
-## Tester sans attendre 10h
+## Tester sans attendre l'heure
 
 Créer un fichier `.dev.vars` (ignoré par git) contenant `GITHUB_TOKEN=<le jeton>`, puis :
 
@@ -28,7 +36,7 @@ npx wrangler dev --test-scheduled
 curl "http://localhost:8787/__scheduled?cron=*+*+*+*+*"
 ```
 
-Un cron autre que les deux horaires ignore le contrôle de l'heure : le workflow part aussitôt.
+Un cron autre que `0 * * * *` ignore le contrôle de l'heure : les deux workflows partent aussitôt.
 
 ## Quand le jeton expire
 

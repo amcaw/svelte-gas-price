@@ -22,7 +22,7 @@ Embeddable fuel price widgets for Belgium, built with Svelte 5 + D3 + pym.js and
 
 Both sources are fetched daily at 10:00 Brussels time via GitHub Actions → `public/data/prices.json`, triggered by a Cloudflare Worker (see [`worker/`](worker/README.md)) because GitHub's own cron runs hours late. Data is pushed directly to `gh-pages` (no rebuild needed).
 
-**Best pump prices** — scraped from carbu.com by province and locality → `public/data/best-prices.json` (used with permission from carbu.com).
+**Best pump prices** — scraped from carbu.com by province and locality → `public/data/best-prices.json` (used with permission from carbu.com), at 8:00, 10:00 and 17:00 Brussels time, triggered by the same Cloudflare Worker.
 
 ## Mazout denomination
 
