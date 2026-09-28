@@ -5,19 +5,19 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Edegem",
+        "locality": "Brasschaat",
         "price": 1.908,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Edegem/2650/BE_a_422"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
-        "locality": "Edegem",
+        "locality": "Brasschaat",
         "price": 2.122,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Edegem/2650/BE_a_422"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brasschaat/2930/BE_a_457"
       },
       "diesel": {
-        "locality": "Edegem",
+        "locality": "Brasschaat",
         "price": 2.294,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Edegem/2650/BE_a_422"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Brasschaat/2930/BE_a_457"
       }
     },
     {
@@ -96,7 +96,7 @@
       "province": "Flandre Orientale",
       "essence95": {
         "locality": "Aalter",
-        "price": 1.905,
+        "price": 1.899,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Destelbergen/9070/BE_foi_2566"
       },
       "diesel": {
-        "locality": "Aalter",
-        "price": 2.288,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalter/9880/BE_foi_2819"
+        "locality": "Dendermonde",
+        "price": 2.287,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Dendermonde/9200/BE_foi_2607"
       }
     },
     {
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Enghien/7850/BE_ht_2220"
       },
       "diesel": {
-        "locality": "Enghien",
+        "locality": "Chimay",
         "price": 2.294,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Enghien/7850/BE_ht_2220"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
     {
