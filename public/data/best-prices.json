@@ -100,9 +100,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
-        "locality": "Destelbergen",
+        "locality": "Gand",
         "price": 2.122,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Destelbergen/9070/BE_foi_2566"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Gand/9000/BE_foi_2551"
       },
       "diesel": {
         "locality": "Dendermonde",
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Gembloux",
-        "price": 1.908,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
+        "locality": "Assesse",
+        "price": 1.906,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
         "locality": "Hastière",
