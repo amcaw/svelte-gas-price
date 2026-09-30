@@ -23,14 +23,14 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Hoeilaart",
-        "price": 1.811,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeilaart/1560/BE_bf_208"
+        "locality": "Leuven",
+        "price": 1.812,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
-        "locality": "Hoeilaart",
-        "price": 2.016,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hoeilaart/1560/BE_bf_208"
+        "locality": "Huldenberg",
+        "price": 2.099,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Huldenberg/3040/BE_bf_476"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -113,14 +113,14 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Enghien",
-        "price": 1.811,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Enghien/7850/BE_ht_2220"
+        "locality": "Binche",
+        "price": 1.831,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
       },
       "super98": {
-        "locality": "Enghien",
-        "price": 2.016,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Enghien/7850/BE_ht_2220"
+        "locality": "Chimay",
+        "price": 2.116,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Chimay/6460/BE_ht_1651"
       },
       "diesel": {
         "locality": "Chimay",
