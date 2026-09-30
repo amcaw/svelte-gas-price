@@ -34,7 +34,7 @@
       },
       "diesel": {
         "locality": "Kampenhout",
-        "price": 2.219,
+        "price": 2.22,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
@@ -78,18 +78,18 @@
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Ostende",
-        "price": 1.802,
+        "price": 1.809,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
       },
       "super98": {
-        "locality": "Deerlijk",
-        "price": 2.016,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Heuvelland",
+        "price": 2.059,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heuvelland/8950/BE_foc_2530"
       },
       "diesel": {
-        "locality": "Deerlijk",
-        "price": 2.223,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Heuvelland",
+        "price": 2.229,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
       }
     },
     {
@@ -100,14 +100,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aalter/9880/BE_foi_2819"
       },
       "super98": {
-        "locality": "Gand",
-        "price": 2.016,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Gand/9000/BE_foi_2551"
+        "locality": "Aalst",
+        "price": 2.089,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aalst/9300/BE_foi_2633"
       },
       "diesel": {
-        "locality": "Lokeren",
-        "price": 2.216,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
+        "locality": "Aalst",
+        "price": 2.219,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
       }
     },
     {
@@ -124,7 +124,7 @@
       },
       "diesel": {
         "locality": "Chimay",
-        "price": 2.223,
+        "price": 2.219,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 2.118,
+        "price": 2.114,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Marche-en-Famenne",
-        "price": 1.872,
+        "price": 1.879,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Assesse",
+        "locality": "Hastière",
         "price": 1.809,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
       },
       "super98": {
         "locality": "Fosses-la-Ville",
-        "price": 2.123,
+        "price": 2.119,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Hastière",
+        "locality": "Couvin",
         "price": 2.219,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
