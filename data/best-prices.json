@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
-        "locality": "Huldenberg",
-        "price": 2.109,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Huldenberg/3040/BE_bf_476"
+        "locality": "Boortmeerbeek",
+        "price": 2.123,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Boortmeerbeek/3190/BE_bf_508"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -83,13 +83,13 @@
       },
       "super98": {
         "locality": "Heuvelland",
-        "price": 2.069,
+        "price": 2.099,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heuvelland/8950/BE_foc_2530"
       },
       "diesel": {
-        "locality": "Ostende",
-        "price": 2.238,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Ostende/8400/BE_foc_2326"
+        "locality": "Heuvelland",
+        "price": 2.239,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
       }
     },
     {
@@ -124,7 +124,7 @@
       },
       "diesel": {
         "locality": "Chimay",
-        "price": 2.228,
+        "price": 2.229,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Couvin",
-        "price": 2.228,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
+        "locality": "Hastière",
+        "price": 2.227,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
