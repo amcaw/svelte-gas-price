@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Haacht",
-        "price": 1.833,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Haacht/3150/BE_bf_505"
+        "locality": "Leuven",
+        "price": 1.851,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
         "locality": "Boortmeerbeek",
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Roeselare",
-        "price": 1.849,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
+        "locality": "Torhout",
+        "price": 1.854,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Torhout/8820/BE_foc_2493"
       },
       "super98": {
         "locality": "Heuvelland",
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aalst/9300/BE_foi_2633"
       },
       "diesel": {
-        "locality": "Lokeren",
-        "price": 2.228,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
+        "locality": "Aalst",
+        "price": 2.229,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
       }
     },
     {
@@ -118,13 +118,13 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
-        "locality": "Charleroi",
-        "price": 2.159,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
+        "locality": "Estaimpuis",
+        "price": 2.157,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Estaimpuis/7730/BE_ht_2163"
       },
       "diesel": {
         "locality": "Chimay",
-        "price": 2.229,
+        "price": 2.228,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 2.157,
+        "price": 2.154,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Hasselt",
-        "price": 1.852,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hasselt/3500/BE_li_603"
+        "locality": "Lummen",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lummen/3560/BE_li_626"
       },
       "super98": {
         "locality": "Lummen",
@@ -191,7 +191,7 @@
       },
       "super98": {
         "locality": "Fosses-la-Ville",
-        "price": 2.162,
+        "price": 2.159,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
