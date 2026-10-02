@@ -24,7 +24,7 @@
       "province": "Brabant Flamand",
       "essence95": {
         "locality": "Leuven",
-        "price": 1.851,
+        "price": 1.843,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Gand",
-        "price": 1.842,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gand/9000/BE_foi_2551"
+        "locality": "Zottegem",
+        "price": 1.843,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zottegem/9620/BE_foi_2721"
       },
       "super98": {
         "locality": "Aalst",
