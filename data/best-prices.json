@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Torhout",
-        "price": 1.854,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Torhout/8820/BE_foc_2493"
+        "locality": "Harelbeke",
+        "price": 1.862,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Harelbeke/8530/BE_foc_2369"
       },
       "super98": {
         "locality": "Heuvelland",
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Hotton",
-        "price": 1.929,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hotton/6990/BE_lu_1939"
+        "locality": "Marche-en-Famenne",
+        "price": 1.933,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
