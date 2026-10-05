@@ -24,7 +24,7 @@
       "province": "Brabant Flamand",
       "essence95": {
         "locality": "Leuven",
-        "price": 1.843,
+        "price": 1.842,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
@@ -77,32 +77,32 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ostende",
-        "price": 1.869,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ostende/8400/BE_foc_2326"
+        "locality": "Harelbeke",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Harelbeke/8530/BE_foc_2369"
       },
       "super98": {
-        "locality": "Heuvelland",
-        "price": 2.129,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heuvelland/8950/BE_foc_2530"
+        "locality": "Harelbeke",
+        "price": 2.059,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Harelbeke/8530/BE_foc_2369"
       },
       "diesel": {
-        "locality": "Heuvelland",
-        "price": 2.239,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
+        "locality": "Harelbeke",
+        "price": 2.232,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Harelbeke/8530/BE_foc_2369"
       }
     },
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Erpe-Mere",
-        "price": 1.879,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Erpe-Mere/9420/BE_foi_2664"
+        "locality": "Kruishoutem",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kruishoutem/9770/BE_foi_2772"
       },
       "super98": {
-        "locality": "Aalst",
-        "price": 2.139,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aalst/9300/BE_foi_2633"
+        "locality": "Kruishoutem",
+        "price": 2.059,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kruishoutem/9770/BE_foi_2772"
       },
       "diesel": {
         "locality": "Aalst",
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/La Louviere/7100/BE_ht_2008"
       },
       "super98": {
-        "locality": "Estaimpuis",
-        "price": 2.157,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Estaimpuis/7730/BE_ht_2163"
+        "locality": "Charleroi",
+        "price": 2.159,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
         "locality": "Chimay",
