@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Leuven",
+        "locality": "Rotselaar",
         "price": 1.842,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Rotselaar/3110/BE_bf_497"
       },
       "super98": {
         "locality": "Boortmeerbeek",
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Hastière",
-        "price": 2.227,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
+        "locality": "Jemeppe-sur-Sambre",
+        "price": 2.179,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Jemeppe-sur-Sambre/5190/BE_nm_1278"
       }
     }
   ]
