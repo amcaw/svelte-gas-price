@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deerlijk/8540/BE_foc_2372"
       },
       "diesel": {
-        "locality": "Heuvelland",
-        "price": 2.189,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heuvelland/8950/BE_foc_2530"
+        "locality": "Harelbeke",
+        "price": 2.192,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Harelbeke/8530/BE_foc_2369"
       }
     },
     {
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Binche",
+        "locality": "La Louvière",
         "price": 1.885,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/La Louviere/7100/BE_ht_2008"
       },
       "super98": {
         "locality": "Charleroi",
@@ -150,7 +150,7 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Hoeselt",
-        "price": 1.885,
+        "price": 1.879,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
