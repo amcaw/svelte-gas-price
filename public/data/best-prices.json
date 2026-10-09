@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Haacht",
-        "price": 1.877,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Haacht/3150/BE_bf_505"
+        "locality": "Leuven",
+        "price": 1.875,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
         "locality": "Boortmeerbeek",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
-        "locality": "Chimay",
-        "price": 2.188,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
+        "locality": "Momignies",
+        "price": 2.199,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
       }
     },
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Gembloux",
+        "locality": "Sombreffe",
         "price": 1.865,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sombreffe/5140/BE_nm_1264"
       },
       "super98": {
         "locality": "Fosses-la-Ville",
