@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.886,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Anderlecht",
+        "price": 1.87,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "La Louvière",
-        "price": 1.885,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/La Louviere/7100/BE_ht_2008"
+        "locality": "Tournai",
+        "price": 1.865,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tournai/7500/BE_ht_2098"
       },
       "super98": {
         "locality": "Charleroi",
