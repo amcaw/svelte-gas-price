@@ -10,22 +10,22 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mol/2400/BE_a_381"
       },
       "super98": {
-        "locality": "Brasschaat",
+        "locality": "Schoten",
         "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Brasschaat/2930/BE_a_457"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schoten/2900/BE_a_454"
       },
       "diesel": {
-        "locality": "Brasschaat",
+        "locality": "Schoten",
         "price": 2.292,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Brasschaat/2930/BE_a_457"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schoten/2900/BE_a_454"
       }
     },
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Haacht",
-        "price": 1.917,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Haacht/3150/BE_bf_505"
+        "locality": "Leuven",
+        "price": 1.886,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
       },
       "super98": {
         "locality": "Boortmeerbeek",
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Schaerbeek",
-        "price": 1.905,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schaerbeek/1030/BE_bx_5"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.926,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Lokeren",
-        "price": 1.896,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lokeren/9160/BE_foi_2596"
+        "locality": "Kruishoutem",
+        "price": 1.905,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kruishoutem/9770/BE_foi_2772"
       },
       "super98": {
         "locality": "Kruishoutem",
