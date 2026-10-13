@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Berlaar",
-        "price": 1.899,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Berlaar/2590/BE_a_414"
+        "locality": "Mol",
+        "price": 1.895,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mol/2400/BE_a_381"
       },
       "super98": {
         "locality": "Brasschaat",
@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Leuven",
-        "price": 1.886,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuven/3000/BE_bf_468"
+        "locality": "Ternat",
+        "price": 1.898,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ternat/1740/BE_bf_244"
       },
       "super98": {
         "locality": "Boortmeerbeek",
@@ -59,19 +59,19 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Evere",
-        "price": 1.931,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Evere/1140/BE_bx_47"
+        "locality": "Flandre Orientale",
+        "price": 1.887,
+        "url": null
       },
       "super98": {
-        "locality": "Auderghem",
-        "price": 2.259,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Auderghem/1160/BE_bx_54"
+        "locality": "Anvers",
+        "price": 2.099,
+        "url": null
       },
       "diesel": {
-        "locality": "Evere",
-        "price": 2.311,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
+        "locality": "Hainaut",
+        "price": 2.235,
+        "url": null
       }
     },
     {
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Kruishoutem",
-        "price": 1.905,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Kruishoutem/9770/BE_foi_2772"
+        "locality": "Zottegem",
+        "price": 1.887,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Zottegem/9620/BE_foi_2721"
       },
       "super98": {
         "locality": "Kruishoutem",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Binche",
-        "price": 1.925,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
+        "locality": "Charleroi",
+        "price": 1.911,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
       },
       "super98": {
         "locality": "Charleroi",
@@ -131,9 +131,9 @@
     {
       "province": "Liège",
       "essence95": {
-        "locality": "Ans",
-        "price": 1.895,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ans/4430/BE_lg_980"
+        "locality": "Aywaille",
+        "price": 1.897,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aywaille/4920/BE_lg_1177"
       },
       "super98": {
         "locality": "Dison",
@@ -149,9 +149,9 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Dilsen-Stokkem",
-        "price": 1.913,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dilsen-Stokkem/3650/BE_li_653"
+        "locality": "Hasselt",
+        "price": 1.889,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hasselt/3500/BE_li_603"
       },
       "super98": {
         "locality": "Dilsen-Stokkem",
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Namur",
-        "price": 1.906,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Namur/5000/BE_nm_1204"
+        "locality": "Assesse",
+        "price": 1.909,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
         "locality": "Fosses-la-Ville",
