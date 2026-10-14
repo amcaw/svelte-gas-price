@@ -5,19 +5,19 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Schoten",
-        "price": 1.905,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
+        "locality": "Brasschaat",
+        "price": 1.913,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
-        "locality": "Schoten",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schoten/2900/BE_a_454"
+        "locality": "Dessel",
+        "price": 2.189,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
-        "locality": "Schoten",
-        "price": 2.228,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schoten/2900/BE_a_454"
+        "locality": "Lille",
+        "price": 2.236,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lille/2275/BE_a_355"
       }
     },
     {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kruishoutem/9770/BE_foi_2772"
       },
       "diesel": {
-        "locality": "Aalst",
+        "locality": "Lokeren",
         "price": 2.225,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Aalst/9300/BE_foi_2633"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
       }
     },
     {
@@ -118,9 +118,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
       },
       "super98": {
-        "locality": "Charleroi",
-        "price": 2.199,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
+        "locality": "Mouscron",
+        "price": 2.166,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Mouscron/7700/BE_ht_2156"
       },
       "diesel": {
         "locality": "Chimay",
@@ -159,9 +159,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
       },
       "diesel": {
-        "locality": "Kinrooi",
+        "locality": "Maaseik",
         "price": 2.233,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kinrooi/3640/BE_li_650"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Maaseik/3680/BE_li_667"
       }
     },
     {
