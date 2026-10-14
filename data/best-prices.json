@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Mol",
-        "price": 1.895,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Mol/2400/BE_a_381"
+        "locality": "Schoten",
+        "price": 1.905,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schoten/2900/BE_a_454"
       },
       "super98": {
         "locality": "Schoten",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Charleroi",
-        "price": 1.911,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Charleroi/6000/BE_ht_1578"
+        "locality": "Binche",
+        "price": 1.925,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
       },
       "super98": {
         "locality": "Charleroi",
