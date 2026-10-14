@@ -11,7 +11,7 @@
       },
       "super98": {
         "locality": "Dessel",
-        "price": 2.189,
+        "price": 2.187,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Deerlijk",
-        "price": 1.905,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Roeselare",
+        "price": 1.899,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
         "locality": "Deerlijk",
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Deerlijk/8540/BE_foc_2372"
       },
       "diesel": {
-        "locality": "Deerlijk",
-        "price": 2.228,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Roeselare",
+        "price": 2.225,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Roeselare/8800/BE_foc_2490"
       }
     },
     {
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Marche-en-Famenne",
-        "price": 1.973,
+        "price": 1.969,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Couvin",
-        "price": 2.221,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
+        "locality": "Hastière",
+        "price": 2.213,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hastiere/5540/BE_nm_1398"
       }
     }
   ]
