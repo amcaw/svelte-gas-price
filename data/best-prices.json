@@ -113,19 +113,19 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Binche",
-        "price": 1.884,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Binche/7130/BE_ht_2027"
+        "locality": "Brabant Wallon",
+        "price": 1.851,
+        "url": null
       },
       "super98": {
-        "locality": "Charleroi",
-        "price": 2.099,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
+        "locality": "Flandre Occidentale",
+        "price": 2.001,
+        "url": null
       },
       "diesel": {
-        "locality": "Chimay",
-        "price": 2.234,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
+        "locality": "Namur",
+        "price": 2.213,
+        "url": null
       }
     },
     {
@@ -154,9 +154,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
-        "locality": "Hasselt",
-        "price": 2.071,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hasselt/3500/BE_li_603"
+        "locality": "Maaseik",
+        "price": 2.041,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
       },
       "diesel": {
         "locality": "Maaseik",
