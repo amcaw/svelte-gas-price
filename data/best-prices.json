@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.851,
-        "url": null
+        "locality": "Hastière",
+        "price": 1.867,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hastiere/5540/BE_nm_1398"
       },
       "super98": {
-        "locality": "Hainaut",
-        "price": 1.999,
-        "url": null
+        "locality": "Fosses-la-Ville",
+        "price": 2.099,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Flandre Orientale",
-        "price": 2.229,
-        "url": null
+        "locality": "Couvin",
+        "price": 2.237,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
