@@ -5,32 +5,32 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Berlaar",
-        "price": 1.883,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Berlaar/2590/BE_a_414"
+        "locality": "Heist-op-den-Berg",
+        "price": 1.864,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Heist-op-den-Berg/2220/BE_a_333"
       },
       "super98": {
-        "locality": "Retie",
-        "price": 2.091,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
+        "locality": "Heist-op-den-Berg",
+        "price": 2.001,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heist-op-den-Berg/2220/BE_a_333"
       },
       "diesel": {
-        "locality": "Kasterlee",
-        "price": 2.249,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
+        "locality": "Heist-op-den-Berg",
+        "price": 2.244,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heist-op-den-Berg/2220/BE_a_333"
       }
     },
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Diest",
+        "locality": "Aarschot",
         "price": 1.864,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diest/3290/BE_bf_529"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Aarschot/3200/BE_bf_510"
       },
       "super98": {
-        "locality": "Boortmeerbeek",
-        "price": 2.098,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Aarschot",
+        "price": 2.001,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Aarschot/3200/BE_bf_510"
       },
       "diesel": {
         "locality": "Leuven",
@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.851,
-        "url": null
+        "locality": "Fernelmont",
+        "price": 1.864,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Fernelmont/5380/BE_nm_1355"
       },
       "super98": {
-        "locality": "Hainaut",
-        "price": 1.999,
-        "url": null
+        "locality": "Fernelmont",
+        "price": 2.001,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fernelmont/5380/BE_nm_1355"
       },
       "diesel": {
-        "locality": "Brabant Wallon",
-        "price": 2.231,
-        "url": null
+        "locality": "Couvin",
+        "price": 2.237,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
