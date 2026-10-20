@@ -113,14 +113,14 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.864,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Quiévrain",
+        "price": 1.879,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Quievrain/7380/BE_ht_2081"
       },
       "super98": {
-        "locality": "Leuze-en-Hainaut",
-        "price": 1.999,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Leuze-en-Hainaut/7900/BE_ht_2245"
+        "locality": "Charleroi",
+        "price": 2.099,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
         "locality": "Momignies",
