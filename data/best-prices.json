@@ -77,37 +77,37 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.789,
-        "url": null
+        "locality": "Roeselare",
+        "price": 1.799,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
-        "locality": "Anvers",
+        "locality": "Roeselare",
         "price": 1.963,
-        "url": null
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Roeselare/8800/BE_foc_2490"
       },
       "diesel": {
-        "locality": "Namur",
-        "price": 2.224,
-        "url": null
+        "locality": "Roeselare",
+        "price": 2.239,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Roeselare/8800/BE_foc_2490"
       }
     },
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.789,
-        "url": null
+        "locality": "Sint-Niklaas",
+        "price": 1.802,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sint-Niklaas/9100/BE_foi_2575"
       },
       "super98": {
-        "locality": "Anvers",
+        "locality": "Sint-Niklaas",
         "price": 1.963,
-        "url": null
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Sint-Niklaas/9100/BE_foi_2575"
       },
       "diesel": {
-        "locality": "Namur",
-        "price": 2.224,
-        "url": null
+        "locality": "Lokeren",
+        "price": 2.239,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
       }
     },
     {
@@ -149,19 +149,19 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.789,
-        "url": null
+        "locality": "Hoeselt",
+        "price": 1.806,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
-        "locality": "Anvers",
-        "price": 1.963,
-        "url": null
+        "locality": "Maaseik",
+        "price": 2.003,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
       },
       "diesel": {
-        "locality": "Namur",
-        "price": 2.224,
-        "url": null
+        "locality": "Hoeselt",
+        "price": 2.243,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
     {
