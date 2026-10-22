@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Zemst/1980/BE_bf_306"
       },
       "diesel": {
-        "locality": "Leuven",
-        "price": 2.232,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Leuven/3000/BE_bf_468"
+        "locality": "Boortmeerbeek",
+        "price": 2.249,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
       }
     },
     {
@@ -82,9 +82,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
-        "locality": "Roeselare",
-        "price": 1.963,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Roeselare/8800/BE_foc_2490"
+        "locality": "Kortrijk",
+        "price": 2.059,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kortrijk/8500/BE_foc_2360"
       },
       "diesel": {
         "locality": "Roeselare",
@@ -114,7 +114,7 @@
       "province": "Hainaut",
       "essence95": {
         "locality": "Quiévrain",
-        "price": 1.817,
+        "price": 1.809,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Quievrain/7380/BE_ht_2081"
       },
       "super98": {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Huy",
-        "price": 2.244,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Huy/4500/BE_lg_1003"
+        "locality": "Lontzen",
+        "price": 2.264,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
       }
     },
     {
