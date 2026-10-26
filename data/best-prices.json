@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heist-op-den-Berg/2220/BE_a_333"
       },
       "diesel": {
-        "locality": "Heist-op-den-Berg",
-        "price": 2.244,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Heist-op-den-Berg/2220/BE_a_333"
+        "locality": "Brasschaat",
+        "price": 2.239,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Brasschaat/2930/BE_a_457"
       }
     },
     {
@@ -95,14 +95,14 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Sint-Niklaas",
+        "locality": "Beveren-Waas",
         "price": 1.802,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sint-Niklaas/9100/BE_foi_2575"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Beveren-Waas/9120/BE_foi_2578"
       },
       "super98": {
-        "locality": "Sint-Niklaas",
+        "locality": "Beveren-Waas",
         "price": 1.963,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Sint-Niklaas/9100/BE_foi_2575"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Beveren-Waas/9120/BE_foi_2578"
       },
       "diesel": {
         "locality": "Lokeren",
