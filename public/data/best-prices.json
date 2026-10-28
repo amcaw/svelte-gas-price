@@ -78,12 +78,12 @@
       "province": "Flandre Occidentale",
       "essence95": {
         "locality": "Roeselare",
-        "price": 1.785,
+        "price": 1.799,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
         "locality": "Anzegem",
-        "price": 2.045,
+        "price": 2.049,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anzegem/8570/BE_foc_2381"
       },
       "diesel": {
@@ -105,9 +105,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Assenede/9960/BE_foi_2842"
       },
       "diesel": {
-        "locality": "Lokeren",
-        "price": 2.255,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
+        "locality": "Gand",
+        "price": 2.276,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Gand/9000/BE_foi_2551"
       }
     },
     {
@@ -119,13 +119,13 @@
       },
       "super98": {
         "locality": "Charleroi",
-        "price": 2.045,
+        "price": 2.049,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
-        "locality": "Charleroi",
-        "price": 2.269,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Charleroi/6000/BE_ht_1578"
+        "locality": "Momignies",
+        "price": 2.289,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
       }
     },
     {
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 2.04,
+        "price": 2.044,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -155,7 +155,7 @@
       },
       "super98": {
         "locality": "Maaseik",
-        "price": 1.979,
+        "price": 1.999,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
       },
       "diesel": {
