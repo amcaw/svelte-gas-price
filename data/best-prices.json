@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Diest",
-        "price": 1.793,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diest/3290/BE_bf_529"
+        "locality": "Grimbergen",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
         "locality": "Diest",
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Marche-en-Famenne",
-        "price": 1.855,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Bertrix",
+        "price": 1.849,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
       },
       "super98": {
         "locality": "Paliseul",
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Hotton",
+        "locality": "Bouillon",
         "price": 2.344,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hotton/6990/BE_lu_1939"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bouillon/6830/BE_lu_1826"
       }
     },
     {
