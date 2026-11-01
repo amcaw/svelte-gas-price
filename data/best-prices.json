@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.775,
-        "url": null
+        "locality": "Fernelmont",
+        "price": 1.788,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Fernelmont/5380/BE_nm_1355"
       },
       "super98": {
-        "locality": "Anvers",
+        "locality": "Fernelmont",
         "price": 1.949,
-        "url": null
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fernelmont/5380/BE_nm_1355"
       },
       "diesel": {
-        "locality": "Brabant Wallon",
-        "price": 2.239,
-        "url": null
+        "locality": "Couvin",
+        "price": 2.245,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
