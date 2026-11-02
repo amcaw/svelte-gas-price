@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Beerse/2340/BE_a_369"
       },
       "super98": {
-        "locality": "Heist-op-den-Berg",
-        "price": 1.949,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heist-op-den-Berg/2220/BE_a_333"
+        "locality": "Dessel",
+        "price": 2.039,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
         "locality": "Beerse",
@@ -33,9 +33,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Diest/3290/BE_bf_529"
       },
       "diesel": {
-        "locality": "Boortmeerbeek",
-        "price": 2.257,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Boortmeerbeek/3190/BE_bf_508"
+        "locality": "Kampenhout",
+        "price": 2.249,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
     {
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Evere",
-        "price": 2.26,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
+        "locality": "Schaerbeek",
+        "price": 2.255,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schaerbeek/1030/BE_bx_5"
       }
     },
     {
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Tournai",
-        "price": 1.788,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Tournai/7500/BE_ht_2098"
+        "locality": "Quiévrain",
+        "price": 1.789,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Quievrain/7380/BE_ht_2081"
       },
       "super98": {
         "locality": "Charleroi",
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
       },
       "diesel": {
-        "locality": "Chimay",
-        "price": 2.245,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
+        "locality": "Thuin",
+        "price": 2.247,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
       }
     },
     {
@@ -185,14 +185,14 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Fernelmont",
-        "price": 1.788,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Fernelmont/5380/BE_nm_1355"
+        "locality": "Assesse",
+        "price": 1.792,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
-        "locality": "Fernelmont",
-        "price": 1.949,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fernelmont/5380/BE_nm_1355"
+        "locality": "Fosses-la-Ville",
+        "price": 2.045,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
         "locality": "Couvin",
