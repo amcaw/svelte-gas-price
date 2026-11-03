@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-03",
   "source": "carbu.com",
   "provinces": [
     {
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
-        "locality": "Beerse",
-        "price": 2.252,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Beerse/2340/BE_a_369"
+        "locality": "Lille",
+        "price": 2.25,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lille/2275/BE_a_355"
       }
     },
     {
@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.775,
-        "url": null
+        "locality": "Assesse",
+        "price": 1.789,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
-        "locality": "Flandre Orientale",
-        "price": 1.949,
-        "url": null
+        "locality": "Fosses-la-Ville",
+        "price": 2.045,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Brabant Wallon",
-        "price": 2.239,
-        "url": null
+        "locality": "Couvin",
+        "price": 2.245,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
