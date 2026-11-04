@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
-        "locality": "Diest",
-        "price": 1.926,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Diest/3290/BE_bf_529"
+        "locality": "Liedekerke",
+        "price": 1.83,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -113,14 +113,14 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Quiévrain",
-        "price": 1.706,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Quievrain/7380/BE_ht_2081"
+        "locality": "Frasnes-lez-Anvaing",
+        "price": 1.705,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Frasnes-lez-Anvaing/7910/BE_ht_2260"
       },
       "super98": {
-        "locality": "Charleroi",
-        "price": 1.929,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Charleroi/6000/BE_ht_1578"
+        "locality": "Frasnes-lez-Anvaing",
+        "price": 1.83,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Frasnes-lez-Anvaing/7910/BE_ht_2260"
       },
       "diesel": {
         "locality": "Thuin",
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 1.925,
+        "price": 1.924,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -155,7 +155,7 @@
       },
       "super98": {
         "locality": "Maaseik",
-        "price": 1.88,
+        "price": 1.895,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
       },
       "diesel": {
