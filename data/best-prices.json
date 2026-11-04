@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Diest",
-        "price": 1.71,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diest/3290/BE_bf_529"
+        "locality": "Grimbergen",
+        "price": 1.705,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
         "locality": "Diest",
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Woluwe-Saint-Lambert",
-        "price": 1.726,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
+        "locality": "Anderlecht",
+        "price": 1.72,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anzegem/8570/BE_foc_2381"
       },
       "diesel": {
-        "locality": "Deerlijk",
-        "price": 2.252,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Poperinge",
+        "price": 2.199,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Poperinge/8970/BE_foc_2540"
       }
     },
     {
