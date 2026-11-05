@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04",
+  "lastUpdated": "2026-11-05",
   "source": "carbu.com",
   "provinces": [
     {
@@ -186,7 +186,7 @@
       "province": "Namur",
       "essence95": {
         "locality": "Assesse",
-        "price": 1.709,
+        "price": 1.706,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
