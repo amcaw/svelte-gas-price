@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Roeselare",
-        "price": 1.716,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
+        "locality": "Gistel",
+        "price": 1.735,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gistel/8470/BE_foc_2348"
       },
       "super98": {
         "locality": "Anzegem",
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hoeselt",
-        "price": 2.249,
+        "price": 2.247,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Bertrix",
-        "price": 1.766,
+        "price": 1.769,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
       },
       "super98": {
@@ -177,9 +177,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Paliseul/6850/BE_lu_1845"
       },
       "diesel": {
-        "locality": "Marche-en-Famenne",
-        "price": 2.305,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
+        "locality": "Bertrix",
+        "price": 2.299,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
       }
     },
     {
