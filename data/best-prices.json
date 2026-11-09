@@ -5,19 +5,19 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Berlaar",
-        "price": 1.724,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Berlaar/2590/BE_a_414"
+        "locality": "Brasschaat",
+        "price": 1.723,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
-        "locality": "Dessel",
-        "price": 1.92,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
+        "locality": "Retie",
+        "price": 1.915,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
       },
       "diesel": {
-        "locality": "Kasterlee",
-        "price": 2.179,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
+        "locality": "Retie",
+        "price": 2.096,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Retie/2470/BE_a_392"
       }
     },
     {
@@ -95,14 +95,14 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Assenede",
-        "price": 1.705,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assenede/9960/BE_foi_2842"
+        "locality": "Renaix",
+        "price": 1.699,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Renaix/9600/BE_foi_2709"
       },
       "super98": {
-        "locality": "Assenede",
+        "locality": "Beveren-Waas",
         "price": 1.83,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Assenede/9960/BE_foi_2842"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Beveren-Waas/9120/BE_foi_2578"
       },
       "diesel": {
         "locality": "Lokeren",
@@ -113,9 +113,9 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Frasnes-lez-Anvaing",
-        "price": 1.705,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Frasnes-lez-Anvaing/7910/BE_ht_2260"
+        "locality": "Silly",
+        "price": 1.699,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Silly/7830/BE_ht_2218"
       },
       "super98": {
         "locality": "Frasnes-lez-Anvaing",
