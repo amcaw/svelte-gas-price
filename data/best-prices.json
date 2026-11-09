@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Lontzen",
+        "locality": "Chaudfontaine",
         "price": 2.189,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lontzen/4710/BE_lg_1107"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chaudfontaine/4050/BE_lg_840"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Bertrix",
-        "price": 2.216,
+        "price": 2.219,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
       }
     },
