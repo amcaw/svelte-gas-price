@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08",
+  "lastUpdated": "2026-11-09",
   "source": "carbu.com",
   "provinces": [
     {
@@ -185,9 +185,9 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Assesse",
-        "price": 1.706,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
+        "locality": "Sambreville",
+        "price": 1.675,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Sambreville/5060/BE_nm_1237"
       },
       "super98": {
         "locality": "Fosses-la-Ville",
