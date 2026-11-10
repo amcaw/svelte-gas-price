@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Anderlecht",
-        "price": 1.72,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
+        "locality": "Woluwe-Saint-Lambert",
+        "price": 1.712,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Woluwe-Saint-Lambert/1200/BE_bx_70"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -149,14 +149,14 @@
     {
       "province": "Limbourg",
       "essence95": {
-        "locality": "Maaseik",
-        "price": 1.7,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Maaseik/3680/BE_li_667"
+        "locality": "Hoeselt",
+        "price": 1.635,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
-        "locality": "Maaseik",
-        "price": 1.895,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Maaseik/3680/BE_li_667"
+        "locality": "Hoeselt",
+        "price": 1.837,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Hoeselt/3730/BE_li_695"
       },
       "diesel": {
         "locality": "Beringen",
