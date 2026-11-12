@@ -185,19 +185,19 @@
     {
       "province": "Namur",
       "essence95": {
-        "locality": "Brabant Wallon",
-        "price": 1.629,
-        "url": null
+        "locality": "Assesse",
+        "price": 1.643,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Assesse/5330/BE_nm_1310"
       },
       "super98": {
-        "locality": "Brabant Flamand",
-        "price": 1.741,
-        "url": null
+        "locality": "Fosses-la-Ville",
+        "price": 1.84,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Limbourg",
-        "price": 2.126,
-        "url": null
+        "locality": "Couvin",
+        "price": 2.162,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
       }
     }
   ]
