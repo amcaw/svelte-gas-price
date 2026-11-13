@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Berlaar",
-        "price": 1.661,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Berlaar/2590/BE_a_414"
+        "locality": "Brasschaat",
+        "price": 1.65,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
         "locality": "Dessel",
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ledegem",
-        "price": 1.639,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ledegem/8880/BE_foc_2505"
+        "locality": "Ardooie",
+        "price": 1.669,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ardooie/8850/BE_foc_2499"
       },
       "super98": {
         "locality": "Anzegem",
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anzegem/8570/BE_foc_2381"
       },
       "diesel": {
-        "locality": "Deerlijk",
-        "price": 2.169,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Deerlijk/8540/BE_foc_2372"
+        "locality": "Poperinge",
+        "price": 2.099,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Poperinge/8970/BE_foc_2540"
       }
     },
     {
@@ -106,7 +106,7 @@
       },
       "diesel": {
         "locality": "Lokeren",
-        "price": 2.159,
+        "price": 2.156,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
       }
     },
