@@ -10,14 +10,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
-        "locality": "Retie",
+        "locality": "Dessel",
         "price": 1.821,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
-        "locality": "Arendonk",
+        "locality": "Kasterlee",
         "price": 2.13,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Arendonk/2370/BE_a_373"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
       }
     },
     {
@@ -77,9 +77,9 @@
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Ardooie",
+        "locality": "Diksmuide",
         "price": 1.669,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Ardooie/8850/BE_foc_2499"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Diksmuide/8600/BE_foc_2399"
       },
       "super98": {
         "locality": "Anzegem",
@@ -95,9 +95,9 @@
     {
       "province": "Flandre Orientale",
       "essence95": {
-        "locality": "Renaix",
-        "price": 1.636,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Renaix/9600/BE_foi_2709"
+        "locality": "Dendermonde",
+        "price": 1.632,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dendermonde/9200/BE_foi_2607"
       },
       "super98": {
         "locality": "Denderleeuw",
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Chaudfontaine",
+        "locality": "Liège",
         "price": 2.152,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chaudfontaine/4050/BE_lg_840"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Liege/4000/BE_lg_826"
       }
     },
     {
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Bertrix",
-        "price": 1.706,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bertrix/6880/BE_lu_1863"
+        "locality": "Marche-en-Famenne",
+        "price": 1.699,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Bertrix",
-        "price": 2.182,
+        "price": 2.179,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bertrix/6880/BE_lu_1863"
       }
     },
@@ -195,9 +195,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
-        "locality": "Couvin",
-        "price": 2.125,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Couvin/5660/BE_nm_1549"
+        "locality": "Fernelmont",
+        "price": 2.134,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Fernelmont/5380/BE_nm_1355"
       }
     }
   ]
