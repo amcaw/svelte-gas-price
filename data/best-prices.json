@@ -23,9 +23,9 @@
     {
       "province": "Brabant Flamand",
       "essence95": {
-        "locality": "Liedekerke",
+        "locality": "Grimbergen",
         "price": 1.619,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Liedekerke/1770/BE_bf_262"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
         "locality": "Liedekerke",
@@ -69,9 +69,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Anderlecht",
+        "locality": "Evere",
         "price": 2.135,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Anderlecht/1070/BE_bx_20"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
       }
     },
     {
@@ -150,7 +150,7 @@
       "province": "Limbourg",
       "essence95": {
         "locality": "Hoeselt",
-        "price": 1.611,
+        "price": 1.609,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Hoeselt/3730/BE_li_695"
       },
       "super98": {
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hoeselt",
-        "price": 2.119,
+        "price": 2.117,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
