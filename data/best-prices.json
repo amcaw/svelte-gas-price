@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Lille",
+        "locality": "Brasschaat",
         "price": 1.609,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lille/2275/BE_a_355"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
         "locality": "Dessel",
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
-        "locality": "Lille",
+        "locality": "Kasterlee",
         "price": 2.122,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lille/2275/BE_a_355"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
       }
     },
     {
@@ -28,13 +28,13 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
-        "locality": "Liedekerke",
-        "price": 1.713,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
+        "locality": "Kampenhout",
+        "price": 1.799,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kampenhout/1910/BE_bf_294"
       },
       "diesel": {
         "locality": "Kampenhout",
-        "price": 2.119,
+        "price": 2.117,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
@@ -60,7 +60,7 @@
       "province": "Bruxelles",
       "essence95": {
         "locality": "Schaerbeek",
-        "price": 1.619,
+        "price": 1.609,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schaerbeek/1030/BE_bx_5"
       },
       "super98": {
@@ -70,7 +70,7 @@
       },
       "diesel": {
         "locality": "Schaerbeek",
-        "price": 2.132,
+        "price": 2.122,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schaerbeek/1030/BE_bx_5"
       }
     },
@@ -101,12 +101,12 @@
       },
       "super98": {
         "locality": "Denderleeuw",
-        "price": 1.713,
+        "price": 1.723,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Denderleeuw/9470/BE_foi_2672"
       },
       "diesel": {
         "locality": "Lokeren",
-        "price": 2.119,
+        "price": 2.117,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lokeren/9160/BE_foi_2596"
       }
     },
