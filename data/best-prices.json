@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-18",
+  "lastUpdated": "2026-11-19",
   "source": "carbu.com",
   "provinces": [
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Brasschaat",
-        "price": 1.619,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
+        "locality": "Lille",
+        "price": 1.609,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Lille/2275/BE_a_355"
       },
       "super98": {
         "locality": "Dessel",
@@ -15,9 +15,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
-        "locality": "Kasterlee",
-        "price": 2.13,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kasterlee/2460/BE_a_389"
+        "locality": "Lille",
+        "price": 2.122,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Lille/2275/BE_a_355"
       }
     },
     {
@@ -59,9 +59,9 @@
     {
       "province": "Bruxelles",
       "essence95": {
-        "locality": "Anderlecht",
-        "price": 1.634,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Anderlecht/1070/BE_bx_20"
+        "locality": "Schaerbeek",
+        "price": 1.619,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Schaerbeek/1030/BE_bx_5"
       },
       "super98": {
         "locality": "Schaerbeek",
@@ -69,17 +69,17 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Schaerbeek/1030/BE_bx_5"
       },
       "diesel": {
-        "locality": "Evere",
-        "price": 2.135,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Evere/1140/BE_bx_47"
+        "locality": "Schaerbeek",
+        "price": 2.132,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Schaerbeek/1030/BE_bx_5"
       }
     },
     {
       "province": "Flandre Occidentale",
       "essence95": {
-        "locality": "Knokke-Heist",
-        "price": 1.646,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Knokke-Heist/8300/BE_foc_2305"
+        "locality": "Roeselare",
+        "price": 1.629,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
         "locality": "Heuvelland",
@@ -167,9 +167,9 @@
     {
       "province": "Luxembourg",
       "essence95": {
-        "locality": "Saint-Hubert",
-        "price": 1.651,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Saint-Hubert/6870/BE_lu_1860"
+        "locality": "Marche-en-Famenne",
+        "price": 1.679,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
         "locality": "Paliseul",
