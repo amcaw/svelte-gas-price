@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Thuin/6530/BE_ht_1678"
       },
       "diesel": {
-        "locality": "Bernissart",
-        "price": 2.074,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Bernissart/7320/BE_ht_2056"
+        "locality": "Thuin",
+        "price": 2.069,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
       }
     },
     {
@@ -141,9 +141,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
-        "locality": "Liège",
+        "locality": "Chaudfontaine",
         "price": 2.094,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Liege/4000/BE_lg_826"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chaudfontaine/4050/BE_lg_840"
       }
     },
     {
@@ -160,7 +160,7 @@
       },
       "diesel": {
         "locality": "Hoeselt",
-        "price": 2.061,
+        "price": 2.059,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Hoeselt/3730/BE_li_695"
       }
     },
