@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "source": "carbu.com",
   "provinces": [
     {
@@ -118,14 +118,14 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Bernissart/7320/BE_ht_2056"
       },
       "super98": {
-        "locality": "Momignies",
+        "locality": "Thuin",
         "price": 1.799,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Momignies/6590/BE_ht_1698"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Thuin/6530/BE_ht_1678"
       },
       "diesel": {
-        "locality": "Momignies",
-        "price": 2.049,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Momignies/6590/BE_ht_1698"
+        "locality": "Thuin",
+        "price": 2.069,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
       }
     },
     {
@@ -168,7 +168,7 @@
       "province": "Luxembourg",
       "essence95": {
         "locality": "Marche-en-Famenne",
-        "price": 1.679,
+        "price": 1.669,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Marche-en-Famenne/6900/BE_lu_1880"
       },
       "super98": {
