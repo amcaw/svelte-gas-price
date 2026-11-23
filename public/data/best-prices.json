@@ -6,13 +6,13 @@
       "province": "Anvers",
       "essence95": {
         "locality": "Brasschaat",
-        "price": 1.608,
+        "price": 1.599,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
-        "locality": "Retie",
+        "locality": "Dessel",
         "price": 1.788,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
       },
       "diesel": {
         "locality": "Kasterlee",
@@ -96,7 +96,7 @@
       "province": "Flandre Orientale",
       "essence95": {
         "locality": "Dendermonde",
-        "price": 1.609,
+        "price": 1.606,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Dendermonde/9200/BE_foi_2607"
       },
       "super98": {
@@ -123,9 +123,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Thuin/6530/BE_ht_1678"
       },
       "diesel": {
-        "locality": "Thuin",
+        "locality": "Chimay",
         "price": 2.069,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Thuin/6530/BE_ht_1678"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Chimay/6460/BE_ht_1651"
       }
     },
     {
@@ -186,7 +186,7 @@
       "province": "Namur",
       "essence95": {
         "locality": "Gembloux",
-        "price": 1.619,
+        "price": 1.616,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Gembloux/5030/BE_nm_1222"
       },
       "super98": {
