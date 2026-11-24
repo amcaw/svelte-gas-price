@@ -6,7 +6,7 @@
       "province": "Anvers",
       "essence95": {
         "locality": "Brasschaat",
-        "price": 1.562,
+        "price": 1.569,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
       },
       "super98": {
@@ -82,9 +82,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Roeselare/8800/BE_foc_2490"
       },
       "super98": {
-        "locality": "Heuvelland",
-        "price": 1.76,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Heuvelland/8950/BE_foc_2530"
+        "locality": "Anzegem",
+        "price": 1.769,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anzegem/8570/BE_foc_2381"
       },
       "diesel": {
         "locality": "Heuvelland",
@@ -113,14 +113,14 @@
     {
       "province": "Hainaut",
       "essence95": {
-        "locality": "Fleurus",
+        "locality": "Chimay",
         "price": 1.582,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Fleurus/6220/BE_ht_1617"
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Chimay/6460/BE_ht_1651"
       },
       "super98": {
-        "locality": "Thuin",
-        "price": 1.76,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Thuin/6530/BE_ht_1678"
+        "locality": "Chimay",
+        "price": 1.674,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Chimay/6460/BE_ht_1651"
       },
       "diesel": {
         "locality": "Chimay",
@@ -137,7 +137,7 @@
       },
       "super98": {
         "locality": "Dison",
-        "price": 1.755,
+        "price": 1.754,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dison/4820/BE_lg_1143"
       },
       "diesel": {
@@ -191,7 +191,7 @@
       },
       "super98": {
         "locality": "Fosses-la-Ville",
-        "price": 1.77,
+        "price": 1.769,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Fosses-la-Ville/5070/BE_nm_1241"
       },
       "diesel": {
