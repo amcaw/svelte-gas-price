@@ -5,9 +5,9 @@
     {
       "province": "Anvers",
       "essence95": {
-        "locality": "Brasschaat",
-        "price": 1.571,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Brasschaat/2930/BE_a_457"
+        "locality": "Beerse",
+        "price": 1.572,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Beerse/2340/BE_a_369"
       },
       "super98": {
         "locality": "Dessel",
@@ -28,9 +28,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Grimbergen/1850/BE_bf_283"
       },
       "super98": {
-        "locality": "Liedekerke",
-        "price": 1.684,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Liedekerke/1770/BE_bf_262"
+        "locality": "Kampenhout",
+        "price": 1.759,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Kampenhout/1910/BE_bf_294"
       },
       "diesel": {
         "locality": "Kampenhout",
@@ -87,9 +87,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Anzegem/8570/BE_foc_2381"
       },
       "diesel": {
-        "locality": "Kortrijk",
-        "price": 1.998,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kortrijk/8500/BE_foc_2360"
+        "locality": "Alveringem",
+        "price": 1.999,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Alveringem/8690/BE_foc_2453"
       }
     },
     {
@@ -178,7 +178,7 @@
       },
       "diesel": {
         "locality": "Marche-en-Famenne",
-        "price": 2.048,
+        "price": 2.049,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Marche-en-Famenne/6900/BE_lu_1880"
       }
     },
