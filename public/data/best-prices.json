@@ -10,9 +10,9 @@
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 95 (E10)/Beerse/2340/BE_a_369"
       },
       "super98": {
-        "locality": "Dessel",
-        "price": 1.749,
-        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Dessel/2480/BE_a_393"
+        "locality": "Retie",
+        "price": 1.744,
+        "url": "https://carbu.com/belgique//index.php/liste-stations-service/Super 98 (E5)/Retie/2470/BE_a_392"
       },
       "diesel": {
         "locality": "Beerse",
@@ -34,7 +34,7 @@
       },
       "diesel": {
         "locality": "Kampenhout",
-        "price": 1.989,
+        "price": 1.991,
         "url": "https://carbu.com/belgique//index.php/liste-stations-service/Diesel (B7)/Kampenhout/1910/BE_bf_294"
       }
     },
